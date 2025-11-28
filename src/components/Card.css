@@ -14,7 +14,7 @@
         0px 12px 12px -6px var(--shadow-color);
     content-visibility: auto;
     contain-intrinsic-size: 8.5rem;
-    transition: transform 0.4s ease, box-shadow 0.2s ease-out;
+    transition: box-shadow 0.2s ease-out;
 }
 
 .link-card > a {
