@@ -325,14 +325,18 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
           </div>
           <div class="tool-header-content">
             <h1 class="tool-title">{tool.title}</h1>
-            <p class="tool-domain">Added on {formattedDate}</p>
+            <p class="tool-meta">Added on {formattedDate}</p>
           </div>
         </div>
 
         <div class="tool-detail-content">
           <section class="tool-summary">
 
-            <p class="tool-description">{tool.body}</p>
+            <article class="tool-description">
+
+              <p class="snapshot-label">About</p>
+              <p class="tool-description">{tool.body}</p>
+            </article>
 
             <div class="snapshot-grid">
               <article class="snapshot-card">
@@ -360,12 +364,11 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
           </section>
 
           {liveMetadata && (
-            <section class="tool-section live-section">
+            <section class="tool-section">
 
               <div class="live-metadata-grid">
                 {hasBasicMetadata && liveMetadata && (
                   <article class="live-group">
-                    <p class="live-group-label">Basic metadata</p>
                     <div class="live-card-grid">
                       {liveMetadata.basic.title && (
                         <div class="live-card">
@@ -390,7 +393,6 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
                           <p class="live-label">Favicon</p>
                           <div class="favicon-preview">
                             <img src={liveMetadata.basic.favicon} alt={`${tool.title} favicon`} loading="lazy" width="32" height="32" />
-                            <span>{extractDomain(liveMetadata.basic.canonicalUrl || tool.url || '') || domain}</span>
                           </div>
                         </div>
                       )}
@@ -400,7 +402,6 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
                 {hasOpenGraphMetadata && liveMetadata && (
                   <article class="live-group">
-                    <p class="live-group-label">Open Graph & social</p>
                     <div class="live-card-grid">
                       {liveMetadata.openGraph.title && (
                         <div class="live-card">
@@ -438,14 +439,13 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
                 {hasBrandMetadata && liveMetadata && (
                   <article class="live-group">
-                    <p class="live-group-label">Contact & brand</p>
                     <div class="live-card-grid">
                       {(liveMetadata.brand.author || liveMetadata.brand.twitterHandle) && (
                         <div class="live-card">
                           <p class="live-label">Brand details</p>
                           <ul class="list-pills">
-                            {liveMetadata.brand.author && <li>{liveMetadata.brand.author}</li>}
-                            {liveMetadata.brand.twitterHandle && <li>{liveMetadata.brand.twitterHandle}</li>}
+                            {liveMetadata.brand.author && <li><span class="tag">{liveMetadata.brand.author}</span></li>}
+                            {liveMetadata.brand.twitterHandle && <li><span class="tag">{liveMetadata.brand.twitterHandle}</span></li>}
                           </ul>
                         </div>
                       )}
@@ -646,7 +646,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: var(--spacing-02);
+      border-radius: var(--spacing-03);
     }
 
     .tool-detail-close-btn:hover {
@@ -656,7 +656,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
     .tool-detail-header {
       display: flex;
-      gap: var(--spacing-05);
+      gap: var(--spacing-06);
       align-items: flex-start;
       margin-bottom: var(--spacing-09);
     }
@@ -664,20 +664,22 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .tool-icon {
       width: 48px;
       height: 48px;
-      border-radius: var(--spacing-02);
-      background-color: var(--background-secondary);
-      box-shadow: var(--dialog)
+      border-radius: var(--spacing-03);
     }
 
     .tool-title {
       margin: 0;
-      font-size: var(--desktop-h4);
+      font-size: var(--desktop-heading-06);
+      line-height: var(--lh-desktop-heading-06);
+      font-weight: 600;
       color: var(--content-primary);
     }
 
-    .tool-domain {
+    .tool-meta {
       margin: 0;
       color: var(--content-secondary-alt);
+      font-size: var(--desktop-body-sm);
+      line-height: var(--lh-desktop-body-sm);
     }
 
     .tool-detail-content {
@@ -688,16 +690,18 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .tool-summary {
       display: flex;
       flex-direction: column;
-      gap: var(--spacing-03);
-      padding: var(--spacing-05);
-      background-color: var(--background-secondary);
-      border-radius: var(--spacing-02);
-      border: 1px solid var(--border-muted);
+      background: var(--background-secondary);
+      gap: var(--spacing-05);
+      padding: var(--spacing-06);
+      border-radius: var(--spacing-03);
+      border: .5px solid var(--border-muted);
     }
 
     .tool-description {
       margin: 0;
       color: var(--content-primary);
+      font-size: var(--desktop-body);
+      line-height: var(--lh-desktop-body);
     }
 
     .summary-meta {
@@ -769,9 +773,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     }
 
     .snapshot-card {
-      padding: var(--spacing-04);
-      border-radius: var(--spacing-02);
-      background-color: var(--background-secondary);
+      border-radius: var(--spacing-03);
       display: flex;
       flex-direction: column;
       gap: var(--spacing-01);
@@ -787,12 +789,12 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .snapshot-value {
       margin: 0;
       color: var(--content-primary);
-      font-weight: 600;
+      font-size: var(--desktop-body);
+      line-height: var(--lh-desktop-body);
     }
 
     .snapshot-value--muted {
-      color: var(--content-secondary);
-      font-weight: 500;
+      color: var(--content-primary);
     }
 
     .category-link {
@@ -805,7 +807,6 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     }
 
     .link-muted {
-      color: var(--content-secondary);
       text-decoration: none;
     }
 
@@ -824,7 +825,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
       padding: var(--spacing-03) var(--spacing-05);
       background-color: var(--accent);
       color: white;
-      border-radius: var(--spacing-02);
+      border-radius: var(--spacing-03);
       text-decoration: none;
       font-weight: 600;
       text-align: center;
@@ -848,22 +849,12 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
       font-size: var(--desktop-caption);
     }
 
-    .live-section {
-      background-color: var(--background-secondary);
-      border-color: var(--border-muted);
-    }
-
     .live-metadata-grid {
       display: flex;
-      flex-direction: column;
       gap: var(--spacing-05);
     }
 
     .live-group {
-      border: 1px solid var(--border-muted);
-      border-radius: var(--spacing-03);
-      padding: var(--spacing-05);
-      background-color: var(--background-primary, var(--background-secondary));
     }
 
     .live-group-label {
@@ -877,17 +868,13 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .live-card-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-      gap: var(--spacing-04);
+      gap: var(--spacing-06);
     }
 
     .live-card {
-      padding: var(--spacing-04);
-      border-radius: var(--spacing-02);
-      background-color: var(--background-secondary);
-      border: 1px solid var(--border-muted);
       display: flex;
       flex-direction: column;
-      gap: var(--spacing-02);
+      gap: var(--spacing-05);
     }
 
     .live-card-inline .favicon-preview {
@@ -898,7 +885,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
     .live-card-image img {
       width: 100%;
-      border-radius: var(--spacing-02);
+      border-radius: var(--spacing-03);
       border: 1px solid var(--border-muted);
       object-fit: cover;
     }
@@ -913,7 +900,8 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .live-value {
       margin: 0;
       color: var(--content-primary);
-      font-weight: 500;
+      font-size: var(--desktop-body-sm);
+      line-height: var(--lh-desktop-body-sm);
     }
 
     .live-link {
@@ -927,7 +915,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     }
 
     .favicon-preview img {
-      border-radius: var(--spacing-02);
+      border-radius: var(--spacing-03);
       border: 1px solid var(--border-muted);
     }
 
@@ -942,8 +930,8 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
     .list-pills li {
       background-color: var(--background-secondary);
-      border-radius: var(--spacing-02);
-      padding: 2px var(--spacing-03);
+      padding: 0;
+      border-radius: var(--spacing-03);
       font-size: var(--desktop-caption);
       color: var(--content-secondary);
     }
@@ -959,20 +947,20 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: var(--spacing-02);
-      background-color: var(--background-secondary);
-      border: 1px solid var(--border-muted);
+      border-radius: var(--spacing-03);
+      background-color: var(--background);
+      border: .5px solid var(--border-muted);
       color: var(--content-secondary);
     }
 
     .share-btn:hover {
       color: var(--accent);
-      border-color: var(--accent);
+      background-color: var(--background-secondary);
     }
 
     .tool-detail-nav {
       padding-top: var(--spacing-05);
-      border-top: 1px solid var(--border-muted);
+      border-top: .5px solid var(--border-muted);
       display: flex;
       gap: var(--spacing-03);
     }
@@ -991,6 +979,17 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
 
     .tool-detail-share {
       margin-bottom: var(--spacing-08);
+    }
+
+    span.tag {
+      background-color: var(--background-selected);
+      padding: calc(0.25rem - 1px) calc(0.5rem - 1px);
+      border-radius: var(--spacing-02);
+      display: inline-block;
+      color: var(--content-secondary);
+      font-size: var(--desktop-caption);
+      line-height: var(--lh-desktop-caption);
+      font-family: var(--body-copy);
     }
 
     @media (max-width: 768px) {
