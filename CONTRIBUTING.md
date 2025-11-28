@@ -49,6 +49,7 @@ Then go to the [repository page](https://github.com/NewDesignFile/template-direc
 - Don't create new categories yourself. If you don't find an appropriate category, add your tool under the "Xtras" category and suggest a new category by creating an issue.
 - Keep the description concise and informative.
 - For the pricing tag, choose one of: `Free` | `Freemium` | `From $X/mo` | `$X One-time` | `Not available`
+- URLs should include a valid protocol `https://…` and remain accessible.
 - Make sure the URL includes the reference parameter: `?ref=riseofmachine.com`
 - Include today's date in the "date-added" field.
 - Verify your JSON syntax is valid before submitting.
