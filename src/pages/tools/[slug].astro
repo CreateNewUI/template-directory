@@ -332,8 +332,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
         <div class="tool-detail-content">
           <section class="tool-summary">
 
-            <article class="tool-description">
-
+            <article>
               <p class="snapshot-label">About</p>
               <p class="tool-description">{tool.body}</p>
             </article>
@@ -382,12 +381,6 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
                           <p class="live-value">{liveMetadata.basic.description}</p>
                         </div>
                       )}
-                      {liveMetadata.basic.canonicalUrl && (
-                        <div class="live-card">
-                          <p class="live-label">Canonical URL</p>
-                          <a href={liveMetadata.basic.canonicalUrl} target="_blank" rel="noopener noreferrer" class="live-link">{liveMetadata.basic.canonicalUrl}</a>
-                        </div>
-                      )}
                       {liveMetadata.basic.favicon && (
                         <div class="live-card live-card-inline">
                           <p class="live-label">Favicon</p>
@@ -413,12 +406,6 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
                         <div class="live-card">
                           <p class="live-label">OG description</p>
                           <p class="live-value">{liveMetadata.openGraph.description}</p>
-                        </div>
-                      )}
-                      {liveMetadata.openGraph.type && (
-                        <div class="live-card">
-                          <p class="live-label">OG type</p>
-                          <p class="live-value">{liveMetadata.openGraph.type}</p>
                         </div>
                       )}
                       {liveMetadata.openGraph.siteName && (
@@ -595,7 +582,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
       transition: opacity 120ms ease;
     }
     section {
-        margin-bottom: var(--spacing-06);
+        margin-bottom: var(--spacing-04);
     }
   </style>
 
@@ -728,11 +715,11 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .tool-section {
       display: flex;
       flex-direction: column;
+      background: var(--background-secondary);
       gap: var(--spacing-05);
       padding: var(--spacing-06);
-      border: 1px solid var(--border-muted);
       border-radius: var(--spacing-03);
-      background-color: var(--background-primary, var(--background-secondary));
+      border: .5px solid var(--border-muted);
     }
 
     .section-header {
@@ -868,7 +855,7 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     .live-card {
       display: flex;
       flex-direction: column;
-      gap: var(--spacing-05);
+      gap: var(--spacing-03);
     }
 
     .live-card-inline .favicon-preview {
@@ -965,14 +952,15 @@ async function fetchExternalMetadata(targetUrl: string): Promise<MetadataBlock> 
     }
 
     .share-title {
-      color: var(--content-secondary);
+      color: var(--content-secondary-alt);
       font-size: var(--desktop-caption);
+      line-height: var(--lh-desktop-caption);
       text-transform: uppercase;
       margin-bottom: var(--spacing-04);
     }
 
     .tool-detail-share {
-      margin-bottom: var(--spacing-08);
+      margin: var(--spacing-06) 0;
     }
 
     span.tag {
