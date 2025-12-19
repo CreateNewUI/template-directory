@@ -5,9 +5,60 @@ interface Props {
     url: string;
     tag?: string;
     dateAdded?: string;
+    category?: string;
 }
 
-const { name, description, url, tag, dateAdded } = Astro.props;
+const { name, description, url, tag, dateAdded, category } = Astro.props;
+
+// Map tool categories to Schema.org ApplicationCategory values
+const getCategoryMapping = (toolCategory?: string): string => {
+    const categoryMap: Record<string, string> = {
+        // Creative & Media
+        art: "DesignApplication",
+        design: "DesignApplication",
+        photos: "DesignApplication",
+        audio: "MultimediaApplication",
+        music: "MultimediaApplication",
+        video: "MultimediaApplication",
+
+        // Development & Technical
+        code: "DeveloperApplication",
+        developer: "DeveloperApplication",
+        nocode: "DeveloperApplication",
+
+        // Business & Productivity
+        productivity: "BusinessApplication",
+        enterprise: "BusinessApplication",
+        legal: "BusinessApplication",
+
+        // Content & Marketing
+        copywriting: "BusinessApplication",
+        seo: "BusinessApplication",
+        social: "CommunicationApplication",
+
+        // Education & Research
+        education: "EducationalApplication",
+        research: "EducationalApplication",
+
+        // AI & Advanced
+        llm: "DeveloperApplication",
+        prompts: "DeveloperApplication",
+
+        // Entertainment
+        gaming: "GameApplication",
+        fashion: "LifestyleApplication",
+
+        // Health & Wellness
+        health: "HealthApplication",
+
+        // Miscellaneous
+        xtras: "BusinessApplication",
+    };
+
+    if (!toolCategory) return "BusinessApplication";
+
+    return categoryMap[toolCategory.toLowerCase()] || "BusinessApplication";
+};
 
 // Parse pricing from tag
 const getPricing = (tag?: string) => {
@@ -27,6 +78,7 @@ const getPricing = (tag?: string) => {
 };
 
 const pricing = getPricing(tag);
+const applicationCategory = getCategoryMapping(category);
 
 const schema: any = {
     "@context": "https://schema.org",
@@ -34,7 +86,7 @@ const schema: any = {
     name: name,
     url: url,
     description: description,
-    applicationCategory: "MultimediaApplication",
+    applicationCategory: applicationCategory,
     operatingSystem: "Web",
     offers: {
         "@type": "Offer",

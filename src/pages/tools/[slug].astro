@@ -114,6 +114,7 @@ const breadcrumbs = [
     url={tool.url}
     tag={tool.tag}
     dateAdded={tool["date-added"]}
+    category={category}
   />
   <BreadcrumbSchema items={breadcrumbs} />
   <main>
@@ -218,7 +219,7 @@ const breadcrumbs = [
           </section>
 
           <div class="tool-detail-share">
-            <h3 class="share-title">Share this tool</h3>
+            <h3 class="share-title">Share this AI tool</h3>
             <div class="share-buttons">
               <a
                 href={xShareUrl}

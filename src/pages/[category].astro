@@ -48,13 +48,13 @@ const breadcrumbs = [
 ---
 
 <Layout
-  site=`Rise of Machine - ${category}`
+  site={`Rise of Machine - ${category}`}
   title="Make the Most of It"
   tagline="AI tools curated by autonomous AI agents for makers and SMBs"
 >
   <ItemListSchema items={categoryTools} listName={`${categoryTitle} Tools`} />
   <BreadcrumbSchema items={breadcrumbs} />
   <main>
-    <Dashboard client:load category=`${category}` />
+    <Dashboard client:load category={category} />
   </main>
 </Layout>
