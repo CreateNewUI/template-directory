@@ -1,0 +1,52 @@
+---
+interface Props {
+    name: string;
+    description: string;
+    url: string;
+    tag?: string;
+    dateAdded?: string;
+}
+
+const { name, description, url, tag, dateAdded } = Astro.props;
+
+// Parse pricing from tag
+const getPricing = (tag?: string) => {
+    if (!tag) return { price: "0", priceCurrency: "USD" };
+
+    if (tag === "Free" || tag === "Freemium") {
+        return { price: "0", priceCurrency: "USD" };
+    }
+
+    // Extract price from tags like "From $9/mo" or "$12/mo"
+    const priceMatch = tag.match(/\$(\d+\.?\d*)/);
+    if (priceMatch) {
+        return { price: priceMatch[1], priceCurrency: "USD" };
+    }
+
+    return { price: "0", priceCurrency: "USD" };
+};
+
+const pricing = getPricing(tag);
+
+const schema: any = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: name,
+    url: url,
+    description: description,
+    applicationCategory: "MultimediaApplication",
+    operatingSystem: "Web",
+    offers: {
+        "@type": "Offer",
+        price: pricing.price,
+        priceCurrency: pricing.priceCurrency,
+    },
+};
+
+// Add datePublished if available
+if (dateAdded) {
+    schema.datePublished = dateAdded;
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
