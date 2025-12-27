@@ -36,7 +36,7 @@ function validateTool(tool: Tool, source: string) {
     if (!tool.url) {
         issues.missing_url.push(identifier);
     } else {
-        if (!tool.url.startsWith('http')) {
+        if (!tool.url.startsWith('http://') && !tool.url.startsWith('https://')) {
             issues.missing_protocol.push(identifier);
         }
         if (!tool.url.includes('ref=riseofmachine.com')) {
