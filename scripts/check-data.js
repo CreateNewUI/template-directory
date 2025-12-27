@@ -22,6 +22,7 @@ try {
     missing_url: [],
     missing_protocol: [],
     missing_ref: [],
+    invalid_structure: [],
   };
   let totalTools = 0;
 
@@ -68,9 +69,50 @@ try {
     .filter(([, tools]) => tools.length > 1)
     .sort((a, b) => b[1].length - a[1].length); // Sort by count descending
 
+  // Also validate split category files if they exist
+  let splitToolsChecked = 0;
+  const toolsDir = path.join(__dirname, '../src/data/tools');
+  if (fs.existsSync(toolsDir)) {
+    const files = fs.readdirSync(toolsDir).filter(f => f.endsWith('.json'));
+
+    files.forEach(file => {
+      const filepath = path.join(toolsDir, file);
+      const categoryData = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
+      const categoryName = file.replace('.json', '');
+
+      if (!Array.isArray(categoryData)) {
+        issues.invalid_structure.push({ category: categoryName, data: categoryData });
+        return;
+      }
+
+      categoryData.forEach(tool => {
+        splitToolsChecked++;
+
+        const toolInfo = {
+          title: tool.title,
+          category: categoryName,
+          slug: tool.slug,
+          url: tool.url
+        };
+
+        // Same validation as main tools.json
+        if (!tool.url) {
+          issues.missing_url.push(toolInfo);
+        } else {
+          if (!tool.url.startsWith('http://') && !tool.url.startsWith('https://')) {
+            issues.missing_protocol.push(toolInfo);
+          }
+          if (!tool.url.includes(REQUIRED_REF)) {
+            issues.missing_ref.push(toolInfo);
+          }
+        }
+      });
+    });
+  }
+
   console.log(`\n📊 Data Validation Report`);
   console.log(`${'='.repeat(70)}`);
-  console.log(`Total tools processed: ${totalTools}`);
+  console.log(`Total tools processed: ${totalTools}${splitToolsChecked > 0 ? ` (+ ${splitToolsChecked} split)` : ''}`);
   console.log(`Unique URLs: ${urlMap.size}\n`);
 
   let hasIssues = false;
@@ -119,37 +161,14 @@ try {
     console.log();
   }
 
-  // Also validate split category files if they exist
-  const toolsDir = path.join(__dirname, '../src/data/tools');
-  if (fs.existsSync(toolsDir)) {
-    console.log(`\n📦 Validating split category files...`);
-
-    const files = fs.readdirSync(toolsDir).filter(f => f.endsWith('.json'));
-    let splitToolsChecked = 0;
-
-    files.forEach(file => {
-      const filepath = path.join(toolsDir, file);
-      const categoryData = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
-      const categoryName = file.replace('.json', '');
-
-      categoryData.forEach(tool => {
-        splitToolsChecked++;
-
-        // Same validation as main tools.json
-        if (!tool.url) {
-          issues.missing_url.push({ ...tool, category: categoryName });
-        } else {
-          if (!tool.url.startsWith('http://') && !tool.url.startsWith('https://')) {
-            issues.missing_protocol.push({ ...tool, category: categoryName });
-          }
-          if (!tool.url.includes(REQUIRED_REF)) {
-            issues.missing_ref.push({ ...tool, category: categoryName });
-          }
-        }
-      });
+  // Report invalid structure
+  if (issues.invalid_structure.length > 0) {
+    hasIssues = true;
+    console.log(`❌ Invalid Structure in Split Files (${issues.invalid_structure.length}):`);
+    issues.invalid_structure.forEach((issue, i) => {
+      console.log(`   ${i + 1}. Category: "${issue.category}" - Expected Array, got ${typeof issue.data}`);
     });
-
-    console.log(`✅ Validated ${files.length} category files (${splitToolsChecked} tools)`);
+    console.log();
   }
 
   console.log(`${'='.repeat(70)}`);
@@ -160,7 +179,7 @@ try {
   }
 
   const issueCount = issues.missing_url.length + issues.missing_protocol.length +
-    issues.missing_ref.length + duplicates.length;
+    issues.missing_ref.length + issues.invalid_structure.length + duplicates.length;
   console.log(`Summary: ${issueCount} issue(s) found\n`);
 
   process.exit(1);

@@ -194,7 +194,7 @@
   },
   {
     "title": "Fitten Code",
-    "body": "Fitten Code is an AI programming assistant...",
+    "body": "AI programming assistant.",
     "tag": "Free",
     "url": "https://code.fittentech.com/en?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -265,14 +265,6 @@
     "slug": "lintrule"
   },
   {
-    "title": "Lm-sys/fastchat",
-    "body": "An open platform for training, serving, and...",
-    "tag": "Free",
-    "url": "https://github.com/lm-sys/FastChat?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "lm-sysfastchat"
-  },
-  {
     "title": "Lobe Chat",
     "body": "Open-source AI chat framework.",
     "tag": "Free",
@@ -290,7 +282,7 @@
   },
   {
     "title": "Marscode",
-    "body": "Built-in AI programming assistant with capabili...",
+    "body": "AI programming assistant.",
     "tag": "Free",
     "url": "https://www.marscode.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -490,14 +482,6 @@
     "slug": "scade"
   },
   {
-    "title": "Scalene",
-    "body": "Scalene: a high-performance, high-precision...",
-    "tag": "Free",
-    "url": "https://github.com/plasma-umass/scalene?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "scalene"
-  },
-  {
     "title": "Shaped",
     "body": "Deploy embeddings infrastructure.",
     "tag": "Flat-fee/mo",
@@ -628,7 +612,7 @@
   },
   {
     "title": "Trae",
-    "body": "Trae is your helpful coding partner. It offers...",
+    "body": "Trae is your helpful coding partner.",
     "tag": "Free",
     "url": "https://www.trae.ai?ref=riseofmachine.com",
     "date-added": "2025-06-14",

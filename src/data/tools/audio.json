@@ -40,14 +40,6 @@
     "slug": "audio-muse"
   },
   {
-    "title": "Azure Text to",
-    "body": "The best and most realistic voice tools...",
-    "tag": "Freemium",
-    "url": "https://speech.microsoft.com/portal/voicegallery?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "azure-text-to"
-  },
-  {
     "title": "BlogAudio",
     "body": "Convert text to audio speech.",
     "tag": "From $16/mo",
@@ -242,7 +234,7 @@
   },
   {
     "title": "Seamless",
-    "body": "Seamless is a family of AI models that enable...",
+    "body": "AI translation model",
     "tag": "Free",
     "url": "https://github.com/facebookresearch/seamless_communication?ref=riseofmachine.com",
     "date-added": "2025-06-14",

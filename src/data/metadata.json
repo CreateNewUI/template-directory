@@ -4735,5 +4735,10 @@
     "slug": "qwen",
     "title": "Qwen Chat",
     "description": "Qwen Chat offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts."
+  },
+  "sareegenerator": {
+    "slug": "sareegenerator",
+    "title": "AI Saree Generator - Change Your Photo To Vintage Saree Images with Nano Banana Model",
+    "description": "Transform your photos into stunning vintage saree images with AI Saree Generator. Use nano banana AI model to edit and change your photos into traditional Indian saree designs. Free online saree changer tool for vintage saree creation."
   }
 }

@@ -112,14 +112,6 @@
     "slug": "comfy"
   },
   {
-    "title": "Controlnet",
-    "body": "ControlNet is a neural network structure to...",
-    "tag": "Free",
-    "url": "https://github.com/lllyasviel/ControlNet?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "controlnet"
-  },
-  {
     "title": "Craiyon",
     "body": "Transforms text into vivid, diverse artistic images.",
     "tag": "Freemium",
@@ -134,14 +126,6 @@
     "url": "https://designer.microsoft.com/?ref=riseofmachine.com",
     "date-added": "2023-12-12",
     "slug": "designer"
-  },
-  {
-    "title": "Draggan",
-    "body": "Interactive Point-based Manipulation on the...",
-    "tag": "Free",
-    "url": "https://github.com/XingangPan/DragGAN?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "draggan"
   },
   {
     "title": "Draw3D",
@@ -313,7 +297,7 @@
   },
   {
     "title": "Ideogram.AI",
-    "body": "Enter text to create pictures. A product develo...",
+    "body": "Enter text to create pictures.",
     "tag": "Freemium",
     "url": "https://ideogram.ai?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -482,7 +466,7 @@
   },
   {
     "title": "Nero AI",
-    "body": "AI picture upscale, AI repair scratches, AI...",
+    "body": "AI picture upscale, AI repair scratches.",
     "tag": "Not available",
     "url": "https://ai.nero.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -578,7 +562,7 @@
   },
   {
     "title": "Skybox AI",
-    "body": "Generate 360-degree panoramic images using text...",
+    "body": "Generate 360-degree panoramic images using text.",
     "tag": "Freemium",
     "url": "https://skybox.blockadelabs.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -591,14 +575,6 @@
     "url": "https://sref-midjourney.com/?ref=riseofmachine.com",
     "date-added": "2024-09-11",
     "slug": "sref-midjourney"
-  },
-  {
-    "title": "Stable Diffusion Webui",
-    "body": "Open source project, input text or pictures to...",
-    "tag": "Free",
-    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "stable-diffusion-webui"
   },
   {
     "title": "Stockimg",

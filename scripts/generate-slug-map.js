@@ -19,18 +19,24 @@ const duplicates = [];
 data.tools.forEach(category => {
     category.content.forEach(tool => {
         if (tool.slug) {
-            // Check for duplicates
-            if (slugMap[tool.slug]) {
-                duplicates.push({
-                    slug: tool.slug,
-                    categories: [slugMap[tool.slug], category.category]
-                });
-            }
+            const slug = tool.slug;
+            const categoryName = category.category;
 
-            slugMap[tool.slug] = category.category;
+            if (!slugMap[slug]) {
+                slugMap[slug] = [categoryName];
+            } else if (!slugMap[slug].includes(categoryName)) {
+                slugMap[slug].push(categoryName);
+            }
             totalSlugs++;
         }
     });
+});
+
+// Identify duplicates from slugs mapping to multiple categories
+Object.entries(slugMap).forEach(([slug, categories]) => {
+    if (categories.length > 1) {
+        duplicates.push({ slug, categories });
+    }
 });
 
 // Write slug map

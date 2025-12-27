@@ -27,7 +27,8 @@ export const prerender = true;
 const { slug } = Astro.params;
 
 // Use slug-map to find category
-const categoryName = (slugMap as Record<string, string>)[slug as string];
+const categoryList = (slugMap as Record<string, string[]>)[slug as string];
+const categoryName = categoryList?.[0];
 
 if (!categoryName) {
   throw new Error(`Tool not found: ${slug}`);

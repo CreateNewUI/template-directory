@@ -34,7 +34,7 @@
   },
   {
     "title": "Appagent",
-    "body": "Multimodal Agents as Smartphone Users, an...",
+    "body": "Multimodal agents as smartphone users.",
     "tag": "Free",
     "url": "https://github.com/mnotgod96/AppAgent?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -90,7 +90,7 @@
   },
   {
     "title": "Deepseek",
-    "body": "DeepSeek's AI assistant. [API](https://platform...",
+    "body": "DeepSeek's AI assistant.",
     "tag": "Freemium",
     "url": "https://chat.deepseek.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -98,19 +98,11 @@
   },
   {
     "title": "Deepseek-r1",
-    "body": "DeepSeek's first-generation reasoning models,...",
+    "body": "DeepSeek's first-generation reasoning models.",
     "tag": "Free",
     "url": "https://github.com/deepseek-ai/DeepSeek-R1?ref=riseofmachine.com",
     "date-added": "2025-06-14",
     "slug": "deepseek-r1"
-  },
-  {
-    "title": "Deepseek-v3",
-    "body": "A strong Mixture-of-Experts (MoE) language...",
-    "tag": "Free",
-    "url": "https://github.com/deepseek-ai/DeepSeek-V3?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "deepseek-v3"
   },
   {
     "title": "Delphi",
@@ -131,7 +123,7 @@
   },
   {
     "title": "Gemini",
-    "body": "Google's conversational, AI chat service....",
+    "body": "Google's conversational, AI chat service.",
     "tag": "Free",
     "url": "https://gemini.google.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -219,7 +211,7 @@
   },
   {
     "title": "Mastraai",
-    "body": "Mastra is an opinionated TypeScript framework...",
+    "body": "Mastra is an opinionated TypeScript framework.",
     "tag": "Free",
     "url": "https://github.com/mastra-ai/mastra?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -232,22 +224,6 @@
     "url": "https://copilot.microsoft.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
     "slug": "microsoft-copilot"
-  },
-  {
-    "title": "Microsoft/autogen",
-    "body": "AutoGen is an open-source programming framework...",
-    "tag": "Free",
-    "url": "https://github.com/microsoft/autogen?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "microsoftautogen"
-  },
-  {
-    "title": "Mixtral",
-    "body": "Mixtral 8x7B, a high-quality sparse mixture of...",
-    "tag": "Free",
-    "url": "https://github.com/mistralai/mistral-inference?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "mixtral"
   },
   {
     "title": "Modal",
@@ -290,16 +266,8 @@
     "slug": "patronus-ai"
   },
   {
-    "title": "Phi-3",
-    "body": "Phi-3, a family of open AI models developed by...",
-    "tag": "Free",
-    "url": "https://github.com/microsoft/Phi-3CookBook?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "phi-3"
-  },
-  {
     "title": "Potpie-ai/potpie",
-    "body": "Open Source AI Agents for your codebase in...",
+    "body": "Open Source AI Agents for your codebase.",
     "tag": "Not available",
     "url": "https://potpie.ai?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -307,7 +275,7 @@
   },
   {
     "title": "Qwen",
-    "body": "Alibaba's AI assistant. Includes QwQ-32B,...",
+    "body": "Alibaba's AI assistant. Includes QwQ-32B.",
     "tag": "Free",
     "url": "https://chat.qwen.ai?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -337,14 +305,6 @@
     "url": "https://runllm.com/?ref=riseofmachine.com",
     "date-added": "2023-12-24",
     "slug": "run-llm"
-  },
-  {
-    "title": "Saplings",
-    "body": "A framework for building agents that use search...",
-    "tag": "Free",
-    "url": "https://github.com/shobrook/saplings?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "saplings"
   },
   {
     "title": "Sarvam",

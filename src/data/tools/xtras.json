@@ -57,7 +57,7 @@
   },
   {
     "title": "Artificial Analysis",
-    "body": "Artificial Analysis is a platform that provides...",
+    "body": "Artificial Analysis is a platform.",
     "tag": "Free",
     "url": "https://artificialanalysis.ai?ref=riseofmachine.com",
     "date-added": "2025-06-14",
@@ -241,22 +241,6 @@
     "url": "https://www.krater.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-15",
     "slug": "kraterai"
-  },
-  {
-    "title": "Livecodebench",
-    "body": "LiveCodeBench is a holistic and contamination-f...",
-    "tag": "Free",
-    "url": "https://livecodebench.github.io/leaderboard.html?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "livecodebench"
-  },
-  {
-    "title": "Lmsys Chatbot Arena",
-    "body": "LMSYS Chatbot Arena is a crowdsourced open plat...",
-    "tag": "Free",
-    "url": "https://lmarena.ai/leaderboard?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "lmsys-chatbot-arena"
   },
   {
     "title": "Madespace",

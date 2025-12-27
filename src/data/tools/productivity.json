@@ -24,14 +24,6 @@
     "slug": "agentsea"
   },
   {
-    "title": "Allenai/olmocr",
-    "body": "A toolkit for training language models to work...",
-    "tag": "Free",
-    "url": "https://github.com/allenai/olmocr?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "allenaiolmocr"
-  },
-  {
     "title": "Autoppt",
     "body": "AI generator for PowerPoint presentations.",
     "url": "https://autoppt.com/?ref=riseofmachine.com",
@@ -335,14 +327,6 @@
     "slug": "hyperpresent"
   },
   {
-    "title": "Immersive-translate",
-    "body": "Open source project. Immersive bilingual web...",
-    "tag": "Free",
-    "url": "https://github.com/immersive-translate/immersive-translate?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "immersive-translate"
-  },
-  {
     "title": "Intellibar",
     "body": "Assistant for Mac.",
     "tag": "Freemium",
@@ -552,14 +536,6 @@
     "url": "https://ocrmd.com/?ref=riseofmachine.com",
     "date-added": "2025-08-30",
     "slug": "ocrmd"
-  },
-  {
-    "title": "Openai-translator",
-    "body": "Open source project. Crossword translation...",
-    "tag": "Not available",
-    "url": "https://github.com/yetone/openai-translator?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "openai-translator"
   },
   {
     "title": "Orchestra",
@@ -835,14 +811,6 @@
     "url": "https://ultramail.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-29",
     "slug": "ultra"
-  },
-  {
-    "title": "Umi-ocr",
-    "body": "Comes with a highly efficient offline OCR...",
-    "tag": "Free",
-    "url": "https://github.com/hiroi-sora/Umi-OCR?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "umi-ocr"
   },
   {
     "title": "VocalScribe",
