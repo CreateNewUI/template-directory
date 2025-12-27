@@ -76,7 +76,6 @@
     "body": "Online Video Creation platform.",
     "tag": "Freemium",
     "url": "https://www.dadan.io/features/ai-assist?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "dadan"
   },
@@ -157,7 +156,6 @@
     "body": "AI Video Creation.",
     "tag": "Freemium",
     "url": "https://freebeat.ai/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "freebeat"
   },
@@ -166,7 +164,6 @@
     "body": "Videos.",
     "tag": "Not available",
     "url": "https://funy.ai/ai-kissing-video-free/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "funy-video-image"
   },
@@ -207,7 +204,6 @@
     "body": "Videos.",
     "tag": "Freemium",
     "url": "https://www.hoox.video/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "hoox"
   },
@@ -296,7 +292,6 @@
     "body": "Lyric videos.",
     "tag": "Freemium",
     "url": "https://lyricvideo.studio/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "lyric-video-studio"
   },
@@ -353,7 +348,6 @@
     "body": "Videos.",
     "tag": "$25 One-time",
     "url": "https://noeffort.ai/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "noeffort"
   },
@@ -466,7 +460,6 @@
     "body": "Youtube scripts.",
     "tag": "Freemium",
     "url": "https://scriptmagic.pro/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "scriptmagic"
   },
@@ -499,7 +492,6 @@
     "body": "UGC videos.",
     "tag": "From $29/mo",
     "url": "https://shortsfarm.ai/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "shortsfarm"
   },
@@ -532,7 +524,6 @@
     "body": "Videos.",
     "tag": "Freemium",
     "url": "https://supermaker.ai/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "supermaker"
   },
@@ -661,7 +652,6 @@
     "body": "Marketing videos.",
     "tag": "Freemium",
     "url": "https://www.vmeg.ai/tools/clips-to-videos/?ref=riseofmachine.com",
-    "category": "video",
     "date-added": "2025-06-06",
     "slug": "vmeg-clips-to-videos"
   },
@@ -674,20 +664,20 @@
     "slug": "wan-22"
   },
   {
-    "title": "Wan 2.6",
-    "body": "AI video generator for multi-shot storytelling and syncing.",
-    "tag": "Freemium",
-    "url": "https://wan2-6.org?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "wan-26"
-  },
-  {
     "title": "Wan 2.2 AI",
     "body": "Professional AI platform for video generation.",
     "url": "https://wan22.ai/?ref=riseofmachine.com",
     "tag": "Freemium",
     "date-added": "2025-07-31",
     "slug": "wan-22-ai"
+  },
+  {
+    "title": "Wan 2.6",
+    "body": "AI video generator for multi-shot storytelling and syncing.",
+    "tag": "Freemium",
+    "url": "https://wan2-6.org?ref=riseofmachine.com",
+    "date-added": "2025-12-21",
+    "slug": "wan-26"
   },
   {
     "title": "Watermark Remover",

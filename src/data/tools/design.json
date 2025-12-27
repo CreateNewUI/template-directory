@@ -1,5 +1,13 @@
 [
   {
+    "title": "✨ New UI",
+    "body": "Modern, semantic UI framework for building beautiful sites and apps.",
+    "tag": "Open-source",
+    "url": "https://new-ui.com/?ref=riseofmachine.com",
+    "date-added": "2025-11-19",
+    "slug": "new-ui"
+  },
+  {
     "title": "Banana Nano",
     "body": "Googles revolutionary AI image generation.",
     "tag": "Freemium",
@@ -239,14 +247,6 @@
     "url": "https://www.napkin.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-01",
     "slug": "napkin-ai"
-  },
-  {
-    "title": "✨ New UI",
-    "body": "Modern, semantic UI framework for building beautiful sites and apps.",
-    "tag": "Open-source",
-    "url": "https://new-ui.com/?ref=riseofmachine.com",
-    "date-added": "2025-11-19",
-    "slug": "new-ui"
   },
   {
     "title": "New UI Templates",

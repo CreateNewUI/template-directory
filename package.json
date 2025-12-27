@@ -9,12 +9,11 @@
     "src/data/tools.json"
   ],
   "scripts": {
-    "split-data": "bun run scripts/split-data.ts",
-    "generate-slug-map": "bun run scripts/generate-slug-map.ts",
-    "prepare-data": "bun run split-data && bun run generate-slug-map",
-    "dev": "bun run prepare-data && bun run scripts/add-slugs.ts && astro dev",
+    "add-slugs": "bun run scripts/add-slugs.ts",
+    "prepare-data": "bun run add-slugs && bun run scripts/split-data.ts && bun run scripts/generate-slug-map.ts",
+    "dev": "bun run prepare-data && astro dev",
     "start": "astro dev",
-    "build": "bun run prepare-data && bun run scripts/add-slugs.ts && astro build",
+    "build": "bun run prepare-data && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check-data": "bun run scripts/check-data.ts",

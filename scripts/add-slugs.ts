@@ -26,6 +26,7 @@ try {
     let modified = false;
 
     data.tools.forEach((category: Category) => {
+        // 1. Generate missing slugs
         category.content.forEach((tool: Tool) => {
             if (!tool.slug) {
                 tool.slug = slugify(tool.title);
@@ -33,42 +34,23 @@ try {
                 modified = true;
             }
         });
+
+        // 2. Sort tools alphabetically by title
+        const originalOrder = [...category.content];
+        category.content.sort((a, b) => a.title.localeCompare(b.title));
+
+        const orderChanged = JSON.stringify(originalOrder) !== JSON.stringify(category.content);
+        if (orderChanged) {
+            console.log(`Sorted tools in category: ${category.category}`);
+            modified = true;
+        }
     });
 
     if (modified) {
         fs.writeFileSync(toolsPath, JSON.stringify(data, null, 2));
-        console.log('✅ Updated tools.json with new slugs');
+        console.log('✅ Updated tools.json (slugs & sorting)');
     } else {
-        console.log('✅ All tools in tools.json already have slugs');
-    }
-
-    // Also process split files in src/data/tools/
-    const splitDataDir = path.join(__dirname, '../src/data/tools');
-    if (fs.existsSync(splitDataDir)) {
-        const files = fs.readdirSync(splitDataDir).filter(f => f.endsWith('.json'));
-        let splitModified = 0;
-
-        files.forEach(file => {
-            const filePath = path.join(splitDataDir, file);
-            const tools: Tool[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            let fileModified = false;
-
-            tools.forEach(tool => {
-                if (!tool.slug) {
-                    tool.slug = slugify(tool.title);
-                    fileModified = true;
-                }
-            });
-
-            if (fileModified) {
-                fs.writeFileSync(filePath, JSON.stringify(tools, null, 2));
-                splitModified++;
-            }
-        });
-
-        if (splitModified > 0) {
-            console.log(`✅ Updated ${splitModified} split category files with new slugs`);
-        }
+        console.log('✅ tools.json already up to date (slugs & sorting)');
     }
 
 } catch (error: any) {

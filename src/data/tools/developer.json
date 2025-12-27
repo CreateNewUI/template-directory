@@ -1,13 +1,5 @@
 [
   {
-    "title": "ChatGPT Apps SDK",
-    "body": "Build and monetize apps for the ChatGPT marketplace.",
-    "tag": "Free",
-    "url": "https://chatgpt-app.net?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "chatgpt-apps-sdk"
-  },
-  {
     "title": "AI SDK 5 by Vercel",
     "body": "The AI toolkit for TypeScript.",
     "tag": "Open-source",
@@ -127,6 +119,14 @@
     "url": "https://cekura.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-24",
     "slug": "cekura"
+  },
+  {
+    "title": "ChatGPT Apps SDK",
+    "body": "Build and monetize apps for the ChatGPT marketplace.",
+    "tag": "Free",
+    "url": "https://chatgpt-app.net?ref=riseofmachine.com",
+    "date-added": "2025-12-21",
+    "slug": "chatgpt-apps-sdk"
   },
   {
     "title": "Chef",

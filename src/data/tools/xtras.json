@@ -142,7 +142,6 @@
     "tag": "Freemium",
     "url": "https://dreamflow.ai/?ref=riseofmachine.com",
     "date-added": "2025-08-23",
-    "category": "Video",
     "slug": "dreamflow"
   },
   {
@@ -473,14 +472,6 @@
     "slug": "trace"
   },
   {
-    "title": "Track 3I/ATLAS",
-    "body": "Track Comet 3I/ATLAS, rare interstellar visitor, in real-time.",
-    "tag": "Free",
-    "url": "https://3i-atlas.net?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "track-3iatlas"
-  },
-  {
     "title": "TraceRoot",
     "body": "Fix bugs faster with open source observability.",
     "tag": "Open-source",
@@ -488,6 +479,14 @@
     "date-added": "2025-08-25",
     "category": "Developer",
     "slug": "traceroot"
+  },
+  {
+    "title": "Track 3I/ATLAS",
+    "body": "Track Comet 3I/ATLAS, rare interstellar visitor, in real-time.",
+    "tag": "Free",
+    "url": "https://3i-atlas.net?ref=riseofmachine.com",
+    "date-added": "2025-12-21",
+    "slug": "track-3iatlas"
   },
   {
     "title": "TradingLens",

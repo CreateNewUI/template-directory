@@ -96,20 +96,20 @@
     "slug": "colorpageai"
   },
   {
-    "title": "ComicsAI",
-    "body": "AI Comic Generator. Transform your stories into comics with AI.",
-    "tag": "Free",
-    "url": "https://comicsai.org?ref=riseofmachine.com",
-    "date-added": "2025-12-20",
-    "slug": "comicsai"
-  },
-  {
     "title": "Comfy",
     "body": "A powerful node-based generative AI tool.",
     "tag": "Free",
     "url": "https://comfy.org?ref=riseofmachine.com",
     "date-added": "2025-11-06",
     "slug": "comfy"
+  },
+  {
+    "title": "ComicsAI",
+    "body": "AI Comic Generator. Transform your stories into comics with AI.",
+    "tag": "Free",
+    "url": "https://comicsai.org?ref=riseofmachine.com",
+    "date-added": "2025-12-20",
+    "slug": "comicsai"
   },
   {
     "title": "Craiyon",
@@ -312,6 +312,14 @@
     "slug": "image-generator-nsfw"
   },
   {
+    "title": "Image to Prompt",
+    "body": "Generate detailed AI art prompts from images for Midjourney & SD.",
+    "tag": "Freemium",
+    "url": "https://image2prompts.com?ref=riseofmachine.com",
+    "date-added": "2025-12-21",
+    "slug": "image-to-prompt"
+  },
+  {
     "title": "ImageFX",
     "body": "AI-powered platform for stunning art creation.",
     "tag": "Freemium",
@@ -326,14 +334,6 @@
     "url": "https://imgnai.com/?ref=riseofmachine.com",
     "date-added": "2023-12-26",
     "slug": "imgnai"
-  },
-  {
-    "title": "Image to Prompt",
-    "body": "Generate detailed AI art prompts from images for Midjourney & SD.",
-    "tag": "Freemium",
-    "url": "https://image2prompts.com?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "image-to-prompt"
   },
   {
     "title": "Infinite Craft Guide",

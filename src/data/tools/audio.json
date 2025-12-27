@@ -1,13 +1,5 @@
 [
   {
-    "title": "ReelScribe",
-    "body": "Accurate AI audio and video transcription tool.",
-    "tag": "Freemium",
-    "url": "https://reelscribe.ai?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "reelscribe"
-  },
-  {
     "title": "Adtwin",
     "body": "AI platform for audio ad creation and tracking.",
     "url": "https://adtwin.ai/?ref=riseofmachine.com",
@@ -223,6 +215,14 @@
     "url": "https://podcastle.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-11",
     "slug": "podcastle"
+  },
+  {
+    "title": "ReelScribe",
+    "body": "Accurate AI audio and video transcription tool.",
+    "tag": "Freemium",
+    "url": "https://reelscribe.ai?ref=riseofmachine.com",
+    "date-added": "2025-12-21",
+    "slug": "reelscribe"
   },
   {
     "title": "Respeecher",

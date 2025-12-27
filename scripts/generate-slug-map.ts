@@ -10,7 +10,19 @@ console.log('🗺️  Generating slug-to-category mapping...\n');
 
 // Read the tools.json file
 const toolsPath = path.join(__dirname, '../src/data/tools.json');
-const data: ToolsConfig = JSON.parse(fs.readFileSync(toolsPath, 'utf-8'));
+let data: ToolsConfig;
+
+try {
+    if (!fs.existsSync(toolsPath)) {
+        console.error(`❌ Error: tools.json not found at ${toolsPath}`);
+        process.exit(1);
+    }
+    const rawData = fs.readFileSync(toolsPath, 'utf-8');
+    data = JSON.parse(rawData);
+} catch (error: any) {
+    console.error(`❌ Error reading or parsing tools.json at ${toolsPath}:`, error.message);
+    process.exit(1);
+}
 
 const slugMap: SlugMap = {};
 let totalSlugs = 0;
@@ -42,9 +54,13 @@ Object.entries(slugMap).forEach(([slug, categories]) => {
 
 // Write slug map
 const outputPath = path.join(__dirname, '../src/data/slug-map.json');
-fs.writeFileSync(outputPath, JSON.stringify(slugMap, null, 2));
-
-console.log(`✅ Generated slug map with ${totalSlugs} entries`);
+try {
+    fs.writeFileSync(outputPath, JSON.stringify(slugMap, null, 2));
+    console.log(`✅ Generated slug map with ${totalSlugs} entries`);
+} catch (error: any) {
+    console.error(`❌ Error writing slug-map.json to ${outputPath}:`, error.message);
+    process.exit(1);
+}
 
 if (duplicates.length > 0) {
     console.log(`\n⚠️  Warning: Found ${duplicates.length} duplicate slugs:`);

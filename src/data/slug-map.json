@@ -35,10 +35,10 @@
   "colorpageai": [
     "art"
   ],
-  "comicsai": [
+  "comfy": [
     "art"
   ],
-  "comfy": [
+  "comicsai": [
     "art"
   ],
   "craiyon": [
@@ -116,13 +116,13 @@
   "image-generator-nsfw": [
     "art"
   ],
+  "image-to-prompt": [
+    "art"
+  ],
   "imagefx": [
     "art"
   ],
   "imgnai": [
-    "art"
-  ],
-  "image-to-prompt": [
     "art"
   ],
   "infinite-craft-guide": [
@@ -245,9 +245,6 @@
   "yix": [
     "art"
   ],
-  "reelscribe": [
-    "audio"
-  ],
   "adtwin": [
     "audio"
   ],
@@ -327,6 +324,9 @@
     "audio"
   ],
   "podcastle": [
+    "audio"
+  ],
+  "reelscribe": [
     "audio"
   ],
   "respeecher": [
@@ -632,6 +632,9 @@
   "yahini": [
     "copywriting"
   ],
+  "new-ui": [
+    "design"
+  ],
   "banana-nano": [
     "design"
   ],
@@ -722,9 +725,6 @@
   "napkin-ai": [
     "design"
   ],
-  "new-ui": [
-    "design"
-  ],
   "new-ui-templates": [
     "design"
   ],
@@ -794,9 +794,6 @@
   "yenex": [
     "design"
   ],
-  "chatgpt-apps-sdk": [
-    "developer"
-  ],
   "ai-sdk-5-by-vercel": [
     "developer"
   ],
@@ -840,6 +837,9 @@
     "developer"
   ],
   "cekura": [
+    "developer"
+  ],
+  "chatgpt-apps-sdk": [
     "developer"
   ],
   "chef": [
@@ -1301,9 +1301,6 @@
   "veriff": [
     "enterprise"
   ],
-  "saree-generator": [
-    "fashion"
-  ],
   "aisthetic": [
     "fashion"
   ],
@@ -1320,6 +1317,9 @@
     "fashion"
   ],
   "outfitfm": [
+    "fashion"
+  ],
+  "saree-generator": [
     "fashion"
   ],
   "uwear": [
@@ -1904,9 +1904,6 @@
   "wishhush": [
     "photos"
   ],
-  "upscaler": [
-    "productivity"
-  ],
   "ada": [
     "productivity"
   ],
@@ -2202,6 +2199,9 @@
     "productivity"
   ],
   "ultra": [
+    "productivity"
+  ],
+  "upscaler": [
     "productivity"
   ],
   "vocalscribe": [
@@ -2771,10 +2771,10 @@
   "wan-22": [
     "video"
   ],
-  "wan-26": [
+  "wan-22-ai": [
     "video"
   ],
-  "wan-22-ai": [
+  "wan-26": [
     "video"
   ],
   "watermark-remover": [
@@ -2957,10 +2957,10 @@
   "trace": [
     "xtras"
   ],
-  "track-3iatlas": [
+  "traceroot": [
     "xtras"
   ],
-  "traceroot": [
+  "track-3iatlas": [
     "xtras"
   ],
   "tradinglens": [
