@@ -39,8 +39,14 @@ function validateTool(tool: Tool, source: string) {
         if (!tool.url.startsWith('http://') && !tool.url.startsWith('https://')) {
             issues.missing_protocol.push(identifier);
         }
-        if (!tool.url.includes('ref=riseofmachine.com')) {
-            issues.missing_ref.push(identifier);
+        try {
+            const url = new URL(tool.url);
+            if (url.searchParams.get('ref') !== 'riseofmachine.com') {
+                issues.missing_ref.push(identifier);
+            }
+        } catch (e) {
+            // If URL is invalid, it will already be caught by protocol check or be flagged here
+            issues.missing_ref.push(`${identifier} (Invalid URL)`);
         }
     }
 
