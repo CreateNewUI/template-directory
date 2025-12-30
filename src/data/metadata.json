@@ -402,15 +402,15 @@
     "title": "Lami AI Music Generator | Create Songs from Text Free Online",
     "description": "Create music from text in minutes with Lami AI music generator. Includes vocal remover, AI cover, stem splitter & royalty-free commercial license for creators."
   },
-  "eleven-ai": {
-    "slug": "eleven-ai",
-    "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
-    "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs."
-  },
   "kits-ai": {
     "slug": "kits-ai",
     "title": "AI Voice Studio | Change a voice with Kits.AI",
     "description": "Change your voice into any other voice with the Kits AI Voice Studio. Upload your audio and edit your voice in our in-browser workflow, choosing from a variety of royalty-free artist or instrument AI voice generators."
+  },
+  "eleven-ai": {
+    "slug": "eleven-ai",
+    "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+    "description": "Create lifelike speech with our AI voice generator and voice agents platform. Access 5,000+ voices in 70+ languages with secure APIs and SDKs."
   },
   "lyricstosong": {
     "slug": "lyricstosong",
@@ -1565,14 +1565,14 @@
     "title": "Synexa AI: Deploy AI Models in One Line of Code",
     "description": "Simplify AI deployment with Synexa. Run powerful AI models instantly with just one line of code. Fast, stable, and developer-friendly."
   },
-  "tinygrad": {
-    "slug": "tinygrad",
-    "title": "tinygrad: A simple and powerful neural network framework"
-  },
   "zen-agents": {
     "slug": "zen-agents",
     "title": "Zencoder | The AI Coding Agent",
     "description": "Discover Zencoder's AI Coding Agent Platform for seamless code execution and collaboration. Boost productivity with advanced analytics, flexible deployment, and custom agents for your team."
+  },
+  "tinygrad": {
+    "slug": "tinygrad",
+    "title": "tinygrad: A simple and powerful neural network framework"
   },
   "bevinzey": {
     "slug": "bevinzey",
@@ -2149,18 +2149,18 @@
     "title": "ChatGPT",
     "description": "ChatGPT is your AI chatbot for everyday use. Chat with the most advanced AI to explore ideas, solve problems, and learn faster."
   },
-  "aicode": {
-    "slug": "aicode",
-    "title": "Redirecting..."
+  "ai-agents-live": {
+    "slug": "ai-agents-live",
+    "title": "AI Agents & Services Directory | AI Agents Live Dec 2025",
+    "description": "The definitive directory of curated AI agents & services - discover and explore the best AI agents to transform your business with AI Agents Live"
   },
   "body-fat-calc": {
     "slug": "body-fat-calc",
     "title": "Redirecting..."
   },
-  "ai-agents-live": {
-    "slug": "ai-agents-live",
-    "title": "AI Agents & Services Directory | AI Agents Live Dec 2025",
-    "description": "The definitive directory of curated AI agents & services - discover and explore the best AI agents to transform your business with AI Agents Live"
+  "aicode": {
+    "slug": "aicode",
+    "title": "Redirecting..."
   },
   "deepseek": {
     "slug": "deepseek",
@@ -2732,19 +2732,19 @@
     "title": "Free Online AI Photo Editor | ImgGood",
     "description": "ImgGood's free Online Photo Editor helps you easily enhance your photos with AI. Remove backgrounds, upscale images, clean up pictures, and more."
   },
-  "dual-shades": {
-    "slug": "dual-shades",
-    "title": "Dual Shades - AI Photo Editor | Keep Subject Colored, Background B&W",
-    "description": "Transform photos instantly with Dual Shades AI. Keep your subject in vibrant color while turning the background black and white. Free online photo editor with drag-and-drop uploads."
+  "image-enlarger": {
+    "slug": "image-enlarger",
+    "title": "Imglarger | AI Image Enlarger, Enhancer, Editor and Converter",
+    "description": "Imglarger online now provides AI tools to enhance and upscale images and photos, we also offer online photo editors and image converters to help you edit and convert images online."
   },
   "facevary": {
     "slug": "facevary",
     "title": "facevary.com"
   },
-  "image-enlarger": {
-    "slug": "image-enlarger",
-    "title": "Imglarger | AI Image Enlarger, Enhancer, Editor and Converter",
-    "description": "Imglarger online now provides AI tools to enhance and upscale images and photos, we also offer online photo editors and image converters to help you edit and convert images online."
+  "dual-shades": {
+    "slug": "dual-shades",
+    "title": "Dual Shades - AI Photo Editor | Keep Subject Colored, Background B&W",
+    "description": "Transform photos instantly with Dual Shades AI. Keep your subject in vibrant color while turning the background black and white. Free online photo editor with drag-and-drop uploads."
   },
   "lets-enhance": {
     "slug": "lets-enhance",
@@ -3777,14 +3777,14 @@
     "title": "JERUKBET: Situs Slot Gacor Grafis Terbaik & Gampang Maxwin Hari Ini",
     "description": "Jerukbet adalah situs slot gacor yang sedang viral karena memiliki kualitas grafis terbaik dan dikenal juga dengan ribuan permainan gampang maxwin setiap bermain hari ini."
   },
+  "scribli": {
+    "slug": "scribli",
+    "title": "SEO AI bot - Scrib.li"
+  },
   "postli": {
     "slug": "postli",
     "title": "Postli | AI-Powered LinkedIn Content Creation",
     "description": "Postli: Revolutionize your LinkedIn presence with AI-driven post creation. Use 1000 templates to create posts. Generate engaging, professional content effortlessly. Ideal for marketers, influencers, and professionals."
-  },
-  "scribli": {
-    "slug": "scribli",
-    "title": "SEO AI bot - Scrib.li"
   },
   "rizz-app-ai": {
     "slug": "rizz-app-ai",
@@ -3866,11 +3866,6 @@
     "title": "DaVinci Resolve | Blackmagic Design",
     "description": "Professional video editing, color correction, visual effects and audio post production all in a single application. Free and paid versions for Mac, Windows and Linux."
   },
-  "rizz-ai": {
-    "slug": "rizz-ai",
-    "title": "RIZZ AI Assistant: Free RIZZ GPT and Fun AI Dating Assistant",
-    "description": "RIZZ AI Assistant is an AI dating assistant built on the RIZE GPT model. Through a large number of high-quality chat and pick-up cases, RIZZ AI has trained chat LLMs who can understand users' psychology and are good at humorous pick-up conversations, becoming the best Tinder tutor."
-  },
   "social-hub": {
     "slug": "social-hub",
     "title": "Socialhub.AI"
@@ -3884,6 +3879,11 @@
     "slug": "d-id",
     "title": "D-ID Creative Reality Studio",
     "description": "Create professional videos using just a still image with text or audio powered by AI."
+  },
+  "rizz-ai": {
+    "slug": "rizz-ai",
+    "title": "RIZZ AI Assistant: Free RIZZ GPT and Fun AI Dating Assistant",
+    "description": "RIZZ AI Assistant is an AI dating assistant built on the RIZE GPT model. Through a large number of high-quality chat and pick-up cases, RIZZ AI has trained chat LLMs who can understand users' psychology and are good at humorous pick-up conversations, becoming the best Tinder tutor."
   },
   "decohere": {
     "slug": "decohere",
@@ -4337,24 +4337,29 @@
     "title": "Discord",
     "description": "Chat with role-playing AI characters, generate images, and write stories - 100% free and completely private."
   },
-  "harry-potter-house-quiz": {
-    "slug": "harry-potter-house-quiz",
-    "title": "Free Harry Potter House Quiz | Find Your Hogwarts House",
-    "description": "Take the free Harry Potter House Quiz online! Discover your true Hogwarts house with our comprehensive personality test!"
-  },
   "deforge": {
     "slug": "deforge",
     "title": "For Sale Page"
+  },
+  "fluxaicreate": {
+    "slug": "fluxaicreate",
+    "title": "Flux AI Image, Video&Kontext Generator | All-in-One creation | AI图片生成器",
+    "description": "Unlock your creative potential with Flux AI. Generate  images, videos, and content from text using advanced AI. Fast, intuitive, and totally free to start."
   },
   "dreamflow": {
     "slug": "dreamflow",
     "title": "dreamflow",
     "description": "(agi)"
   },
-  "fluxaicreate": {
-    "slug": "fluxaicreate",
-    "title": "Flux AI Image, Video&Kontext Generator | All-in-One creation | AI图片生成器",
-    "description": "Unlock your creative potential with Flux AI. Generate  images, videos, and content from text using advanced AI. Fast, intuitive, and totally free to start."
+  "fluent-app": {
+    "slug": "fluent-app",
+    "title": "Fluent – AI Writing Assistant for macOS",
+    "description": "Fluent is a native macOS AI writing assistant that helps you draft, refine, and understand content across your apps with privacy-respecting on-device context."
+  },
+  "harry-potter-house-quiz": {
+    "slug": "harry-potter-house-quiz",
+    "title": "Free Harry Potter House Quiz | Find Your Hogwarts House",
+    "description": "Take the free Harry Potter House Quiz online! Discover your true Hogwarts house with our comprehensive personality test!"
   },
   "ig-follower-export": {
     "slug": "ig-follower-export",
@@ -4461,11 +4466,6 @@
     "title": "Free AI Hairstyle Changer: Try-On Hairstyles Online | RightHair",
     "description": "Free AI hairstyle changer online. Upload your photo and try on 100+ hairstyles instantly – no download needed. Powered by RightHair."
   },
-  "seedream": {
-    "slug": "seedream",
-    "title": "Seedream 4.0 AI – 1-Second Image Generation & Editing Studio | Seedream 4.0 AI Image Generator",
-    "description": "Experience Seedream 4.0 AI. Generate, edit and 2K images in under 1 second with perfect preservation and security."
-  },
   "hoody": {
     "slug": "hoody",
     "title": "For Sale Page"
@@ -4474,6 +4474,11 @@
     "slug": "imagebyqwen",
     "title": "Qwen Image - Advanced AI Photo Generator | ImageByQwen",
     "description": "Qwen Image is the most advanced AI photo generator that transforms your ideas into stunning, photorealistic images using cutting-edge Qwen models. Create beautiful photos in seconds. Credits required for usage."
+  },
+  "seedream": {
+    "slug": "seedream",
+    "title": "Seedream 4.0 AI – 1-Second Image Generation & Editing Studio | Seedream 4.0 AI Image Generator",
+    "description": "Experience Seedream 4.0 AI. Generate, edit and 2K images in under 1 second with perfect preservation and security."
   },
   "shipsquad": {
     "slug": "shipsquad",
