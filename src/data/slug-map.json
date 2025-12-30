@@ -284,6 +284,9 @@
   "f5-tts": [
     "audio"
   ],
+  "goose-pod": [
+    "audio"
+  ],
   "harmonai": [
     "audio"
   ],
@@ -306,6 +309,9 @@
     "audio"
   ],
   "monologue": [
+    "audio"
+  ],
+  "mp3-to-text": [
     "audio"
   ],
   "nicevoice": [
@@ -632,9 +638,6 @@
   "yahini": [
     "copywriting"
   ],
-  "new-ui": [
-    "design"
-  ],
   "banana-nano": [
     "design"
   ],
@@ -723,6 +726,9 @@
     "design"
   ],
   "napkin-ai": [
+    "design"
+  ],
+  "new-ui": [
     "design"
   ],
   "new-ui-templates": [
@@ -1679,15 +1685,6 @@
   "vectorize-ai": [
     "nocode"
   ],
-  "ai-beauty-test": [
-    "photos"
-  ],
-  "ai-photo-editor": [
-    "photos"
-  ],
-  "aifaceswap": [
-    "photos"
-  ],
   "aragon-ai": [
     "photos"
   ],
@@ -1695,6 +1692,9 @@
     "photos"
   ],
   "background": [
+    "photos"
+  ],
+  "beauty-test": [
     "photos"
   ],
   "beautycam-image-master": [
@@ -1742,6 +1742,9 @@
   "facerate": [
     "photos"
   ],
+  "faceswap": [
+    "photos"
+  ],
   "facevary": [
     "photos"
   ],
@@ -1749,6 +1752,9 @@
     "photos"
   ],
   "flux-ai-online": [
+    "photos"
+  ],
+  "food-generator": [
     "photos"
   ],
   "foosh": [
@@ -1842,6 +1848,9 @@
     "photos"
   ],
   "photo": [
+    "photos"
+  ],
+  "photo-editor": [
     "photos"
   ],
   "photo-style": [
@@ -2228,6 +2237,9 @@
   "zyler-ai": [
     "productivity"
   ],
+  "banana-prompts": [
+    "prompts"
+  ],
   "dallelist": [
     "prompts"
   ],
@@ -2516,9 +2528,6 @@
   "videolulu": [
     "social"
   ],
-  "ai-kungfu": [
-    "video"
-  ],
   "animant": [
     "video"
   ],
@@ -2613,6 +2622,9 @@
     "video"
   ],
   "kling-ai": [
+    "video"
+  ],
+  "kungfu": [
     "video"
   ],
   "libretto": [
@@ -2747,6 +2759,9 @@
   "videoswapface": [
     "video"
   ],
+  "vidmix": [
+    "video"
+  ],
   "vidu-studio": [
     "video"
   ],
@@ -2760,6 +2775,9 @@
     "video"
   ],
   "vmeg-clips-to-videos": [
+    "video"
+  ],
+  "voe-ai": [
     "video"
   ],
   "wan-22": [
@@ -2777,6 +2795,9 @@
   "wondershare-filmora": [
     "video"
   ],
+  "make-for-india": [
+    "xtras"
+  ],
   "acidtools": [
     "xtras"
   ],
@@ -2784,12 +2805,6 @@
     "xtras"
   ],
   "agents-directory": [
-    "xtras"
-  ],
-  "ai-finder-plus": [
-    "xtras"
-  ],
-  "ai-freenav": [
     "xtras"
   ],
   "aide": [
@@ -2834,16 +2849,25 @@
   "elements-by-vercel": [
     "xtras"
   ],
+  "finder-plus": [
+    "xtras"
+  ],
   "fluent-app": [
     "xtras"
   ],
   "fluxaicreate": [
     "xtras"
   ],
+  "freenav": [
+    "xtras"
+  ],
   "generators": [
     "xtras"
   ],
   "goodsfox": [
+    "xtras"
+  ],
+  "grok-ani": [
     "xtras"
   ],
   "hammer": [
@@ -2882,7 +2906,7 @@
   "navitool": [
     "xtras"
   ],
-  "nickname-generator": [
+  "nectar-ai": [
     "xtras"
   ],
   "oc-maker-2": [
@@ -2946,6 +2970,9 @@
     "xtras"
   ],
   "thatsmy": [
+    "xtras"
+  ],
+  "the-tech-info": [
     "xtras"
   ],
   "trace": [

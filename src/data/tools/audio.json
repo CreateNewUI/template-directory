@@ -104,6 +104,14 @@
     "slug": "f5-tts"
   },
   {
+    "title": "Goose Pod",
+    "body": "AI news podcast.",
+    "tag": "Freemium",
+    "url": "https://goosepod.org?ref=riseofmachine.com",
+    "date-added": "2025-12-22",
+    "slug": "goose-pod"
+  },
+  {
     "title": "Harmonai",
     "body": "Generative audio tools.",
     "tag": "Open-source",
@@ -166,6 +174,14 @@
     "tag": "Freemium",
     "date-added": "2025-10-21",
     "slug": "monologue"
+  },
+  {
+    "title": "MP3 to Text",
+    "body": "MP3 to text tool.",
+    "tag": "Freemium",
+    "url": "https://mp3totext.net?ref=riseofmachine.com",
+    "date-added": "2025-12-24",
+    "slug": "mp3-to-text"
   },
   {
     "title": "NiceVoice",
