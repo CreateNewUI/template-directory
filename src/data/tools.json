@@ -771,6 +771,14 @@
           "slug": "f5-tts"
         },
         {
+          "title": "Goose Pod",
+          "body": "AI news podcast.",
+          "tag": "Freemium",
+          "url": "https://goosepod.org?ref=riseofmachine.com",
+          "date-added": "2025-12-22",
+          "slug": "goose-pod"
+        },
+        {
           "title": "Harmonai",
           "body": "Generative audio tools.",
           "tag": "Open-source",
@@ -833,6 +841,14 @@
           "tag": "Freemium",
           "date-added": "2025-10-21",
           "slug": "monologue"
+        },
+        {
+          "title": "MP3 to Text",
+          "body": "MP3 to text tool.",
+          "tag": "Freemium",
+          "url": "https://mp3totext.net?ref=riseofmachine.com",
+          "date-added": "2025-12-24",
+          "slug": "mp3-to-text"
         },
         {
           "title": "NiceVoice",
@@ -1717,14 +1733,6 @@
       "category": "design",
       "content": [
         {
-          "title": "✨ New UI",
-          "body": "Modern, semantic UI framework for building beautiful sites and apps.",
-          "tag": "Open-source",
-          "url": "https://new-ui.com/?ref=riseofmachine.com",
-          "date-added": "2025-11-19",
-          "slug": "new-ui"
-        },
-        {
           "title": "Banana Nano",
           "body": "Googles revolutionary AI image generation.",
           "tag": "Freemium",
@@ -1963,6 +1971,14 @@
           "url": "https://www.napkin.ai/?ref=riseofmachine.com",
           "date-added": "2025-06-01",
           "slug": "napkin-ai"
+        },
+        {
+          "title": "New UI",
+          "body": "Modern, semantic UI framework for building beautiful sites and apps.",
+          "tag": "Open-source",
+          "url": "https://new-ui.com/?ref=riseofmachine.com",
+          "date-added": "2025-11-19",
+          "slug": "new-ui"
         },
         {
           "title": "New UI Templates",
@@ -4576,30 +4592,6 @@
       "category": "photos",
       "content": [
         {
-          "title": "AI Beauty Test",
-          "body": "Analyzes facial features and provides beauty score.",
-          "tag": "Free",
-          "url": "https://aibeautytest.org?ref=riseofmachine.com",
-          "date-added": "2025-06-01",
-          "slug": "ai-beauty-test"
-        },
-        {
-          "title": "AI Photo Editor",
-          "body": "AI-powered photo editing tools.",
-          "tag": "Freemium",
-          "url": "https://www.aiphotoeditor.space/?ref=riseofmachine.com",
-          "date-added": "2025-10-03",
-          "slug": "ai-photo-editor"
-        },
-        {
-          "title": "AIFaceSwap",
-          "body": "AI online tool instantly swaps faces in photos/vid.",
-          "tag": "Freemium",
-          "url": "https://aifaceswap.app/?ref=riseofmachine.com",
-          "date-added": "2025-06-06",
-          "slug": "aifaceswap"
-        },
-        {
           "title": "Aragon AI",
           "body": "Generate pro AI headshots rapidly & affordably.",
           "tag": "Paid",
@@ -4622,6 +4614,14 @@
           "url": "https://aibackground.net?ref=riseofmachine.com",
           "date-added": "2025-08-26",
           "slug": "background"
+        },
+        {
+          "title": "Beauty Test",
+          "body": "Analyzes facial features and provides beauty score.",
+          "tag": "Free",
+          "url": "https://aibeautytest.org?ref=riseofmachine.com",
+          "date-added": "2025-06-01",
+          "slug": "beauty-test"
         },
         {
           "title": "BeautyCam Image Master",
@@ -4744,6 +4744,14 @@
           "slug": "facerate"
         },
         {
+          "title": "FaceSwap",
+          "body": "AI online tool instantly swaps faces in photos/vid.",
+          "tag": "Freemium",
+          "url": "https://aifaceswap.app/?ref=riseofmachine.com",
+          "date-added": "2025-06-06",
+          "slug": "faceswap"
+        },
+        {
           "title": "FaceVary",
           "body": "Free online face swap.",
           "tag": "Free",
@@ -4766,6 +4774,14 @@
           "url": "https://fluxaiweb.com/?ref=riseofmachine.com",
           "date-added": "2024-08-31",
           "slug": "flux-ai-online"
+        },
+        {
+          "title": "Food Generator",
+          "body": "Create food images for restaurant menu.",
+          "tag": "Free",
+          "url": "https://aifoodgenerator.net?ref=riseofmachine.com",
+          "date-added": "2025-12-25",
+          "slug": "food-generator"
         },
         {
           "title": "Foosh",
@@ -5014,6 +5030,14 @@
           "url": "https://photoai.com/?ref=riseofmachine.com",
           "date-added": "2025-06-06",
           "slug": "photo"
+        },
+        {
+          "title": "Photo Editor",
+          "body": "AI-powered photo editing tools.",
+          "tag": "Freemium",
+          "url": "https://www.aiphotoeditor.space/?ref=riseofmachine.com",
+          "date-added": "2025-10-03",
+          "slug": "photo-editor"
         },
         {
           "title": "Photo Style",
@@ -6052,6 +6076,14 @@
       "category": "prompts",
       "content": [
         {
+          "title": "Banana Prompts",
+          "body": "Collection of high-quality prompts for Nano Banana creators.",
+          "tag": "Free",
+          "url": "https://bananaprompts.fun?ref=riseofmachine.com",
+          "date-added": "2025-12-30",
+          "slug": "banana-prompts"
+        },
+        {
           "title": "Dallelist",
           "body": "DALL-E prompt helper.",
           "tag": "Free",
@@ -6844,14 +6876,6 @@
       "category": "video",
       "content": [
         {
-          "title": "AI Kungfu",
-          "body": "Turns your photos into martial arts videos.",
-          "tag": "Freemium",
-          "url": "https://aikungfu.net/?ref=riseofmachine.com",
-          "date-added": "2025-02-19",
-          "slug": "ai-kungfu"
-        },
-        {
           "title": "Animant",
           "body": "Go beyond static presentations.",
           "url": "https://www.animant.com/?ref=riseofmachine.com",
@@ -7106,6 +7130,14 @@
           "url": "https://klingai.com?ref=riseofmachine.com",
           "date-added": "2025-06-14",
           "slug": "kling-ai"
+        },
+        {
+          "title": "Kungfu",
+          "body": "Turns your photos into martial arts videos.",
+          "tag": "Freemium",
+          "url": "https://aikungfu.net/?ref=riseofmachine.com",
+          "date-added": "2025-12-30",
+          "slug": "kungfu"
         },
         {
           "title": "Libretto",
@@ -7460,6 +7492,14 @@
           "slug": "videoswapface"
         },
         {
+          "title": "Vidmix",
+          "body": "Transform photos into videos with VidMix.",
+          "tag": "Freemium",
+          "url": "https://vidmix.ai?ref=riseofmachine.com",
+          "date-added": "2025-12-28",
+          "slug": "vidmix"
+        },
+        {
           "title": "Vidu Studio",
           "body": "Text and image to video converter.",
           "tag": "Freemium",
@@ -7498,6 +7538,14 @@
           "url": "https://www.vmeg.ai/tools/clips-to-videos/?ref=riseofmachine.com",
           "date-added": "2025-06-06",
           "slug": "vmeg-clips-to-videos"
+        },
+        {
+          "title": "Voe Ai",
+          "body": "Video generation with frame control, style lock, and rich audio.",
+          "tag": "Freemium",
+          "url": "https://voe31.com/?ref=riseofmachine.com",
+          "date-added": "2025-12-30",
+          "slug": "voe-ai"
         },
         {
           "title": "Wan 2.2",
@@ -7546,6 +7594,14 @@
       "category": "xtras",
       "content": [
         {
+          "title": "✨ Make for India",
+          "body": "Discover India-made innovations.",
+          "tag": "Free",
+          "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
+          "date-added": "2025-12-26",
+          "slug": "make-for-india"
+        },
+        {
           "title": "Acidtools",
           "body": "Free AI tools.",
           "tag": "Free",
@@ -7568,22 +7624,6 @@
           "tag": "Free",
           "date-added": "2025-10-11",
           "slug": "agents-directory"
-        },
-        {
-          "title": "AI Finder Plus",
-          "body": "A directory to discover, submit and earn from AI tools.",
-          "tag": "Freemium",
-          "url": "https://aifinderplus.com/?ref=riseofmachine.com",
-          "date-added": "2025-06-01",
-          "slug": "ai-finder-plus"
-        },
-        {
-          "title": "AI Freenav",
-          "body": "A free AI tool directory.",
-          "tag": "Free",
-          "url": "https://aifreenav.com/?ref=riseofmachine.com",
-          "date-added": "2025-08-06",
-          "slug": "ai-freenav"
         },
         {
           "title": "Aide",
@@ -7698,12 +7738,36 @@
           "slug": "elements-by-vercel"
         },
         {
+          "title": "Finder Plus",
+          "body": "A directory to discover, submit and earn from AI tools.",
+          "tag": "Freemium",
+          "url": "https://aifinderplus.com/?ref=riseofmachine.com",
+          "date-added": "2025-06-01",
+          "slug": "finder-plus"
+        },
+        {
+          "title": "Fluent App",
+          "body": "Any app. Any AI. Keep the Focus on Things, not Tools.",
+          "tag": "Paid",
+          "url": "https://fluentmac.app/?ref=riseofmachine.com",
+          "date-added": "2025-06-01",
+          "slug": "fluent-app"
+        },
+        {
           "title": "Fluxaicreate",
           "body": "Generate images, videos, and content from text.",
           "tag": "Freemium",
           "url": "https://www.fluxaicreate.org/?ref=riseofmachine.com",
           "date-added": "2025-10-03",
           "slug": "fluxaicreate"
+        },
+        {
+          "title": "Freenav",
+          "body": "A free AI tool directory.",
+          "tag": "Free",
+          "url": "https://aifreenav.com/?ref=riseofmachine.com",
+          "date-added": "2025-08-06",
+          "slug": "freenav"
         },
         {
           "title": "Generators",
@@ -7720,6 +7784,14 @@
           "url": "https://goodsfox.com/?ref=riseofmachine.com",
           "date-added": "2025-08-22",
           "slug": "goodsfox"
+        },
+        {
+          "title": "Grok Ani",
+          "body": "Your portal to dynamic AI personalities.",
+          "tag": "From $30/mo",
+          "url": "https://grok-ani.com?ref=riseofmachine.com",
+          "date-added": "2025-12-22",
+          "slug": "grok-ani"
         },
         {
           "title": "Hammer",
@@ -7818,12 +7890,12 @@
           "slug": "navitool"
         },
         {
-          "title": "Nickname Generator",
-          "body": "AI crafts unique, catchy nicknames from any input.",
-          "tag": "Free",
-          "url": "https://theresanaiforthat.com/@danielgaraiacu/nickname-generator/?ref=riseofmachine.com",
-          "date-added": "2025-06-18",
-          "slug": "nickname-generator"
+          "title": "Nectar AI",
+          "body": "Create and chat with customizable AI companions.",
+          "tag": "Freemium",
+          "url": "https://nectar.ai?ref=riseofmachine.com",
+          "date-added": "2025-12-26",
+          "slug": "nectar-ai"
         },
         {
           "title": "OC Maker",
@@ -7994,6 +8066,14 @@
           "slug": "thatsmy"
         },
         {
+          "title": "The Tech Info",
+          "body": "A collection of AI tools and tutorials for developers.",
+          "tag": "Free",
+          "url": "https://thetechinfo.net/?ref=riseofmachine.com",
+          "date-added": "2025-12-26",
+          "slug": "the-tech-info"
+        },
+        {
           "title": "Trace",
           "body": "Routes tasks to the right agent, human or AI.",
           "tag": "Freemium",
@@ -8040,14 +8120,6 @@
           "url": "https://www.vibeflow.com/?ref=riseofmachine.com",
           "date-added": "2025-08-24",
           "slug": "vibeflow"
-        },
-        {
-          "title": "Fluent – AI Assistant for Mac",
-          "body": "Any app. Any AI. Keep the Focus on Things, not Tools.",
-          "tag": "Paid",
-          "url": "https://fluentmac.app/?ref=riseofmachine.com",
-          "date-added": "2025-06-01",
-          "slug": "fluent-app"
         }
       ]
     }

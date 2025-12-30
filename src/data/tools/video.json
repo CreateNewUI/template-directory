@@ -1,13 +1,5 @@
 [
   {
-    "title": "AI Kungfu",
-    "body": "Turns your photos into martial arts videos.",
-    "tag": "Freemium",
-    "url": "https://aikungfu.net/?ref=riseofmachine.com",
-    "date-added": "2025-02-19",
-    "slug": "ai-kungfu"
-  },
-  {
     "title": "Animant",
     "body": "Go beyond static presentations.",
     "url": "https://www.animant.com/?ref=riseofmachine.com",
@@ -262,6 +254,14 @@
     "url": "https://klingai.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
     "slug": "kling-ai"
+  },
+  {
+    "title": "Kungfu",
+    "body": "Turns your photos into martial arts videos.",
+    "tag": "Freemium",
+    "url": "https://aikungfu.net/?ref=riseofmachine.com",
+    "date-added": "2025-12-30",
+    "slug": "kungfu"
   },
   {
     "title": "Libretto",
@@ -616,6 +616,14 @@
     "slug": "videoswapface"
   },
   {
+    "title": "Vidmix",
+    "body": "Transform photos into videos with VidMix.",
+    "tag": "Freemium",
+    "url": "https://vidmix.ai?ref=riseofmachine.com",
+    "date-added": "2025-12-28",
+    "slug": "vidmix"
+  },
+  {
     "title": "Vidu Studio",
     "body": "Text and image to video converter.",
     "tag": "Freemium",
@@ -654,6 +662,14 @@
     "url": "https://www.vmeg.ai/tools/clips-to-videos/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "vmeg-clips-to-videos"
+  },
+  {
+    "title": "Voe Ai",
+    "body": "Video generation with frame control, style lock, and rich audio.",
+    "tag": "Freemium",
+    "url": "https://voe31.com/?ref=riseofmachine.com",
+    "date-added": "2025-12-30",
+    "slug": "voe-ai"
   },
   {
     "title": "Wan 2.2",

@@ -1,5 +1,13 @@
 [
   {
+    "title": "✨ Make for India",
+    "body": "Discover India-made innovations.",
+    "tag": "Free",
+    "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
+    "date-added": "2025-12-26",
+    "slug": "make-for-india"
+  },
+  {
     "title": "Acidtools",
     "body": "Free AI tools.",
     "tag": "Free",
@@ -22,22 +30,6 @@
     "tag": "Free",
     "date-added": "2025-10-11",
     "slug": "agents-directory"
-  },
-  {
-    "title": "AI Finder Plus",
-    "body": "A directory to discover, submit and earn from AI tools.",
-    "tag": "Freemium",
-    "url": "https://aifinderplus.com/?ref=riseofmachine.com",
-    "date-added": "2025-06-01",
-    "slug": "ai-finder-plus"
-  },
-  {
-    "title": "AI Freenav",
-    "body": "A free AI tool directory.",
-    "tag": "Free",
-    "url": "https://aifreenav.com/?ref=riseofmachine.com",
-    "date-added": "2025-08-06",
-    "slug": "ai-freenav"
   },
   {
     "title": "Aide",
@@ -152,12 +144,36 @@
     "slug": "elements-by-vercel"
   },
   {
+    "title": "Finder Plus",
+    "body": "A directory to discover, submit and earn from AI tools.",
+    "tag": "Freemium",
+    "url": "https://aifinderplus.com/?ref=riseofmachine.com",
+    "date-added": "2025-06-01",
+    "slug": "finder-plus"
+  },
+  {
+    "title": "Fluent App",
+    "body": "Any app. Any AI. Keep the Focus on Things, not Tools.",
+    "tag": "Paid",
+    "url": "https://fluentmac.app/?ref=riseofmachine.com",
+    "date-added": "2025-06-01",
+    "slug": "fluent-app"
+  },
+  {
     "title": "Fluxaicreate",
     "body": "Generate images, videos, and content from text.",
     "tag": "Freemium",
     "url": "https://www.fluxaicreate.org/?ref=riseofmachine.com",
     "date-added": "2025-10-03",
     "slug": "fluxaicreate"
+  },
+  {
+    "title": "Freenav",
+    "body": "A free AI tool directory.",
+    "tag": "Free",
+    "url": "https://aifreenav.com/?ref=riseofmachine.com",
+    "date-added": "2025-08-06",
+    "slug": "freenav"
   },
   {
     "title": "Generators",
@@ -174,6 +190,14 @@
     "url": "https://goodsfox.com/?ref=riseofmachine.com",
     "date-added": "2025-08-22",
     "slug": "goodsfox"
+  },
+  {
+    "title": "Grok Ani",
+    "body": "Your portal to dynamic AI personalities.",
+    "tag": "From $30/mo",
+    "url": "https://grok-ani.com?ref=riseofmachine.com",
+    "date-added": "2025-12-22",
+    "slug": "grok-ani"
   },
   {
     "title": "Hammer",
@@ -272,12 +296,12 @@
     "slug": "navitool"
   },
   {
-    "title": "Nickname Generator",
-    "body": "AI crafts unique, catchy nicknames from any input.",
-    "tag": "Free",
-    "url": "https://theresanaiforthat.com/@danielgaraiacu/nickname-generator/?ref=riseofmachine.com",
-    "date-added": "2025-06-18",
-    "slug": "nickname-generator"
+    "title": "Nectar AI",
+    "body": "Create and chat with customizable AI companions.",
+    "tag": "Freemium",
+    "url": "https://nectar.ai?ref=riseofmachine.com",
+    "date-added": "2025-12-26",
+    "slug": "nectar-ai"
   },
   {
     "title": "OC Maker",
@@ -446,6 +470,14 @@
     "url": "https://thatsmy.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-01",
     "slug": "thatsmy"
+  },
+  {
+    "title": "The Tech Info",
+    "body": "A collection of AI tools and tutorials for developers.",
+    "tag": "Free",
+    "url": "https://thetechinfo.net/?ref=riseofmachine.com",
+    "date-added": "2025-12-26",
+    "slug": "the-tech-info"
   },
   {
     "title": "Trace",

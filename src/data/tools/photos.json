@@ -1,29 +1,5 @@
 [
   {
-    "title": "AI Beauty Test",
-    "body": "Analyzes facial features and provides beauty score.",
-    "tag": "Free",
-    "url": "https://aibeautytest.org?ref=riseofmachine.com",
-    "date-added": "2025-06-01",
-    "slug": "ai-beauty-test"
-  },
-  {
-    "title": "AI Photo Editor",
-    "body": "AI-powered photo editing tools.",
-    "tag": "Freemium",
-    "url": "https://www.aiphotoeditor.space/?ref=riseofmachine.com",
-    "date-added": "2025-10-03",
-    "slug": "ai-photo-editor"
-  },
-  {
-    "title": "AIFaceSwap",
-    "body": "AI online tool instantly swaps faces in photos/vid.",
-    "tag": "Freemium",
-    "url": "https://aifaceswap.app/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "aifaceswap"
-  },
-  {
     "title": "Aragon AI",
     "body": "Generate pro AI headshots rapidly & affordably.",
     "tag": "Paid",
@@ -46,6 +22,14 @@
     "url": "https://aibackground.net?ref=riseofmachine.com",
     "date-added": "2025-08-26",
     "slug": "background"
+  },
+  {
+    "title": "Beauty Test",
+    "body": "Analyzes facial features and provides beauty score.",
+    "tag": "Free",
+    "url": "https://aibeautytest.org?ref=riseofmachine.com",
+    "date-added": "2025-06-01",
+    "slug": "beauty-test"
   },
   {
     "title": "BeautyCam Image Master",
@@ -168,6 +152,14 @@
     "slug": "facerate"
   },
   {
+    "title": "FaceSwap",
+    "body": "AI online tool instantly swaps faces in photos/vid.",
+    "tag": "Freemium",
+    "url": "https://aifaceswap.app/?ref=riseofmachine.com",
+    "date-added": "2025-06-06",
+    "slug": "faceswap"
+  },
+  {
     "title": "FaceVary",
     "body": "Free online face swap.",
     "tag": "Free",
@@ -190,6 +182,14 @@
     "url": "https://fluxaiweb.com/?ref=riseofmachine.com",
     "date-added": "2024-08-31",
     "slug": "flux-ai-online"
+  },
+  {
+    "title": "Food Generator",
+    "body": "Create food images for restaurant menu.",
+    "tag": "Free",
+    "url": "https://aifoodgenerator.net?ref=riseofmachine.com",
+    "date-added": "2025-12-25",
+    "slug": "food-generator"
   },
   {
     "title": "Foosh",
@@ -438,6 +438,14 @@
     "url": "https://photoai.com/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "photo"
+  },
+  {
+    "title": "Photo Editor",
+    "body": "AI-powered photo editing tools.",
+    "tag": "Freemium",
+    "url": "https://www.aiphotoeditor.space/?ref=riseofmachine.com",
+    "date-added": "2025-10-03",
+    "slug": "photo-editor"
   },
   {
     "title": "Photo Style",
