@@ -2,6 +2,7 @@
 import { ViewTransitions } from "astro:transitions";
 import SortButtons from "../components/SortButtons";
 import WebSiteSchema from "../components/schema/WebSiteSchema.astro";
+import Hero from "../components/Hero.astro";
 
 export interface Props {
     site: string;
@@ -179,32 +180,30 @@ const {
                     onRandomSeed={() => {}}
                 />
                 <a
+                    href="/saved"
+                    class="favorites-link"
+                    id="favoritesLink"
+                    style="display: none;"
+                >
+                    <span class="favorites-text">Saved tools</span>
+                    <span class="favorites-count" id="favoritesCount"></span>
+                </a>
+                <a
                     href="https://github.com/planetabhi/riseofmachine/issues"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="submit-btn"
-                    tabindex="0">Submit a tool</a
+                    tabindex="0"><span class="submit-text">Submit</span></a
                 >
             </div>
         </div>
 
-        <header class="nu-u-mb-10 nu-u-mt-10">
-            <div class="container">
-                <h1
-                    class="nu-c-h5 nu-u-text--primary nu-u-mt-0 nu-u-mb-2 title"
-                >
-                    {title}
-                </h1>
-                <p class="nu-c-fs-small nu-u-text--secondary description-text">
-                    {tagline}
-                </p>
-            </div>
-        </header>
+        <Hero title={title} tagline={tagline} />
         <slot />
 
         <div class="footer">
             <p>
-                ABHIMANYU RANA 2025 © <br />
+                ABHIMANYU RANA 2026 © <br />
                 <a
                     href="https://planetabhi.com/"
                     class="nu-u-link--subtle"
@@ -363,6 +362,7 @@ const {
         background-color: var(--background);
         border-radius: var(--spacing-00);
         font-size: var(--desktop-body-sm);
+        line-height: var(--lh-desktop-body-sm);
         transition: transform 0.2s ease;
 
         &:hover {
@@ -454,6 +454,63 @@ const {
         transform: rotate(15deg) scale(0.8);
         pointer-events: none;
     }
+
+    .favorites-link {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--spacing-02);
+        padding: var(--spacing-02) var(--spacing-05);
+        border: 0.5px solid var(--border-muted);
+        background-color: var(--background);
+        color: var(--content-secondary);
+        text-decoration: none;
+        font-size: var(--desktop-body-sm);
+        line-height: var(--lh-desktop-body-sm);
+        border-radius: var(--spacing-00);
+        outline: none;
+        transition: transform 0.2s ease;
+    }
+
+    .favorites-link:hover {
+        background-color: var(--background);
+        color: var(--accent);
+    }
+
+    .favorites-link:active {
+        background-color: var(--background);
+        color: var(--content-secondary);
+        transform: scale(0.97);
+    }
+
+    .favorites-link:focus {
+        background-color: var(--background);
+        outline: 1px solid var(--button-primary);
+        color: var(--content-secondary);
+    }
+
+    .favorites-link svg {
+        flex-shrink: 0;
+    }
+
+    .favorites-count {
+        display: none;
+    }
+
+    @media (max-width: 48rem) {
+        .favorites-text,
+        .submit-text {
+            display: none;
+        }
+
+        .favorites-count {
+            display: inline;
+        }
+
+        .submit-btn::after {
+            content: "Submit";
+        }
+    }
+
     .footer p {
         padding-bottom: var(--spacing-10);
         text-align: center;
@@ -463,6 +520,64 @@ const {
         font-size: var(--desktop-caption);
         line-height: var(--lh-desktop-caption);
         font-family: var(--monospace);
+    }
+
+    /* Empty state styles */
+    .empty-state {
+        text-align: center;
+        padding: var(--spacing-15) var(--spacing-06);
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .empty-state h2 {
+        margin-top: var(--spacing-04);
+        margin-bottom: var(--spacing-03);
+    }
+
+    .back-home-btn {
+        padding: var(--spacing-03) var(--spacing-06);
+        background-color: var(--accent);
+        color: var(--background);
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: var(--spacing-00);
+        transition: filter 0.2s ease;
+    }
+
+    .back-home-btn:hover {
+        filter: brightness(1.1);
+    }
+
+    /* Favorites page styles */
+    .favorites-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: var(--spacing-06);
+        flex-wrap: wrap;
+        gap: var(--spacing-04);
+    }
+
+    .sort-select {
+        padding: var(--spacing-02) var(--spacing-04);
+        border: 0.5px solid var(--border-muted);
+        background-color: var(--background);
+        color: var(--content-secondary);
+        font-size: var(--desktop-body-sm);
+        line-height: var(--lh-desktop-body-sm);
+        border-radius: var(--spacing-00);
+        cursor: var(--c-pointer);
+    }
+
+    .sort-select:hover {
+        background-color: var(--background-secondary);
+        border-color: var(--border);
+    }
+
+    .sort-select:focus {
+        outline: 2px solid var(--border-focus);
+        outline-offset: 2px;
     }
 
     @media (max-width: 30rem) {
@@ -538,6 +653,64 @@ const {
     window.addEventListener("scroll", () => {
         throttle(handleNavScroll, 80);
     });
+</script>
+
+<script>
+    // Handle data-tool-page attribute for ViewTransitions
+    function updateToolPageAttribute() {
+        if (window.location.pathname.startsWith("/tools/")) {
+            document.documentElement.setAttribute("data-tool-page", "true");
+        } else {
+            document.documentElement.removeAttribute("data-tool-page");
+        }
+    }
+
+    // Run on initial load
+    updateToolPageAttribute();
+
+    // Run on every client-side navigation
+    document.addEventListener("astro:page-load", updateToolPageAttribute);
+</script>
+
+<script is:inline>
+    // Update favorites link visibility
+    function updateFavoritesLink() {
+        try {
+            const linkEl = document.getElementById("favoritesLink");
+            const countEl = document.getElementById("favoritesCount");
+            if (!linkEl || !countEl) return;
+
+            const bookmarks = localStorage.getItem("rom_bookmarks");
+            const count = bookmarks ? JSON.parse(bookmarks).length : 0;
+
+            // Show link only if there are bookmarks
+            if (count > 0) {
+                linkEl.style.display = "inline-flex";
+                countEl.textContent = count;
+            } else {
+                linkEl.style.display = "none";
+                countEl.textContent = "";
+            }
+        } catch (e) {
+            console.error("Error updating favorites link:", e);
+        }
+    }
+
+    // Run on initial load
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", updateFavoritesLink);
+    } else {
+        updateFavoritesLink();
+    }
+
+    // Listen for bookmark changes
+    window.addEventListener("bookmarks:changed", updateFavoritesLink);
+
+    // Also update on page show (for back/forward navigation)
+    window.addEventListener("pageshow", updateFavoritesLink);
+
+    // Handle Astro page transitions
+    document.addEventListener("astro:page-load", updateFavoritesLink);
 </script>
 
 <script is:inline>

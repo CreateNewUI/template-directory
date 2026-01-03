@@ -4,6 +4,7 @@ import slugMap from "../../data/slug-map.json";
 import "@new-ui/foundations";
 import SoftwareApplicationSchema from "../../components/schema/SoftwareApplicationSchema.astro";
 import BreadcrumbSchema from "../../components/schema/BreadcrumbSchema.astro";
+import BookmarkButton from "../../components/BookmarkButton";
 
 export async function getStaticPaths() {
   // Use slug-map for efficient path generation (no need to load full tools.json)
@@ -168,8 +169,10 @@ const breadcrumbs = [
             />
           </div>
           <div class="tool-header-content">
-            <h1 class="tool-title">{tool.title}</h1>
-            <p class="tool-meta">Added on {formattedDate}</p>
+            <h1 class="tool-title nu-c-h5 nu-u-text--primary">{tool.title}</h1>
+            <p class="tool-meta nu-c-text nu-u-text--secondary">
+              Added on {formattedDate}
+            </p>
           </div>
         </div>
 
@@ -315,6 +318,12 @@ const breadcrumbs = [
             <a href={category === "all" ? "/" : `/${category}`} class="nav-link"
               >← Go back</a
             >
+            <BookmarkButton
+              client:load
+              slug={slug}
+              title={tool.title}
+              variant="default"
+            />
           </div>
         </div>
       </div>
@@ -376,7 +385,7 @@ const breadcrumbs = [
         if (e.key === "Escape") closeModal();
       });
 
-      // Mark that modal is open so we can hide background elements (title/description)
+      // Mark that modal is open IMMEDIATELY to prevent flash of background content
       document.body.setAttribute("data-modal-open", "true");
       // Prevent background scroll while modal open
       document.body.style.overflow = "hidden";
@@ -394,13 +403,18 @@ const breadcrumbs = [
   </script>
 
   <style is:global>
-    body[data-modal-open="true"] .title,
-    body[data-modal-open="true"] .description-text {
-      opacity: 0 !important;
-      visibility: hidden !important;
-      pointer-events: none !important;
-      transition: opacity 120ms ease;
+    /* Hide hero immediately on tool pages to prevent flash */
+    html[data-tool-page="true"] .hero {
+      display: none !important;
     }
+
+    /* Hide all background content when modal is open, except floating nav */
+    body[data-modal-open="true"] .hero,
+    body[data-modal-open="true"] main > *:not(.tool-detail-modal-backdrop),
+    body[data-modal-open="true"] .footer {
+      display: none !important;
+    }
+
     section {
       margin-bottom: var(--spacing-04);
     }
@@ -413,7 +427,6 @@ const breadcrumbs = [
     .tool-detail-modal-backdrop {
       position: fixed;
       inset: 0;
-      background-color: rgba(0, 0, 0, 0.64);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -463,7 +476,7 @@ const breadcrumbs = [
       display: flex;
       gap: var(--spacing-06);
       align-items: flex-start;
-      margin-bottom: var(--spacing-09);
+      margin-bottom: var(--spacing-06);
     }
 
     .tool-icon {
@@ -471,7 +484,7 @@ const breadcrumbs = [
       height: 48px;
     }
 
-    .tool-title {
+    .tool-detail-title {
       margin: 0;
       font-size: var(--desktop-heading-06);
       line-height: var(--lh-desktop-heading-06);
@@ -777,7 +790,7 @@ const breadcrumbs = [
     }
 
     .share-title {
-      margin-bottom: var(--spacing-04);
+      margin: 0 0 var(--spacing-04) 0;
       font-size: var(--desktop-caption);
       color: var(--content-secondary);
       font-family: var(--monospace);
@@ -787,6 +800,13 @@ const breadcrumbs = [
 
     .tool-detail-share {
       margin: var(--spacing-06) 0;
+    }
+
+    .tool-detail-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--spacing-03);
     }
 
     span.tag {
