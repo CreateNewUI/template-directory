@@ -7,6 +7,15 @@ export default function SearchInput({ placeholder = "Search by name, category, o
     const debounceRef = useRef(null);
 
     useEffect(() => {
+        return () => {
+            if (debounceRef.current) {
+                clearTimeout(debounceRef.current);
+                debounceRef.current = null;
+            }
+        };
+    }, []);
+
+    useEffect(() => {
         const handleKeyDown = (e) => {
             if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
                 e.preventDefault();
