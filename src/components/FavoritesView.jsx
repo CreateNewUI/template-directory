@@ -17,7 +17,6 @@ export default function FavoritesView() {
         loadBookmarks();
     }, []);
 
-    // Listen for bookmark changes
     useEffect(() => {
         const handleBookmarkChange = () => {
             loadBookmarks();
@@ -27,7 +26,6 @@ export default function FavoritesView() {
         return () => window.removeEventListener('bookmarks:changed', handleBookmarkChange);
     }, []);
 
-    // Sort tools
     const sortedTools = [...bookmarkedTools].sort((a, b) => {
         switch (sortBy) {
             case 'nameAsc':

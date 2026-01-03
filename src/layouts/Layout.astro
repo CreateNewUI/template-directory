@@ -105,13 +105,6 @@ const {
 
             gtag("config", "G-S08Z38BTMJ");
         </script>
-        <script is:inline>
-            // Prevent flash of background content on tool detail pages
-            // This runs immediately before page render
-            if (window.location.pathname.startsWith("/tools/")) {
-                document.documentElement.setAttribute("data-tool-page", "true");
-            }
-        </script>
         <ViewTransitions />
         <WebSiteSchema />
     </head>
@@ -660,6 +653,23 @@ const {
     window.addEventListener("scroll", () => {
         throttle(handleNavScroll, 80);
     });
+</script>
+
+<script>
+    // Handle data-tool-page attribute for ViewTransitions
+    function updateToolPageAttribute() {
+        if (window.location.pathname.startsWith("/tools/")) {
+            document.documentElement.setAttribute("data-tool-page", "true");
+        } else {
+            document.documentElement.removeAttribute("data-tool-page");
+        }
+    }
+
+    // Run on initial load
+    updateToolPageAttribute();
+
+    // Run on every client-side navigation
+    document.addEventListener("astro:page-load", updateToolPageAttribute);
 </script>
 
 <script is:inline>

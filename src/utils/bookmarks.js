@@ -25,7 +25,6 @@ export function getBookmarks() {
 function saveBookmarks(bookmarks) {
     try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
-        // Dispatch event for cross-component sync
         window.dispatchEvent(new CustomEvent('bookmarks:changed', {
             detail: { bookmarks }
         }));
@@ -103,7 +102,6 @@ export function getBookmarkedTools(allTools) {
     const bookmarks = getBookmarks();
     const bookmarkedTools = [];
 
-    // Flatten all tools and filter by bookmarked slugs
     allTools.forEach(category => {
         category.content.forEach(tool => {
             if (bookmarks.includes(tool.slug)) {

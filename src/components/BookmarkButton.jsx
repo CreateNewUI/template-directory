@@ -11,14 +11,12 @@ export default function BookmarkButton({
 }) {
     const [bookmarked, setBookmarked] = useState(false);
 
-    // Initialize bookmark state
     useEffect(() => {
         if (slug) {
             setBookmarked(isBookmarked(slug));
         }
     }, [slug]);
 
-    // Listen for bookmark changes from other components
     useEffect(() => {
         const handleBookmarkChange = (e) => {
             if (slug) {
