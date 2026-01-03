@@ -60,7 +60,11 @@ export default function BookmarkButton({
                     fill={bookmarked ? 'currentColor' : 'none'}
                 />
             </svg>
-            {showLabel && <span className="bookmark-label">Add tool to saved list</span>}
+            {showLabel && (
+                <span className="bookmark-label">
+                    {bookmarked ? `Remove ${title} from saved list` : `Add ${title} to saved list`}
+                </span>
+            )}
         </button>
     );
 }

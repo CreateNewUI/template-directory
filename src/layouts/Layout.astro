@@ -187,31 +187,21 @@ const {
                     onRandomSeed={() => {}}
                 />
                 <a
-                    href="/favorites"
+                    href="/saved"
                     class="favorites-link"
                     id="favoritesLink"
                     style="display: none;"
                 >
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        viewBox="0 0 20 20"
-                        fill="none"
-                    >
-                        <path
-                            d="M15 19L9.80769 17.0435L5 19V1H15V19Z"
-                            stroke="currentColor"
-                            stroke-miterlimit="10"></path>
-                    </svg>
-                    <span class="favorites-text">Saved tools</span>
+                    <span class="favorites-text">Saved</span>
+                    <span class="favorites-count" id="favoritesCount"></span>
                 </a>
                 <a
                     href="https://github.com/planetabhi/riseofmachine/issues"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="submit-btn"
-                    tabindex="0">Submit a tool</a
+                    tabindex="0"
+                    ><span class="submit-text">Submit a tool</span></a
                 >
             </div>
         </div>
@@ -380,6 +370,7 @@ const {
         background-color: var(--background);
         border-radius: var(--spacing-00);
         font-size: var(--desktop-body-sm);
+        line-height: var(--lh-desktop-body-sm);
         transition: transform 0.2s ease;
 
         &:hover {
@@ -476,30 +467,55 @@ const {
         display: inline-flex;
         align-items: center;
         gap: var(--spacing-02);
-        padding: var(--spacing-02) var(--spacing-04);
+        padding: var(--spacing-02) var(--spacing-05);
         border: 0.5px solid var(--border-muted);
         background-color: var(--background);
         color: var(--content-secondary);
         text-decoration: none;
         font-size: var(--desktop-body-sm);
         line-height: var(--lh-desktop-body-sm);
-        transition: all 0.2s ease;
         border-radius: var(--spacing-00);
+        outline: none;
+        transition: transform 0.2s ease;
     }
 
     .favorites-link:hover {
-        background-color: var(--background-secondary);
+        background-color: var(--background);
         color: var(--accent);
-        border-color: var(--border);
+    }
+
+    .favorites-link:active {
+        background-color: var(--background);
+        color: var(--content-secondary);
+        transform: scale(0.97);
+    }
+
+    .favorites-link:focus {
+        background-color: var(--background);
+        outline: 1px solid var(--button-primary);
+        color: var(--content-secondary);
     }
 
     .favorites-link svg {
         flex-shrink: 0;
     }
 
+    .favorites-count {
+        display: none;
+    }
+
     @media (max-width: 48rem) {
-        .favorites-text {
+        .favorites-text,
+        .submit-text {
             display: none;
+        }
+
+        .favorites-count {
+            display: inline;
+        }
+
+        .submit-btn::after {
+            content: "Submit";
         }
     }
 
@@ -652,13 +668,20 @@ const {
     function updateFavoritesLink() {
         try {
             const linkEl = document.getElementById("favoritesLink");
-            if (!linkEl) return;
+            const countEl = document.getElementById("favoritesCount");
+            if (!linkEl || !countEl) return;
 
             const bookmarks = localStorage.getItem("rom_bookmarks");
             const count = bookmarks ? JSON.parse(bookmarks).length : 0;
 
             // Show link only if there are bookmarks
-            linkEl.style.display = count > 0 ? "inline-flex" : "none";
+            if (count > 0) {
+                linkEl.style.display = "inline-flex";
+                countEl.textContent = count;
+            } else {
+                linkEl.style.display = "none";
+                countEl.textContent = "";
+            }
         } catch (e) {
             console.error("Error updating favorites link:", e);
         }
