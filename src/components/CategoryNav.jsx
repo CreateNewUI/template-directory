@@ -10,6 +10,8 @@ export default function CategoryNav({ filter }) {
     const leftFade = document.querySelector('.nav-fade-left');
     const rightFade = document.querySelector('.nav-fade-right');
 
+    if (!nav || !leftFade || !rightFade) return;
+
     function checkScroll() {
       if (nav.scrollLeft > 0) {
         leftFade.classList.add('show');
@@ -24,7 +26,6 @@ export default function CategoryNav({ filter }) {
       }
     }
 
-    // Store handler references for proper cleanup
     const handleLeftClick = () => {
       nav.scrollBy({ left: -200, behavior: 'smooth' });
     };

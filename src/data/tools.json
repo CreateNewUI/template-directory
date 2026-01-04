@@ -1901,15 +1901,7 @@
           "slug": "luma-ai"
         },
         {
-          "title": "Magician",
-          "body": "Generate icons, copy & images in Figma.",
-          "tag": "Free",
-          "url": "https://magician.design/?ref=riseofmachine.com",
-          "date-added": "2023-12-12",
-          "slug": "magician"
-        },
-        {
-          "title": "MagicPath",
+          "title": "Magic Path",
           "body": "Generate front-end UIs from prompts.",
           "tag": "Freemium",
           "url": "https://www.magicpath.ai/?ref=riseofmachine.com",
@@ -1917,8 +1909,8 @@
           "slug": "magicpath"
         },
         {
-          "title": "Magicpatterns",
-          "body": "Optional) - Design.",
+          "title": "Magic Patterns",
+          "body": "AI design tool for product teams.",
           "tag": "Freemium",
           "url": "https://www.magicpatterns.com?ref=riseofmachine.com",
           "date-added": "2025-12-14",
@@ -1971,14 +1963,6 @@
           "url": "https://www.napkin.ai/?ref=riseofmachine.com",
           "date-added": "2025-06-01",
           "slug": "napkin-ai"
-        },
-        {
-          "title": "New UI",
-          "body": "Modern, semantic UI framework for building beautiful sites and apps.",
-          "tag": "Open-source",
-          "url": "https://new-ui.com/?ref=riseofmachine.com",
-          "date-added": "2025-11-19",
-          "slug": "new-ui"
         },
         {
           "title": "New UI Templates",
@@ -2170,6 +2154,14 @@
       "title": "Developer",
       "category": "developer",
       "content": [
+        {
+          "title": "✨ New UI",
+          "body": "Modern, semantic UI framework for building beautiful sites and apps.",
+          "tag": "Open-source",
+          "url": "https://new-ui.com/?ref=riseofmachine.com",
+          "date-added": "2025-11-19",
+          "slug": "new-ui"
+        },
         {
           "title": "AI SDK 5 by Vercel",
           "body": "The AI toolkit for TypeScript.",
@@ -3055,14 +3047,6 @@
           "slug": "brainfish"
         },
         {
-          "title": "Caladan",
-          "body": "AI fundraising copilot to connect with VCs.",
-          "url": "https://www.caladan.com/?ref=riseofmachine.com",
-          "tag": "Freemium",
-          "date-added": "2025-09-21",
-          "slug": "caladan"
-        },
-        {
           "title": "Chat Agents",
           "body": "No-code platform to create AI Chatbots.",
           "url": "https://www.chatagents.io/?ref=riseofmachine.com",
@@ -3823,14 +3807,6 @@
           "slug": "ai-agents-live"
         },
         {
-          "title": "Aicode",
-          "body": "Aicode",
-          "tag": "Not available",
-          "url": "https://aicode.help?ref=riseofmachine.com",
-          "date-added": "2025-06-03",
-          "slug": "aicode"
-        },
-        {
           "title": "Appagent",
           "body": "Multimodal agents as smartphone users.",
           "tag": "Free",
@@ -4298,6 +4274,14 @@
           "url": "https://musicgeneratorai.com/?ref=riseofmachine.com",
           "date-added": "2025-06-06",
           "slug": "music-generator"
+        },
+        {
+          "title": "Orange Music",
+          "body": "Turn prompts into songs.",
+          "tag": "Freemium",
+          "url": "https://oaimusicgen.com?ref=riseofmachine.com",
+          "date-added": "2026-01-04",
+          "slug": "orange-music"
         },
         {
           "title": "Raplyrics",
@@ -6988,14 +6972,6 @@
           "slug": "dubbah"
         },
         {
-          "title": "Eddie",
-          "body": "ChatGPT for video editing assistance.",
-          "tag": "Not available",
-          "url": "https://eddie.ai/?ref=riseofmachine.com",
-          "date-added": "2025-06-06",
-          "slug": "eddie"
-        },
-        {
           "title": "Elai.io",
           "body": "Video creation with AI avatars & text-to-speech.",
           "tag": "Freemium",
@@ -7594,14 +7570,6 @@
       "category": "xtras",
       "content": [
         {
-          "title": "✨ Make for India",
-          "body": "Discover India-made innovations.",
-          "tag": "Free",
-          "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
-          "date-added": "2025-12-26",
-          "slug": "make-for-india"
-        },
-        {
           "title": "Acidtools",
           "body": "Free AI tools.",
           "tag": "Free",
@@ -7712,22 +7680,6 @@
           "url": "https://deepseek.com/?ref=riseofmachine.com",
           "date-added": "2025-08-22",
           "slug": "deepseek-v31"
-        },
-        {
-          "title": "Deforge",
-          "body": "Canva for AI Agents.",
-          "tag": "Freemium",
-          "url": "https://deforge.ai/?ref=riseofmachine.com",
-          "date-added": "2025-08-23",
-          "slug": "deforge"
-        },
-        {
-          "title": "DreamFlow",
-          "body": "Turn map screenshots into cinematic videos.",
-          "tag": "Freemium",
-          "url": "https://dreamflow.ai/?ref=riseofmachine.com",
-          "date-added": "2025-08-23",
-          "slug": "dreamflow"
         },
         {
           "title": "Elements by Vercel",
@@ -7866,6 +7818,14 @@
           "slug": "madespace"
         },
         {
+          "title": "Make for India",
+          "body": "Discover India-made innovations.",
+          "tag": "Free",
+          "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
+          "date-added": "2025-12-26",
+          "slug": "make-for-india"
+        },
+        {
           "title": "Manus",
           "body": "Execute tasks, automate workflows.",
           "url": "https://manus.im/?ref=riseofmachine.com",
@@ -7928,14 +7888,6 @@
           "url": "https://penny.im/?ref=riseofmachine.com",
           "date-added": "2023-12-15",
           "slug": "penny"
-        },
-        {
-          "title": "PerformaMeter",
-          "body": "Upload a photo and get your Performity™ rated.",
-          "tag": "Freemium",
-          "url": "https://performameter.com/?ref=riseofmachine.com",
-          "date-added": "2025-08-24",
-          "slug": "performameter"
         },
         {
           "title": "ProfileSpider",
@@ -8032,6 +7984,14 @@
           "url": "https://speedvitals.com/rum?ref=riseofmachine.com",
           "date-added": "2025-08-21",
           "slug": "speedvitals-rum"
+        },
+        {
+          "title": "Stamp Generator",
+          "body": "Create custom stamps in seconds.",
+          "tag": "Free",
+          "url": "https://stampgenerator.net?ref=riseofmachine.com",
+          "date-added": "2026-01-04",
+          "slug": "stamp-generator"
         },
         {
           "title": "StoryBox",

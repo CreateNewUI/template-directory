@@ -1,7 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import slugMap from "../../data/slug-map.json";
-import "@new-ui/foundations";
 import SoftwareApplicationSchema from "../../components/schema/SoftwareApplicationSchema.astro";
 import BreadcrumbSchema from "../../components/schema/BreadcrumbSchema.astro";
 import BookmarkButton from "../../components/BookmarkButton";
@@ -39,15 +38,14 @@ if (!found) {
 const tool = found;
 const category = categoryName;
 
-// helpers
-function extractDomain(url: string) {
+const extractDomain = (url: string) => {
   try {
     return new URL(url).hostname.replace("www.", "");
   } catch {
     return "";
   }
-}
-function formatDate(dateStr: string) {
+};
+const formatDate = (dateStr: string) => {
   try {
     return new Date(dateStr).toLocaleDateString("en-US", {
       year: "numeric",
@@ -57,45 +55,39 @@ function formatDate(dateStr: string) {
   } catch {
     return dateStr;
   }
-}
+};
 
 const domain = extractDomain(tool.url || "");
 const formattedDate = formatDate(tool["date-added"]);
 const canonicalUrl = `https://riseofmachine.com/tools/${tool.slug}`;
-// Use self-hosted favicon from public folder (eliminates third-party Google requests)
 const faviconUrl = `/favicons/${slug}.png`;
 const fallbackPath = category === "all" ? "/" : `/${category}`;
 
-// Dynamically import per-tool metadata (lightweight ~0.4KB file)
 let meta: any = {};
 try {
   const toolMetadata = await import(`../../data/tool-metadata/${slug}.json`);
   meta = toolMetadata.default;
-} catch (e) {
-  // Fallback to tool data if metadata file doesn't exist
-  console.warn(`No metadata file for ${slug}, using tool data`);
-}
+} catch (e) {}
 
 const seoTitle = meta.title || tool.title;
 const seoDescription = meta.description || tool.body;
-// We don't have OG images in the new simplified metadata, so falling back to favicon or site default
 const seoOgImage = faviconUrl;
 const seoOgType = "website";
 const seoOgSiteName = "Rise of Machine";
 
-const shareText = `Check out ${tool.title} - ${tool.body}`;
-const encodedShareText = encodeURIComponent(shareText);
+const encodedShareText = encodeURIComponent(
+  `Check out ${tool.title} - ${tool.body}`,
+);
 const encodedCanonicalUrl = encodeURIComponent(canonicalUrl);
 const xShareUrl = `https://x.com/intent/post?text=${encodedShareText}&url=${encodedCanonicalUrl}&via=planetabhi`;
 const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedCanonicalUrl}`;
 const redditShareUrl = `https://www.reddit.com/submit?url=${encodedCanonicalUrl}&title=${encodedShareText}`;
 
-// Get category title for breadcrumb
-// We'll use the category name directly since we don't have the full data loaded
-const categoryTitle =
-  categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
+const allCategoryTools = categoryTools.default || [];
+const otherTools = allCategoryTools.filter((t: any) => t.slug !== slug);
+const relatedTools = otherTools.sort(() => Math.random() - 0.5).slice(0, 4);
 
-// Breadcrumb data
+const categoryTitle = category.charAt(0).toUpperCase() + category.slice(1);
 const breadcrumbs = [
   { name: "Home", url: "https://riseofmachine.com" },
   { name: categoryTitle, url: `https://riseofmachine.com/${category}` },
@@ -140,7 +132,6 @@ const breadcrumbs = [
       >
         <button
           class="tool-detail-close-btn"
-          id="closeModal"
           title="Close (Press ESC)"
           aria-label="Close tool details"
         >
@@ -170,9 +161,14 @@ const breadcrumbs = [
           </div>
           <div class="tool-header-content">
             <h1 class="tool-title nu-c-h5 nu-u-text--primary">{tool.title}</h1>
-            <p class="tool-meta nu-c-text nu-u-text--secondary">
-              Added on {formattedDate}
-            </p>
+            <div class="tool-header-meta">
+              <a href={`/${category}`} class="category-badge">{categoryTitle}</a
+              >
+              <span class="meta-separator">·</span>
+              <span class="tool-meta nu-c-text nu-u-text--secondary"
+                >Added {formattedDate}</span
+              >
+            </div>
           </div>
         </div>
 
@@ -314,6 +310,31 @@ const breadcrumbs = [
             </div>
           </div>
 
+          {
+            relatedTools.length > 0 && (
+              <div class="tool-related">
+                <h3 class="related-title">Similar Tools</h3>
+                <div class="related-grid">
+                  {relatedTools.map((t: any) => (
+                    <a
+                      href={`/tools/${t.slug}`}
+                      class="related-card"
+                      data-astro-history="replace"
+                    >
+                      <img
+                        src={`/favicons/${t.slug}.png`}
+                        alt=""
+                        class="related-icon"
+                        onerror="this.style.display='none'"
+                      />
+                      <span class="related-name">{t.title}</span>
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )
+          }
+
           <div class="tool-detail-nav">
             <a href={category === "all" ? "/" : `/${category}`} class="nav-link"
               >← Go back</a
@@ -331,85 +352,77 @@ const breadcrumbs = [
   </main>
 
   <script type="module">
-    (function () {
-      const modalEl = document.getElementById("toolModal");
-      const fallbackNavigateTo = modalEl?.dataset.fallback || "/";
-      const hasSameOriginReferrer = (() => {
-        try {
-          if (!document.referrer) return false;
-          const ref = new URL(document.referrer);
-          return ref.origin === window.location.origin;
-        } catch {
-          return false;
-        }
-      })();
+    function closeModal() {
+      document.body.removeAttribute("data-modal-open");
+      document.body.style.overflow = "";
 
-      function closeModal() {
-        // remove modal marker before navigating back
-        document.body.removeAttribute("data-modal-open");
-        document.body.style.overflow = "";
-        if (hasSameOriginReferrer && window.history.length > 1) {
-          window.history.back();
-        } else {
-          window.location.href = fallbackNavigateTo;
-        }
+      if (window.history.length > 1) window.history.back();
+      else
+        window.location.href =
+          document.getElementById("toolModal")?.dataset.fallback || "/";
+    }
+
+    function handleInteraction(e) {
+      if (
+        e.target.closest(".tool-detail-close-btn") ||
+        (e.target.closest(".tool-detail-modal-backdrop") &&
+          !e.target.closest(".tool-detail-modal"))
+      ) {
+        e.preventDefault();
+        return closeModal();
       }
 
-      // Delegate clicks for close, backdrop, and copy
-      document.addEventListener("click", (e) => {
-        const close = e.target.closest(".tool-detail-close-btn");
-        if (close) return closeModal();
+      const copyBtn = e.target.closest("#copyLinkBtn");
+      if (copyBtn) {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          const original = copyBtn.innerHTML;
+          copyBtn.innerHTML =
+            '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+          setTimeout(() => (copyBtn.innerHTML = original), 2000);
+        });
+      }
+    }
 
-        // If clicked outside the modal but inside backdrop
-        const backdrop = e.target.closest(".tool-detail-modal-backdrop");
-        const modal = e.target.closest(".tool-detail-modal");
-        if (backdrop && !modal) return closeModal();
+    function handleKeydown(e) {
+      if (e.key === "Escape") closeModal();
+    }
 
-        const copyBtn = e.target.closest("#copyLinkBtn");
-        if (copyBtn) {
-          const url = window.location.href;
-          navigator.clipboard.writeText(url).then(() => {
-            const original = copyBtn.innerHTML;
-            copyBtn.innerHTML =
-              '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>';
-            copyBtn.title = "Copied!";
-            setTimeout(() => {
-              copyBtn.innerHTML = original;
-              copyBtn.title = "Copy link to clipboard";
-            }, 2000);
-          });
-        }
-      });
+    function cleanup() {
+      document.removeEventListener("click", handleInteraction);
+      document.removeEventListener("keydown", handleKeydown);
+      document.body.removeAttribute("data-modal-open");
+      document.body.style.overflow = "";
+    }
 
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") closeModal();
-      });
+    function init() {
+      const modal = document.getElementById("toolModal");
+      if (!modal) return;
 
-      // Mark that modal is open IMMEDIATELY to prevent flash of background content
+      // Ensure fresh state
+      cleanup();
+
+      const backdrop = document.getElementById("modalBackdrop");
+      if (backdrop) backdrop.scrollTop = 0;
+
       document.body.setAttribute("data-modal-open", "true");
-      // Prevent background scroll while modal open
       document.body.style.overflow = "hidden";
 
-      // Ensure state cleanup on page hide/unload
-      window.addEventListener("pagehide", () => {
-        document.body.removeAttribute("data-modal-open");
-        document.body.style.overflow = "";
-      });
-      window.addEventListener("unload", () => {
-        document.body.removeAttribute("data-modal-open");
-        document.body.style.overflow = "";
-      });
-    })();
+      document.addEventListener("click", handleInteraction);
+      document.addEventListener("keydown", handleKeydown);
+    }
+
+    // Initialize on load
+    init();
+
+    // Re-initialize on ViewTransitions navigation
+    document.addEventListener("astro:page-load", init);
+
+    // Clean up when navigating away or hidden
+    document.addEventListener("astro:before-preparation", cleanup);
+    window.addEventListener("pagehide", cleanup);
   </script>
 
   <style is:global>
-    /* Hide hero immediately on tool pages to prevent flash */
-    html[data-tool-page="true"] .hero,
-    html[data-tool-page="true"] .footer {
-      display: none !important;
-    }
-
-    /* Hide all background content when modal is open, except floating nav */
     body[data-modal-open="true"] .hero,
     body[data-modal-open="true"] main > *:not(.tool-detail-modal-backdrop),
     body[data-modal-open="true"] .footer {
@@ -779,9 +792,12 @@ const breadcrumbs = [
     }
 
     .tool-detail-nav {
+      margin-top: var(--spacing-06);
       padding-top: var(--spacing-05);
       border-top: 0.5px solid var(--border-muted);
       display: flex;
+      justify-content: space-between;
+      align-items: center;
       gap: var(--spacing-03);
     }
 
@@ -800,14 +816,86 @@ const breadcrumbs = [
     }
 
     .tool-detail-share {
-      margin: var(--spacing-06) 0;
+      margin-top: var(--spacing-06);
     }
 
-    .tool-detail-nav {
+    /* Category badge */
+    .tool-header-meta {
       display: flex;
-      justify-content: space-between;
+      align-items: center;
+      gap: var(--spacing-02);
+      flex-wrap: wrap;
+    }
+
+    .category-badge {
+      display: inline-block;
+      padding: var(--spacing-01) var(--spacing-03);
+      background-color: var(--background-selected);
+      color: var(--content-secondary);
+      font-size: var(--desktop-caption);
+      line-height: var(--lh-desktop-caption);
+      text-decoration: none;
+      border-radius: var(--spacing-00);
+    }
+
+    .category-badge:hover {
+      background-color: var(--accent);
+      color: var(--background);
+    }
+
+    .meta-separator {
+      color: var(--content-secondary);
+    }
+
+    /* Related tools section */
+    .tool-related {
+      margin-top: var(--spacing-06);
+      padding-top: var(--spacing-05);
+      border-top: 0.5px solid var(--border-muted);
+    }
+
+    .related-title {
+      margin: 0 0 var(--spacing-04) 0;
+      font-size: var(--desktop-caption);
+      color: var(--content-secondary);
+      font-family: var(--monospace);
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--spacing-03);
+    }
+
+    .related-card {
+      display: flex;
       align-items: center;
       gap: var(--spacing-03);
+      padding: var(--spacing-03);
+      background-color: var(--background-secondary);
+      text-decoration: none;
+      border-radius: var(--spacing-00);
+    }
+
+    .related-card:hover {
+      background-color: var(--background-selected);
+    }
+
+    .related-icon {
+      width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+    }
+
+    .related-name {
+      color: var(--content-primary);
+      font-size: var(--desktop-body-sm);
+      line-height: var(--lh-desktop-body-sm);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     span.tag {
@@ -837,6 +925,10 @@ const breadcrumbs = [
 
       .tool-section {
         padding: var(--spacing-05);
+      }
+
+      .related-grid {
+        grid-template-columns: 1fr;
       }
     }
   </style>

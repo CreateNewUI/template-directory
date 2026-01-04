@@ -34,18 +34,15 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
   const [isLoading, setIsLoading] = useState(false);
   const loaderRef = useRef(null);
 
-  // Restore saved UI state (scroll position + displayedCount) if present
   useEffect(() => {
     try {
       const raw = sessionStorage.getItem("toolsState");
       if (raw) {
         const state = JSON.parse(raw);
-        // Only restore when the saved filter matches current filter
         if (state && state.filter === filter) {
           if (state.displayedCount && state.displayedCount > displayedCount) {
             setDisplayedCount(state.displayedCount);
           }
-          // Restore scroll a tick later so content has rendered
           setTimeout(() => {
             if (typeof window !== "undefined" && typeof state.scrollY !== "undefined") {
               window.scrollTo(0, state.scrollY);
@@ -54,10 +51,7 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
         }
         sessionStorage.removeItem("toolsState");
       }
-    } catch (err) {
-      // ignore
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    } catch (err) { }
   }, []);
 
   const allFlatTools = useMemo(() => {
@@ -125,12 +119,10 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
     return sorted;
   }, [filter, sort, randomSeed, searchQuery, fuse]);
 
-  // Reset displayed count when filter changes
   useEffect(() => {
     setDisplayedCount(ITEMS_PER_PAGE);
   }, [filter, searchQuery]);
 
-  // Listen for save-state events (dispatched before navigating to a tool detail)
   useEffect(() => {
     const handleSaveState = () => {
       try {
@@ -140,16 +132,13 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
           scrollY: typeof window !== "undefined" ? window.scrollY || window.pageYOffset : 0,
         };
         sessionStorage.setItem("toolsState", JSON.stringify(state));
-      } catch (err) {
-        // ignore
-      }
+      } catch (err) { }
     };
 
     window.addEventListener("tools:save-state", handleSaveState);
     return () => window.removeEventListener("tools:save-state", handleSaveState);
   }, [displayedCount, filter]);
 
-  // Also attempt restore when page is shown (useful when navigating back)
   useEffect(() => {
     const tryRestore = () => {
       try {
@@ -167,9 +156,7 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
           }, 50);
         }
         sessionStorage.removeItem("toolsState");
-      } catch (err) {
-        // ignore
-      }
+      } catch (err) { }
     };
 
     window.addEventListener('pageshow', tryRestore);
@@ -178,16 +165,13 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
       window.removeEventListener('pageshow', tryRestore);
       window.removeEventListener('astro:page-load', tryRestore);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter]);
 
-  // Intersection Observer for infinite scroll
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && !isLoading && displayedCount < filteredCards.length) {
           setIsLoading(true);
-          // Simulate network delay
           setTimeout(() => {
             setDisplayedCount((prev) => Math.min(prev + ITEMS_PER_PAGE, filteredCards.length));
             setIsLoading(false);
@@ -206,29 +190,61 @@ export default function CardsContainer({ filter, sort = "nameAsc", randomSeed = 
 
   const displayedCards = filteredCards.slice(0, displayedCount);
 
+  // Check if searching with no results in a specific category
+  const isSearchingInCategory = searchQuery && searchQuery.length >= 2 && filter !== "all";
+  const hasNoSearchResults = isSearchingInCategory && filteredCards.length === 0;
+
   return (
     <section>
-      <ul role="list" className="link-card-grid">
-        {displayedCards.map(({ url, title, body, tag, "date-added": dateAdded, slug, category }, i) => (
-          <Card
-            key={`${title}-${i}`}
-            href={url}
-            title={title}
-            body={body}
-            tag={tag}
-            dateAdded={dateAdded}
-            slug={slug}
-            category={category}
-          />
-        ))}
-      </ul>
-
-      {displayedCount < filteredCards.length && (
-        <div ref={loaderRef} className="infinite-scroll-loader">
-          {isLoading && (
-            <p className="loading-text">Loading more...</p>
-          )}
+      {hasNoSearchResults ? (
+        <div className="empty-state">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="48"
+            height="48"
+            viewBox="0 0 48 48"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ color: 'var(--content-secondary)', marginBottom: 'var(--spacing-05)' }}
+          >
+            <circle cx="20" cy="20" r="14" />
+            <path d="M30 30l12 12" />
+          </svg>
+          <p className="nu-c-fs-small nu-u-text--secondary" style={{ maxWidth: '24rem', margin: '0 auto', textAlign: 'center' }}>
+            No results found for "{searchQuery}" in this category.
+          </p>
+          <a href="/" className="submit-btn" style={{ marginTop: 'var(--spacing-06)', display: 'inline-block' }}>
+            Search All Tools
+          </a>
         </div>
+      ) : (
+        <>
+          <ul role="list" className="link-card-grid">
+            {displayedCards.map(({ url, title, body, tag, "date-added": dateAdded, slug, category }, i) => (
+              <Card
+                key={`${title}-${i}`}
+                href={url}
+                title={title}
+                body={body}
+                tag={tag}
+                dateAdded={dateAdded}
+                slug={slug}
+                category={category}
+              />
+            ))}
+          </ul>
+
+          {displayedCount < filteredCards.length && (
+            <div ref={loaderRef} className="infinite-scroll-loader">
+              {isLoading && (
+                <p className="loading-text">Loading more...</p>
+              )}
+            </div>
+          )}
+        </>
       )}
     </section>
   );

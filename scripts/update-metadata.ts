@@ -95,13 +95,17 @@ async function fetchMetadata(tool: Tool): Promise<MetadataEntry | null> {
             root.querySelector('meta[name="description"]')?.getAttribute('content')?.trim() ||
             root.querySelector('meta[property="og:description"]')?.getAttribute('content')?.trim();
 
-        // Only return if we actually found something useful to augment tools.json
-        if (!title && !description) return null;
+        // Extract OG image for preview
+        const ogImage = root.querySelector('meta[property="og:image"]')?.getAttribute('content')?.trim();
+
+        // Only return if we found something useful
+        if (!title && !description && !ogImage) return null;
 
         return {
             slug: tool.slug || '',
             title: title || undefined,
             description: description || undefined,
+            ogImage: ogImage || undefined,
         };
 
     } catch (err: any) {

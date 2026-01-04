@@ -1,13 +1,5 @@
 [
   {
-    "title": "✨ Make for India",
-    "body": "Discover India-made innovations.",
-    "tag": "Free",
-    "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
-    "date-added": "2025-12-26",
-    "slug": "make-for-india"
-  },
-  {
     "title": "Acidtools",
     "body": "Free AI tools.",
     "tag": "Free",
@@ -118,22 +110,6 @@
     "url": "https://deepseek.com/?ref=riseofmachine.com",
     "date-added": "2025-08-22",
     "slug": "deepseek-v31"
-  },
-  {
-    "title": "Deforge",
-    "body": "Canva for AI Agents.",
-    "tag": "Freemium",
-    "url": "https://deforge.ai/?ref=riseofmachine.com",
-    "date-added": "2025-08-23",
-    "slug": "deforge"
-  },
-  {
-    "title": "DreamFlow",
-    "body": "Turn map screenshots into cinematic videos.",
-    "tag": "Freemium",
-    "url": "https://dreamflow.ai/?ref=riseofmachine.com",
-    "date-added": "2025-08-23",
-    "slug": "dreamflow"
   },
   {
     "title": "Elements by Vercel",
@@ -272,6 +248,14 @@
     "slug": "madespace"
   },
   {
+    "title": "Make for India",
+    "body": "Discover India-made innovations.",
+    "tag": "Free",
+    "url": "https://makeforindia.com/digital-products/?ref=riseofmachine.com",
+    "date-added": "2025-12-26",
+    "slug": "make-for-india"
+  },
+  {
     "title": "Manus",
     "body": "Execute tasks, automate workflows.",
     "url": "https://manus.im/?ref=riseofmachine.com",
@@ -334,14 +318,6 @@
     "url": "https://penny.im/?ref=riseofmachine.com",
     "date-added": "2023-12-15",
     "slug": "penny"
-  },
-  {
-    "title": "PerformaMeter",
-    "body": "Upload a photo and get your Performity™ rated.",
-    "tag": "Freemium",
-    "url": "https://performameter.com/?ref=riseofmachine.com",
-    "date-added": "2025-08-24",
-    "slug": "performameter"
   },
   {
     "title": "ProfileSpider",
@@ -438,6 +414,14 @@
     "url": "https://speedvitals.com/rum?ref=riseofmachine.com",
     "date-added": "2025-08-21",
     "slug": "speedvitals-rum"
+  },
+  {
+    "title": "Stamp Generator",
+    "body": "Create custom stamps in seconds.",
+    "tag": "Free",
+    "url": "https://stampgenerator.net?ref=riseofmachine.com",
+    "date-added": "2026-01-04",
+    "slug": "stamp-generator"
   },
   {
     "title": "StoryBox",
