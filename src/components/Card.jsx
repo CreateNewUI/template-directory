@@ -22,9 +22,7 @@ export default function Card(props) {
       <a
         href={linkUrl}
         onClick={() => {
-          try {
-            window.dispatchEvent(new CustomEvent('tools:save-state'));
-          } catch (err) { }
+          window.dispatchEvent(new CustomEvent('tools:save-state'));
         }}
       >
         <strong className="nu-c-fs-normal nu-u-mt-1 nu-u-mb-1">{title}</strong>
