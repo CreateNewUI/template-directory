@@ -707,9 +707,6 @@
   "magicpatterns": [
     "design"
   ],
-  "magician": [
-    "design"
-  ],
   "mewdesign": [
     "design"
   ],
@@ -2573,9 +2570,6 @@
   "dubbah": [
     "video"
   ],
-  "eddie": [
-    "video"
-  ],
   "elaiio": [
     "video"
   ],
@@ -2840,9 +2834,6 @@
   "deepseek-v31": [
     "xtras"
   ],
-  "deforge": [
-    "xtras"
-  ],
   "dreamflow": [
     "xtras"
   ],
@@ -2922,9 +2913,6 @@
     "xtras"
   ],
   "penny": [
-    "xtras"
-  ],
-  "performameter": [
     "xtras"
   ],
   "profilespider": [

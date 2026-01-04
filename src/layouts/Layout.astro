@@ -701,14 +701,16 @@ const {
             previousScrollPosition = currentScrolledPosition;
         };
 
-        let throttleWait;
-        function throttle(callback, time) {
-            if (throttleWait) return;
-            throttleWait = true;
-            setTimeout(() => {
+        function throttle(callback, delay) {
+            let waiting = false;
+            return function () {
+                if (waiting) return;
+                waiting = true;
                 callback();
-                throttleWait = false;
-            }, time);
+                setTimeout(() => {
+                    waiting = false;
+                }, delay);
+            };
         }
 
         const updateFavoritesLink = () => {
@@ -731,6 +733,9 @@ const {
                 }
             } catch (e) {}
         };
+
+        // Create throttled scroll handler once
+        const throttledNavScroll = throttle(handleNavScroll, 80);
 
         // Core Initialization (Runs on every page load including initial)
         const init = () => {
@@ -777,9 +782,7 @@ const {
 
         // Global Event Listeners (ensure single attachment)
         if (!window.__rom_initialized) {
-            window.addEventListener("scroll", () =>
-                throttle(handleNavScroll, 80),
-            );
+            window.addEventListener("scroll", throttledNavScroll);
             window.addEventListener("bookmarks:changed", updateFavoritesLink);
             window.addEventListener("pageshow", updateFavoritesLink);
             document.addEventListener("astro:page-load", init);

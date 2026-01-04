@@ -1917,14 +1917,6 @@
           "slug": "magicpatterns"
         },
         {
-          "title": "Magician",
-          "body": "Generate icons, copy & images in Figma.",
-          "tag": "Free",
-          "url": "https://magician.design/?ref=riseofmachine.com",
-          "date-added": "2023-12-12",
-          "slug": "magician"
-        },
-        {
           "title": "Mew.Design",
           "body": "Generate & refine graphics, social posts, and flyers",
           "tag": "Freemium",
@@ -6996,14 +6988,6 @@
           "slug": "dubbah"
         },
         {
-          "title": "Eddie",
-          "body": "ChatGPT for video editing assistance.",
-          "tag": "Not available",
-          "url": "https://eddie.ai/?ref=riseofmachine.com",
-          "date-added": "2025-06-06",
-          "slug": "eddie"
-        },
-        {
           "title": "Elai.io",
           "body": "Video creation with AI avatars & text-to-speech.",
           "tag": "Freemium",
@@ -7714,14 +7698,6 @@
           "slug": "deepseek-v31"
         },
         {
-          "title": "Deforge",
-          "body": "Canva for AI Agents.",
-          "tag": "Freemium",
-          "url": "https://deforge.ai/?ref=riseofmachine.com",
-          "date-added": "2025-08-23",
-          "slug": "deforge"
-        },
-        {
           "title": "DreamFlow",
           "body": "Turn map screenshots into cinematic videos.",
           "tag": "Freemium",
@@ -7936,14 +7912,6 @@
           "url": "https://penny.im/?ref=riseofmachine.com",
           "date-added": "2023-12-15",
           "slug": "penny"
-        },
-        {
-          "title": "PerformaMeter",
-          "body": "Upload a photo and get your Performity™ rated.",
-          "tag": "Freemium",
-          "url": "https://performameter.com/?ref=riseofmachine.com",
-          "date-added": "2025-08-24",
-          "slug": "performameter"
         },
         {
           "title": "ProfileSpider",
