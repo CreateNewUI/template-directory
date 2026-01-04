@@ -388,27 +388,39 @@ const breadcrumbs = [
       if (e.key === "Escape") closeModal();
     }
 
+    function cleanup() {
+      document.removeEventListener("click", handleInteraction);
+      document.removeEventListener("keydown", handleKeydown);
+      document.body.removeAttribute("data-modal-open");
+      document.body.style.overflow = "";
+    }
+
     function init() {
       const modal = document.getElementById("toolModal");
       if (!modal) return;
+
+      // Ensure fresh state
+      cleanup();
 
       const backdrop = document.getElementById("modalBackdrop");
       if (backdrop) backdrop.scrollTop = 0;
 
       document.body.setAttribute("data-modal-open", "true");
       document.body.style.overflow = "hidden";
+
+      document.addEventListener("click", handleInteraction);
+      document.addEventListener("keydown", handleKeydown);
     }
 
+    // Initialize on load
     init();
+
+    // Re-initialize on ViewTransitions navigation
     document.addEventListener("astro:page-load", init);
 
-    document.addEventListener("click", handleInteraction);
-    document.addEventListener("keydown", handleKeydown);
-
-    window.addEventListener("pagehide", () => {
-      document.body.removeAttribute("data-modal-open");
-      document.body.style.overflow = "";
-    });
+    // Clean up when navigating away or hidden
+    document.addEventListener("astro:before-preparation", cleanup);
+    window.addEventListener("pagehide", cleanup);
   </script>
 
   <style is:global>

@@ -110,12 +110,6 @@ const {
 
             gtag("config", "G-S08Z38BTMJ");
         </script>
-        <script is:inline>
-            if (window.location.pathname.startsWith("/tools/")) {
-                document.documentElement.setAttribute("data-tool-page", "true");
-                document.body?.setAttribute("data-modal-open", "true");
-            }
-        </script>
         <ViewTransitions />
         <WebSiteSchema />
     </head>
@@ -421,6 +415,7 @@ const {
         border-radius: var(--spacing-00);
         transition: transform 0.1s ease;
         position: relative;
+        margin-left: var(--spacing-02);
 
         @nest [data-theme="dark--warm"] & {
             --icon-fill: var(--content-secondary);
@@ -780,13 +775,18 @@ const {
         history.scrollRestoration = "manual";
         window.onbeforeunload = () => window.scrollTo(0, 0);
 
-        // Event Listeners
-        window.addEventListener("scroll", () => throttle(handleNavScroll, 80));
-        window.addEventListener("bookmarks:changed", updateFavoritesLink);
-        window.addEventListener("pageshow", updateFavoritesLink);
-        document.addEventListener("astro:page-load", init);
+        // Global Event Listeners (ensure single attachment)
+        if (!window.__rom_initialized) {
+            window.addEventListener("scroll", () =>
+                throttle(handleNavScroll, 80),
+            );
+            window.addEventListener("bookmarks:changed", updateFavoritesLink);
+            window.addEventListener("pageshow", updateFavoritesLink);
+            document.addEventListener("astro:page-load", init);
+            window.__rom_initialized = true;
+        }
 
-        // Initial run for non-ViewTransitions browsers or very fast load
+        // Initial run for the current page
         if (document.readyState === "loading") {
             document.addEventListener("DOMContentLoaded", init);
         } else {
