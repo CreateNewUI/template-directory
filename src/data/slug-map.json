@@ -1124,9 +1124,6 @@
   "brainfish": [
     "enterprise"
   ],
-  "caladan": [
-    "enterprise"
-  ],
   "chat-agents": [
     "enterprise"
   ],
@@ -1401,9 +1398,6 @@
     "llm"
   ],
   "ai-agents-live": [
-    "llm"
-  ],
-  "aicode": [
     "llm"
   ],
   "appagent": [
@@ -2832,9 +2826,6 @@
     "xtras"
   ],
   "deepseek-v31": [
-    "xtras"
-  ],
-  "dreamflow": [
     "xtras"
   ],
   "elements-by-vercel": [

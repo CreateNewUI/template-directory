@@ -3047,14 +3047,6 @@
           "slug": "brainfish"
         },
         {
-          "title": "Caladan",
-          "body": "AI fundraising copilot to connect with VCs.",
-          "url": "https://www.caladan.com/?ref=riseofmachine.com",
-          "tag": "Freemium",
-          "date-added": "2025-09-21",
-          "slug": "caladan"
-        },
-        {
           "title": "Chat Agents",
           "body": "No-code platform to create AI Chatbots.",
           "url": "https://www.chatagents.io/?ref=riseofmachine.com",
@@ -3813,14 +3805,6 @@
           "url": "https://aiagentslive.com/?ref=riseofmachine.com",
           "date-added": "2025-02-19",
           "slug": "ai-agents-live"
-        },
-        {
-          "title": "Aicode",
-          "body": "Aicode",
-          "tag": "Not available",
-          "url": "https://aicode.help?ref=riseofmachine.com",
-          "date-added": "2025-06-03",
-          "slug": "aicode"
         },
         {
           "title": "Appagent",
@@ -7696,14 +7680,6 @@
           "url": "https://deepseek.com/?ref=riseofmachine.com",
           "date-added": "2025-08-22",
           "slug": "deepseek-v31"
-        },
-        {
-          "title": "DreamFlow",
-          "body": "Turn map screenshots into cinematic videos.",
-          "tag": "Freemium",
-          "url": "https://dreamflow.ai/?ref=riseofmachine.com",
-          "date-added": "2025-08-23",
-          "slug": "dreamflow"
         },
         {
           "title": "Elements by Vercel",

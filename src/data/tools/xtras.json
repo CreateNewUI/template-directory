@@ -112,14 +112,6 @@
     "slug": "deepseek-v31"
   },
   {
-    "title": "DreamFlow",
-    "body": "Turn map screenshots into cinematic videos.",
-    "tag": "Freemium",
-    "url": "https://dreamflow.ai/?ref=riseofmachine.com",
-    "date-added": "2025-08-23",
-    "slug": "dreamflow"
-  },
-  {
     "title": "Elements by Vercel",
     "body": "A component library for building AI-native apps.",
     "tag": "Open-source",
