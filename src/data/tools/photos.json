@@ -88,6 +88,14 @@
     "slug": "bulk-image-generator"
   },
   {
+    "title": "BulkGen AI",
+    "body": "Specialized bulk AI image generator.",
+    "tag": "Not available",
+    "url": "https://bulkgen.co?ref=riseofmachine.com",
+    "date-added": "2026-01-22",
+    "slug": "bulkgen-ai"
+  },
+  {
     "title": "Can of Soup",
     "body": "AI photos with your friends.",
     "tag": "Free",
@@ -302,6 +310,14 @@
     "url": "https://imageoptimizer.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "image-optimizer"
+  },
+  {
+    "title": "Image Text Editor",
+    "body": "AI-powered photo text replacement tool.",
+    "tag": "Freemium",
+    "url": "https://imagetexteditor.org?ref=riseofmachine.com",
+    "date-added": "2026-01-22",
+    "slug": "image-text-editor"
   },
   {
     "title": "Imggen AI",
@@ -560,6 +576,14 @@
     "slug": "restore-photos"
   },
   {
+    "title": "SceneYou.art",
+    "body": "AI-powered personal image generator.",
+    "tag": "From $19/mo",
+    "url": "https://sceneyou.art?ref=riseofmachine.com",
+    "date-added": "2026-01-22",
+    "slug": "sceneyouart"
+  },
+  {
     "title": "SellerPic",
     "body": "Enhance product photos Create videos & scenes.",
     "tag": "Freemium",
@@ -590,6 +614,14 @@
     "url": "https://www.topazlabs.com/topaz-photo-ai/?ref=riseofmachine.com",
     "date-added": "2023-12-15",
     "slug": "topaz-photo-ai"
+  },
+  {
+    "title": "Travel Photos",
+    "body": "Realistic AI-generated travel portraits.",
+    "tag": "Free",
+    "url": "https://www.travelphotos.art?ref=riseofmachine.com",
+    "date-added": "2026-01-22",
+    "slug": "travel-photos"
   },
   {
     "title": "WhatBreedIsMyCat",
