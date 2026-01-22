@@ -93,6 +93,14 @@
           "slug": "chronopets"
         },
         {
+          "title": "Coloring Page",
+          "body": "Create and export coloring pages.",
+          "tag": "Freemium",
+          "url": "https://aicolor.page?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "coloring-page"
+        },
+        {
           "title": "ColorMon",
           "body": "AI coloring pages from text/photo, print-ready.",
           "tag": "Freemium",
@@ -3041,6 +3049,14 @@
           "slug": "my-math-solver-ai"
         },
         {
+          "title": "Quiz Cabin",
+          "body": "Platform for amazing quiz creation.",
+          "tag": "Free",
+          "url": "https://quizcabin.com?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "quiz-cabin"
+        },
+        {
           "title": "Studdy",
           "body": "Snap and ask.",
           "tag": "Freemium",
@@ -4364,6 +4380,14 @@
           "slug": "murekaai"
         },
         {
+          "title": "MuseGen",
+          "body": "Generate music from text prompts.",
+          "tag": "Freemium",
+          "url": "https://musegen.org?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "musegen"
+        },
+        {
           "title": "Music AI",
           "body": "Audio intelligence platform.",
           "tag": "Freemium",
@@ -4768,6 +4792,14 @@
           "slug": "bulk-image-generator"
         },
         {
+          "title": "BulkGen AI",
+          "body": "Specialized bulk AI image generator.",
+          "tag": "Not available",
+          "url": "https://bulkgen.co?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "bulkgen-ai"
+        },
+        {
           "title": "Can of Soup",
           "body": "AI photos with your friends.",
           "tag": "Free",
@@ -4982,6 +5014,14 @@
           "url": "https://imageoptimizer.ai/?ref=riseofmachine.com",
           "date-added": "2025-06-06",
           "slug": "image-optimizer"
+        },
+        {
+          "title": "Image Text Editor",
+          "body": "AI-powered photo text replacement tool.",
+          "tag": "Freemium",
+          "url": "https://imagetexteditor.org?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "image-text-editor"
         },
         {
           "title": "Imggen AI",
@@ -5240,6 +5280,14 @@
           "slug": "restore-photos"
         },
         {
+          "title": "SceneYou.art",
+          "body": "AI-powered personal image generator.",
+          "tag": "From $19/mo",
+          "url": "https://sceneyou.art?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "sceneyouart"
+        },
+        {
           "title": "SellerPic",
           "body": "Enhance product photos Create videos & scenes.",
           "tag": "Freemium",
@@ -5270,6 +5318,14 @@
           "url": "https://www.topazlabs.com/topaz-photo-ai/?ref=riseofmachine.com",
           "date-added": "2023-12-15",
           "slug": "topaz-photo-ai"
+        },
+        {
+          "title": "Travel Photos",
+          "body": "Realistic AI-generated travel portraits.",
+          "tag": "Free",
+          "url": "https://www.travelphotos.art?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "travel-photos"
         },
         {
           "title": "WhatBreedIsMyCat",
@@ -5910,7 +5966,7 @@
           "slug": "reclaim-ai"
         },
         {
-          "title": "remio Note Taker",
+          "title": "Remio Note Taker",
           "body": "Local first AI note taker and PKM solution.",
           "tag": "Not available",
           "url": "https://remio.ai/?ref=riseofmachine.com",
@@ -6068,6 +6124,14 @@
           "url": "https://ultramail.ai/?ref=riseofmachine.com",
           "date-added": "2023-12-29",
           "slug": "ultra"
+        },
+        {
+          "title": "uniquenames.net",
+          "body": "AI generator for unique names.",
+          "tag": "Freemium",
+          "url": "https://uniquenames.net?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "uniquenamesnet"
         },
         {
           "title": "Upscaler",
@@ -6330,6 +6394,14 @@
           "url": "https://srefhunter.top/?ref=riseofmachine.com",
           "date-added": "2024-06-17",
           "slug": "srefhunter"
+        },
+        {
+          "title": "XPROMPTS",
+          "body": "Curated collection of Gemini prompts.",
+          "tag": "Free",
+          "url": "https://xprompts.app?ref=riseofmachine.com",
+          "date-added": "2026-01-22",
+          "slug": "xprompts"
         }
       ]
     },

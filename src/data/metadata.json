@@ -24,6 +24,11 @@
     "title": "Banana AI - Free AI Image Generator",
     "description": "Free AI image and video generation platform. Transform photos, create cinematic videos, apply styles, background removal, and restoration—fast and easy."
   },
+  "banana-pro": {
+    "slug": "banana-pro",
+    "title": "Banana Pro – Advanced AI Image Generator & Editor",
+    "description": "Banana Pro is a next-generation AI image model for professional-grade text-to-image creation, high-resolution rendering, and precise, context-aware editing. Try it free and bring your visual ideas to life."
+  },
   "best-coloring-pages": {
     "slug": "best-coloring-pages",
     "title": "The #1 AI Coloring Page Generator - BestColoringPages AI",
@@ -100,11 +105,6 @@
     "description": "Transform any face photo into professional 3D models in minutes with our AI-powered face to 3D converter. World's most advanced face to 3D model generator. Try free!",
     "ogImage": "https://faceto3d.com/logo.png"
   },
-  "banana-pro": {
-    "slug": "banana-pro",
-    "title": "Banana Pro – Advanced AI Image Generator & Editor",
-    "description": "Banana Pro is a next-generation AI image model for professional-grade text-to-image creation, high-resolution rendering, and precise, context-aware editing. Try it free and bring your visual ideas to life."
-  },
   "fast-image-ai": {
     "slug": "fast-image-ai",
     "title": "No-Style Generator - Fast Image AI",
@@ -176,6 +176,12 @@
     "title": "Hotpot.ai: AI image generator, AI headshots, and other AI tools to spark creativity and productivity",
     "description": "Hotpot helps you create amazing images, graphics, and writing with AI. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or spark creativity with other products from our AI platform. Automate away drudgery with AI photo editing tools while easy-to-edit templates empower anyone to create social media posts, marketing images, app icons, and other work graphics."
   },
+  "image-to-image-maker": {
+    "slug": "image-to-image-maker",
+    "title": "Image to Image Maker - Free AI Image Editor Online",
+    "description": "Create, edit, and enhance images with our free AI-powered image to image maker. Professional quality results in seconds.",
+    "ogImage": "https://imagetoimagemaker.com/logo.png"
+  },
   "image-to-prompt": {
     "slug": "image-to-prompt",
     "title": "Image to Prompt: Free AI Prompt Generator for Midjourney & SD",
@@ -185,6 +191,12 @@
     "slug": "imagefx",
     "title": "ImageFX - Free AI Image Generator | Create Stunning AI Art",
     "description": "Transform your ideas into stunning artwork with ImageFX, the professional AI image generator. Create high-quality digital art, illustrations, and photo-realistic images in seconds with our advanced AI technology."
+  },
+  "imgkits": {
+    "slug": "imgkits",
+    "title": "Imgkits | Top AI Image & Video Processing Tools Online",
+    "description": "Transform your visuals with Imgkits - the ultimate AI image and video editing platform. Get impressive results instantly, completely free. Try it now!",
+    "ogImage": "https://public.imgkits.com/imgkits/imgkits_saas.png"
   },
   "infinite-craft-guide": {
     "slug": "infinite-craft-guide",
@@ -204,18 +216,6 @@
   "invoke": {
     "slug": "invoke",
     "title": "Invoke - AI-Powered Creative Engine"
-  },
-  "image-to-image-maker": {
-    "slug": "image-to-image-maker",
-    "title": "Image to Image Maker - Free AI Image Editor Online",
-    "description": "Create, edit, and enhance images with our free AI-powered image to image maker. Professional quality results in seconds.",
-    "ogImage": "https://imagetoimagemaker.com/logo.png"
-  },
-  "imgkits": {
-    "slug": "imgkits",
-    "title": "Imgkits | Top AI Image & Video Processing Tools Online",
-    "description": "Transform your visuals with Imgkits - the ultimate AI image and video editing platform. Get impressive results instantly, completely free. Try it now!",
-    "ogImage": "https://public.imgkits.com/imgkits/imgkits_saas.png"
   },
   "krea": {
     "slug": "krea",
@@ -241,6 +241,12 @@
     "slug": "magictryon",
     "title": "Kolors Virtual Try On - Try Clothes Online Instantly | MagicTryOn",
     "description": "magictryon is a kolors virtual try on app that allows you to try on clothes virtually, see how outfits look on you instantly. Experience the future of online fashion shopping with our advanced virtual try on app."
+  },
+  "makebw": {
+    "slug": "makebw",
+    "title": "Free Image to Black and White Converter - MakeBW.com",
+    "description": "Instantly make any image black and white with MakeBW. The best free online converter for grayscale, line art, and coloring pages. No upload needed, 100% private.",
+    "ogImage": "https://makebw.com/web-app-manifest-512x512.png"
   },
   "mediaai-art": {
     "slug": "mediaai-art",
@@ -282,6 +288,12 @@
     "title": "Pictorial | Effortlessly create graphics for your web applications",
     "description": "Inspiration is hard to come by. Get your message across hustle-free by leveraging an AI able to generate reliable, ready-to-use visual masterpieces."
   },
+  "picture-generator": {
+    "slug": "picture-generator",
+    "title": "AI Picture Generator | Text-to-Image & Photo Editing",
+    "description": "Turn ideas into images in minutes with text-to-image and image-to-image. Great for e-commerce, profiles, and social creatives. Privacy-first with saved history.",
+    "ogImage": "https://aipicturegenerator.ai/og.png"
+  },
   "pixarai": {
     "slug": "pixarai",
     "title": "Pixar-Style AI Generator for Custom Posters, Memes & Dog Art | PixarAI",
@@ -296,18 +308,6 @@
     "slug": "rundiffusion",
     "title": "RunDiffusion - All the Best AI Tools. One Platform. One License.",
     "description": "RunDiffusion amplifies your imagination and creative expression with AI. Effortlessly turn ideas into reality with accessible, collaborative tools built to accelerate your creativity. Get Flux 2, Nano Banana Pro, Seedream 4, Veo 3, Kling and more all on one collaborative platform."
-  },
-  "picture-generator": {
-    "slug": "picture-generator",
-    "title": "AI Picture Generator | Text-to-Image & Photo Editing",
-    "description": "Turn ideas into images in minutes with text-to-image and image-to-image. Great for e-commerce, profiles, and social creatives. Privacy-first with saved history.",
-    "ogImage": "https://aipicturegenerator.ai/og.png"
-  },
-  "makebw": {
-    "slug": "makebw",
-    "title": "Free Image to Black and White Converter - MakeBW.com",
-    "description": "Instantly make any image black and white with MakeBW. The best free online converter for grayscale, line art, and coloring pages. No upload needed, 100% private.",
-    "ogImage": "https://makebw.com/web-app-manifest-512x512.png"
   },
   "sdxl-turbo": {
     "slug": "sdxl-turbo",
@@ -369,6 +369,11 @@
     "title": "YIX.ai — AI Image & Video Generator for Creators",
     "description": "YIX.ai is an AI-powered creative platform for image generation, video synthesis, and smart media creation. Turn ideas into visuals in seconds."
   },
+  "zzo-ai": {
+    "slug": "zzo-ai",
+    "title": "Free All-in-one AI Image Generator & Photo Editor | Zzo.ai",
+    "description": "Free AI image generator & photo editor. Zzo.ai offers AI art creation, photo editing in one platform. Create amazing content now!"
+  },
   "adtwin": {
     "slug": "adtwin",
     "title": "Adtwin - AI Audio Advertising Platform",
@@ -419,11 +424,6 @@
     "title": "Free Real Time AI Voice Changer for PC & Mac",
     "description": "Free AI Voice Changer with 1000+ distinct AI voices in 100+ languages. Dubbing AI Voice Changer enables everyone to speak in any voice everywhere real-time."
   },
-  "zzo-ai": {
-    "slug": "zzo-ai",
-    "title": "Free All-in-one AI Image Generator & Photo Editor | Zzo.ai",
-    "description": "Free AI image generator & photo editor. Zzo.ai offers AI art creation, photo editing in one platform. Create amazing content now!"
-  },
   "elevenlabs": {
     "slug": "elevenlabs",
     "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
@@ -442,6 +442,11 @@
   "harmonai": {
     "slug": "harmonai",
     "title": "Harmonai.org"
+  },
+  "kits-ai": {
+    "slug": "kits-ai",
+    "title": "AI Voice Studio | Change a voice with Kits.AI",
+    "description": "Change your voice into any other voice with the Kits AI Voice Studio. Upload your audio and edit your voice in our in-browser workflow, choosing from a variety of royalty-free artist or instrument AI voice generators."
   },
   "lalal": {
     "slug": "lalal",
@@ -532,11 +537,6 @@
     "slug": "speechlab",
     "title": "Speechlab - Scaling Speech-to-Speech Translation with AI",
     "description": "Speechlab builds generative AI for speech translation that captures human thought and emotion. Our dubbing solution offers high accuracy and flexibility, built for professional translators and localization teams to scale global content with ease."
-  },
-  "kits-ai": {
-    "slug": "kits-ai",
-    "title": "AI Voice Studio | Change a voice with Kits.AI",
-    "description": "Change your voice into any other voice with the Kits AI Voice Studio. Upload your audio and edit your voice in our in-browser workflow, choosing from a variety of royalty-free artist or instrument AI voice generators."
   },
   "eleven-ai": {
     "slug": "eleven-ai",
@@ -920,6 +920,12 @@
     "title": "Free AI Writer, Content Generator & Writing Assistant | Rytr",
     "description": "Discover Rytr, your free AI writing assistant. Craft high-quality content faster than ever before. Start for free and upgrade as you grow!"
   },
+  "sickleaveemail": {
+    "slug": "sickleaveemail",
+    "title": "AI Sick Leave Email Generator | Professional & Privacy-First",
+    "description": "Draft HR-approved sick leave emails in seconds. Protect your privacy while maintaining professional accountability.",
+    "ogImage": "https://sickleaveemail.help/og-image.png"
+  },
   "simplified": {
     "slug": "simplified",
     "title": "Free AI Writer - Text Generator & AI Copywriting Assistant",
@@ -949,6 +955,12 @@
     "slug": "the-humanize",
     "title": "Humanize Ai Pro - Free Unlimited Ai Humanizer Tool",
     "description": "Transform Ai-generated text into natural, human-like content with Humanize Ai. Free unlimited text humanization tool. No signup required, instant results ..."
+  },
+  "transmonkey": {
+    "slug": "transmonkey",
+    "title": "Translate Document, Image, Video Online with AI | Transmonkey",
+    "description": "Translate any file instantly with Transmonkey. Our top AI translator can translate documents, images, audio, and video - PDF, Word, PNG, MP3 and more.",
+    "ogImage": "https://public.transmonkey.ai/Transmonkey/homepage/opengraph.webp"
   },
   "typli": {
     "slug": "typli",
@@ -1008,18 +1020,6 @@
   "cheers-geo": {
     "slug": "cheers-geo",
     "title": "cheersgeo.com"
-  },
-  "transmonkey": {
-    "slug": "transmonkey",
-    "title": "Translate Document, Image, Video Online with AI | Transmonkey",
-    "description": "Translate any file instantly with Transmonkey. Our top AI translator can translate documents, images, audio, and video - PDF, Word, PNG, MP3 and more.",
-    "ogImage": "https://public.transmonkey.ai/Transmonkey/homepage/opengraph.webp"
-  },
-  "sickleaveemail": {
-    "slug": "sickleaveemail",
-    "title": "AI Sick Leave Email Generator | Professional & Privacy-First",
-    "description": "Draft HR-approved sick leave emails in seconds. Protect your privacy while maintaining professional accountability.",
-    "ogImage": "https://sickleaveemail.help/og-image.png"
   },
   "csm": {
     "slug": "csm",
@@ -1341,25 +1341,25 @@
     "title": "One API for Top AI Models Worldwide –  Save 20-70% AI Costs with EvoLink",
     "description": "Access 40+ AI models for chat, video, image, and music through one EvoLink API, with 99.9% uptime, smart routing, and pricing up to 70% cheaper than direct use."
   },
-  "atla": {
-    "slug": "atla",
-    "title": "Collectors & Connectors in Religion & Theology",
-    "description": "Collectors & Connectors in Religion & Theology"
+  "ai2sql": {
+    "slug": "ai2sql",
+    "title": "SQL Query Builder & Generator - AI Powered Database Assistant",
+    "description": "AI-powered SQL query builder enables you to quickly build SQL queries without any knowledge of SQL for beginners."
   },
   "capmonster-cloud": {
     "slug": "capmonster-cloud",
     "title": "CAPTCHA Solver – Automatic CAPTCHA Solving Service | CapMonster Cloud",
     "description": "CapMonster Cloud is a fast CAPTCHA solver and automatic solving service. This AI-powered tool supports reCAPTCHA, GeeTest, Cloudflare, and more. Scale the online solving of simple and complex CAPTCHAs using CapMonster Cloud’s built-in intelligent reader."
   },
+  "atla": {
+    "slug": "atla",
+    "title": "Collectors & Connectors in Religion & Theology",
+    "description": "Collectors & Connectors in Religion & Theology"
+  },
   "cursor-mcp": {
     "slug": "cursor-mcp",
     "title": "Best MCP Servers for Cursor - CURSOR MCP",
     "description": "Discover the largest collection of MCP Servers for Cursor. Search and find powerful MCP Servers to enhance your AI client capabilities."
-  },
-  "ai2sql": {
-    "slug": "ai2sql",
-    "title": "SQL Query Builder & Generator - AI Powered Database Assistant",
-    "description": "AI-powered SQL query builder enables you to quickly build SQL queries without any knowledge of SQL for beginners."
   },
   "flappy": {
     "slug": "flappy",
@@ -1415,6 +1415,12 @@
     "title": "AI Workflow Automation Platform & Tools - n8n",
     "description": "n8n is a workflow automation platform that uniquely combines AI capabilities with business process automation, giving technical teams the flexibility of code with the speed of no-code."
   },
+  "nat-checker": {
+    "slug": "nat-checker",
+    "title": "NAT Checker - Free Online NAT Type Detection Tool",
+    "description": "Free, fast, accurate NAT check for developers and gamers on PS5, Xbox, Switch, and PC. Understand network status and improve play.",
+    "ogImage": "https://natchecker.com/open-graph.png"
+  },
   "neum": {
     "slug": "neum",
     "title": "Neum AI",
@@ -1459,12 +1465,6 @@
     "slug": "portia-ai",
     "title": "Portia AI",
     "description": "Portia enables teams to build safe, reliable AI agents in regulated environments."
-  },
-  "nat-checker": {
-    "slug": "nat-checker",
-    "title": "NAT Checker - Free Online NAT Type Detection Tool",
-    "description": "Free, fast, accurate NAT check for developers and gamers on PS5, Xbox, Switch, and PC. Understand network status and improve play.",
-    "ogImage": "https://natchecker.com/open-graph.png"
   },
   "postbot": {
     "slug": "postbot",
@@ -1519,6 +1519,12 @@
     "slug": "scade",
     "title": "Scade.pro",
     "description": "Quickly create AI features and products"
+  },
+  "screenshot-to-code": {
+    "slug": "screenshot-to-code",
+    "title": "Screenshot to Code - AI-Powered Code Generator",
+    "description": "Screenshot to Code converts screenshots to HTML/CSS code instantly. Free AI-powered tool for developers. Try Screenshot to Code now!",
+    "ogImage": "https://screenshottocode.net/logo.png"
   },
   "shaped": {
     "slug": "shaped",
@@ -1575,20 +1581,14 @@
     "title": "Teachable Machine",
     "description": "Train a computer to recognize your own images, sounds, & poses.\n                A fast, easy way to create machine learning models for your sites, apps, and more – no expertise or coding required."
   },
-  "synexa": {
-    "slug": "synexa",
-    "title": "Synexa AI: Deploy AI Models in One Line of Code",
-    "description": "Simplify AI deployment with Synexa. Run powerful AI models instantly with just one line of code. Fast, stable, and developer-friendly."
-  },
   "repotalent": {
     "slug": "repotalent",
     "title": "Redirecting..."
   },
-  "screenshot-to-code": {
-    "slug": "screenshot-to-code",
-    "title": "Screenshot to Code - AI-Powered Code Generator",
-    "description": "Screenshot to Code converts screenshots to HTML/CSS code instantly. Free AI-powered tool for developers. Try Screenshot to Code now!",
-    "ogImage": "https://screenshottocode.net/logo.png"
+  "synexa": {
+    "slug": "synexa",
+    "title": "Synexa AI: Deploy AI Models in One Line of Code",
+    "description": "Simplify AI deployment with Synexa. Run powerful AI models instantly with just one line of code. Fast, stable, and developer-friendly."
   },
   "tensorblock-forge": {
     "slug": "tensorblock-forge",
@@ -1699,24 +1699,29 @@
     "title": "AI Math Solver Powered by Math GPT Free Online",
     "description": "Experience the AI math solver for solving complex math equations and math word problems. Our math solver online free offers detailed, step-by-step solutions powered by math GPT and math AI bot, ensuring accurate and interactive learning."
   },
-  "tinygrad": {
-    "slug": "tinygrad",
-    "title": "tinygrad: A simple and powerful neural network framework"
+  "zen-agents": {
+    "slug": "zen-agents",
+    "title": "Zencoder | The AI Coding Agent",
+    "description": "Discover Zencoder's AI Coding Agent Platform for seamless code execution and collaboration. Boost productivity with advanced analytics, flexible deployment, and custom agents for your team."
   },
   "manna": {
     "slug": "manna",
     "title": "Manna – Gamified Bible Study App for Daily Devotionals & Quizzes",
     "description": "Gamify Bible study with Manna and build a daily faith habit through short lessons, Bible quizzes, devotionals, verse widget and interactive Scripture study."
   },
-  "zen-agents": {
-    "slug": "zen-agents",
-    "title": "Zencoder | The AI Coding Agent",
-    "description": "Discover Zencoder's AI Coding Agent Platform for seamless code execution and collaboration. Boost productivity with advanced analytics, flexible deployment, and custom agents for your team."
+  "tinygrad": {
+    "slug": "tinygrad",
+    "title": "tinygrad: A simple and powerful neural network framework"
   },
   "studdy": {
     "slug": "studdy",
     "title": "Studdy AI | An AI Tutor In Your Pocket",
     "description": "Snap, Ask, and Conquer with Your AI-Powered Studdy Buddy"
+  },
+  "teachany": {
+    "slug": "teachany",
+    "title": "TeachAny | AI Teaching Tools Platform for Teachers",
+    "description": "Streamline teaching with TeachAny's AI tools. Create personalized lessons, worksheets, quizzes, etc. in minutes and reclaim your valuable planning time"
   },
   "thea": {
     "slug": "thea",
@@ -1827,11 +1832,6 @@
     "slug": "explee",
     "title": "Explee | AI search for companies and people",
     "description": "The most effective semantic search engine for companies and decision makers"
-  },
-  "teachany": {
-    "slug": "teachany",
-    "title": "TeachAny | AI Teaching Tools Platform for Teachers",
-    "description": "Streamline teaching with TeachAny's AI tools. Create personalized lessons, worksheets, quizzes, etc. in minutes and reclaim your valuable planning time"
   },
   "flowla": {
     "slug": "flowla",
@@ -2174,14 +2174,14 @@
     "title": "Re.fit: The DROP - first nutrition tracking wearable",
     "description": "The DROP is the world's first nutrition and calorie tracking wearable for patients, athletes, and health conscious users. Uses computer vision and AI to help you with your goals from longevity to weight loss and muscle building. Nutrition and calorie tracking API to integrate into your apps, whether fitness chains or gyms or wellness centers."
   },
+  "body-fat-calc": {
+    "slug": "body-fat-calc",
+    "title": "Redirecting..."
+  },
   "qmai": {
     "slug": "qmai",
     "title": "千面视频动捕 - AI动作捕捉生成3D动画平台",
     "description": "用图片中的人物替换视频中的人物角色，通过AI 3D动画技术创作出引人入胜的视频"
-  },
-  "body-fat-calc": {
-    "slug": "body-fat-calc",
-    "title": "Redirecting..."
   },
   "your-avocado": {
     "slug": "your-avocado",
@@ -2474,6 +2474,11 @@
     "title": "AI Music & Song Generator | Create Music (Free, Online)",
     "description": "Generate unique music and complete songs in any genre using our advanced AI Music & Song Generator. Ideal for musicians, content creators, and music producers."
   },
+  "orange-music": {
+    "slug": "orange-music",
+    "title": "AI Music Generator Free Online",
+    "description": "AI Music Generator Free Online — turn prompts into songs with our free ai music generator toolkit: ai music generator · ai music generator free · ai song generator · free ai music generator · music ai generator"
+  },
   "raplyrics": {
     "slug": "raplyrics",
     "title": "Raplyrics – Generate your rap music punchlines.",
@@ -2527,11 +2532,6 @@
     "slug": "tomusic",
     "title": "Text to Music: AI Song Maker & Lyric to Music Generator",
     "description": "Generate text to song and make AI music now. Use text to music converter and generate lyric to song quickly. Add your lyrics to the song on ToMusic."
-  },
-  "orange-music": {
-    "slug": "orange-music",
-    "title": "AI Music Generator Free Online",
-    "description": "AI Music Generator Free Online — turn prompts into songs with our free ai music generator toolkit: ai music generator · ai music generator free · ai song generator · free ai music generator · music ai generator"
   },
   "tracksy": {
     "slug": "tracksy",
@@ -2723,6 +2723,10 @@
     "title": "AI Face Swap - The best Online Free AI Face Swap APP",
     "description": "Elevate your images with AI FaceSwap. Quick, secure, and high-quality face swapping for creativity and fun."
   },
+  "facevary": {
+    "slug": "facevary",
+    "title": "facevary.com"
+  },
   "flux-ai": {
     "slug": "flux-ai",
     "title": "#1 Nano Banana Pro - AI Image Editor Powered by Nano Banana Pro Pro",
@@ -2757,10 +2761,6 @@
     "slug": "dual-shades",
     "title": "Dual Shades - AI Photo Editor | Keep Subject Colored, Background B&W",
     "description": "Transform photos instantly with Dual Shades AI. Keep your subject in vibrant color while turning the background black and white. Free online photo editor with drag-and-drop uploads."
-  },
-  "facevary": {
-    "slug": "facevary",
-    "title": "facevary.com"
   },
   "ghostface": {
     "slug": "ghostface",
@@ -3097,6 +3097,11 @@
     "title": "Create AI Forms in Minutes | Dashform",
     "description": "Create AI forms that understand intent, ask smarter questions, and turn responses into structured insights — all from a simple prompt."
   },
+  "decktopus": {
+    "slug": "decktopus",
+    "title": "Decktopus AI | Make presentations with AI | AI Presentation Assistant",
+    "description": "Decktopus is an AI presentation maker, that will create amazing presentations in seconds. You only need to type the presentation title and your presentation is ready."
+  },
   "disclaimr": {
     "slug": "disclaimr",
     "title": "Disclaimr AI - Your Daily Cybersecurity Briefing, Distilled | $12/month",
@@ -3126,11 +3131,6 @@
     "slug": "floworks",
     "title": "Floworks AI: Automate Sales with AI-Powered Employees",
     "description": "Boost sales efficiency with Floworks AI. Automate lead research, personalized outreach, and scheduling with AI-powered Employees. Scale your revenue today!"
-  },
-  "decktopus": {
-    "slug": "decktopus",
-    "title": "Decktopus AI | Make presentations with AI | AI Presentation Assistant",
-    "description": "Decktopus is an AI presentation maker, that will create amazing presentations in seconds. You only need to type the presentation title and your presentation is ready."
   },
   "forage-mail": {
     "slug": "forage-mail",
@@ -3207,6 +3207,12 @@
     "title": "Koncile｜OCR IA - Captez toute information dans vos documents",
     "description": "Transformez vos PDF et images en données exploitables avec notre OCR IA. Parfait pour factures, devis, contrats et documents d'identité."
   },
+  "kortix-suna": {
+    "slug": "kortix-suna",
+    "title": "Kortix: Your Autonomous AI Worker",
+    "description": "Built for complex tasks, designed for everything. The ultimate AI assistant that handles it all—from simple requests to mega-complex projects.",
+    "ogImage": "https://kortix.com/banner.png"
+  },
   "krisp": {
     "slug": "krisp",
     "title": "Krisp - AI Meeting Assistant with Built-In Noise Cancellation",
@@ -3236,12 +3242,6 @@
     "slug": "magictrips",
     "title": "MagicTrips AI Itinerary Generator - Your next magical trip starts here - Generate custom travel itineraries in seconds around your preferences",
     "description": "Your next magical trip starts here. Enter where you want to go and your trip criteria, and allow us to do the rest."
-  },
-  "kortix-suna": {
-    "slug": "kortix-suna",
-    "title": "Kortix: Your Autonomous AI Worker",
-    "description": "Built for complex tasks, designed for everything. The ultimate AI assistant that handles it all—from simple requests to mega-complex projects.",
-    "ogImage": "https://kortix.com/banner.png"
   },
   "mavexai": {
     "slug": "mavexai",
@@ -3634,6 +3634,12 @@
     "title": "AI Web Scraping Extension | Chat4Data",
     "description": "Best AI-based web scraper plugin for Chrome. Chat4Data allows you to extract web data with natural language at any webpage you want."
   },
+  "consensus": {
+    "slug": "consensus",
+    "title": "Consensus: AI for Research",
+    "description": "Consensus is an AI academic search engine for peer-reviewed literature—your research OS for finding, organizing, and analyzing science 10x faster.",
+    "ogImage": "https://consensus.app/images/og-default.png"
+  },
   "datviz": {
     "slug": "datviz",
     "title": "DatViz AI – Advanced Data Visualization & Analytics",
@@ -3703,12 +3709,6 @@
     "slug": "scite",
     "title": "AI for Research | Scite",
     "description": "Researchers around the world use Scite to better understand research, uncover debates, ensure they are citing reliable studies, and improve their writing."
-  },
-  "consensus": {
-    "slug": "consensus",
-    "title": "Consensus: AI for Research",
-    "description": "Consensus is an AI academic search engine for peer-reviewed literature—your research OS for finding, organizing, and analyzing science 10x faster.",
-    "ogImage": "https://consensus.app/images/og-default.png"
   },
   "silatus": {
     "slug": "silatus",
@@ -3929,19 +3929,19 @@
     "title": "Taplio • Grow Your Personal Brand on Linkedin",
     "description": "AI-Powered Content Creation — Join 6000+ LinkedIn pros using the all-in-one, AI-powered LinkedIn tool. Taplio Helps You Create Highly Relevant and Engaging Content at Scale. Detailed Analytics."
   },
-  "social-hub": {
-    "slug": "social-hub",
-    "title": "Socialhub.AI"
+  "rizz-ai": {
+    "slug": "rizz-ai",
+    "title": "RIZZ AI Assistant: Free RIZZ GPT and Fun AI Dating Assistant",
+    "description": "RIZZ AI Assistant is an AI dating assistant built on the RIZE GPT model. Through a large number of high-quality chat and pick-up cases, RIZZ AI has trained chat LLMs who can understand users' psychology and are good at humorous pick-up conversations, becoming the best Tinder tutor."
   },
   "postli": {
     "slug": "postli",
     "title": "Postli | AI-Powered LinkedIn Content Creation",
     "description": "Postli: Revolutionize your LinkedIn presence with AI-driven post creation. Use 1000 templates to create posts. Generate engaging, professional content effortlessly. Ideal for marketers, influencers, and professionals."
   },
-  "rizz-ai": {
-    "slug": "rizz-ai",
-    "title": "RIZZ AI Assistant: Free RIZZ GPT and Fun AI Dating Assistant",
-    "description": "RIZZ AI Assistant is an AI dating assistant built on the RIZE GPT model. Through a large number of high-quality chat and pick-up cases, RIZZ AI has trained chat LLMs who can understand users' psychology and are good at humorous pick-up conversations, becoming the best Tinder tutor."
+  "social-hub": {
+    "slug": "social-hub",
+    "title": "Socialhub.AI"
   },
   "timetotok": {
     "slug": "timetotok",
@@ -4033,15 +4033,15 @@
     "title": "Veo - \n        Google DeepMind",
     "description": "Introducing our state of the art video generation model Veo 3, and new capabilities for Veo 2."
   },
-  "d-id": {
-    "slug": "d-id",
-    "title": "D-ID Creative Reality Studio",
-    "description": "Create professional videos using just a still image with text or audio powered by AI."
-  },
   "createnew": {
     "slug": "createnew",
     "title": "Create Anything with AI — Free Video, Image, Music Tools | CreateNew",
     "description": "Access free AI tools for video, image, music, and more with CreateNew — an all-in-one platform built for fast, high-quality creation."
+  },
+  "d-id": {
+    "slug": "d-id",
+    "title": "D-ID Creative Reality Studio",
+    "description": "Create professional videos using just a still image with text or audio powered by AI."
   },
   "hailuoai": {
     "slug": "hailuoai",
@@ -4480,6 +4480,11 @@
     "title": "JobBuddy | AI Tools That Get You Hired",
     "description": "JobBuddy is a set of AI tools designed to get you hired quick. Keyword optimize your resume, generate cover letters, practice interviews, and more. Trusted by 10,000+ users."
   },
+  "jpg-to-excel-converter": {
+    "slug": "jpg-to-excel-converter",
+    "title": "JPG To Excel Converter  - Free Online AI Driven Tools",
+    "description": "A powerful AI-powered tool that extracts text and layout from images and converts them into Excel. Fast, free, and permanent."
+  },
   "keys-and-caches": {
     "slug": "keys-and-caches",
     "title": "Keys & Caches",
@@ -4489,6 +4494,12 @@
     "slug": "kraterai",
     "title": "Krater – Your AI SuperApp",
     "description": "Krater - Your all-in-one AI platform for image generation, video creation, audio synthesis, and more."
+  },
+  "largemi": {
+    "slug": "largemi",
+    "title": "AI Tools Directory | LargeMI",
+    "description": "Discover curated AI chatbots, image generators, coding copilots, and video tools.",
+    "ogImage": "https://www.largemi.com/og-image.png"
   },
   "hoody": {
     "slug": "hoody",
@@ -4503,17 +4514,6 @@
     "slug": "imagebyqwen",
     "title": "Qwen Image - Advanced AI Photo Generator | ImageByQwen",
     "description": "Qwen Image is the most advanced AI photo generator that transforms your ideas into stunning, photorealistic images using cutting-edge Qwen models. Create beautiful photos in seconds. Credits required for usage."
-  },
-  "largemi": {
-    "slug": "largemi",
-    "title": "AI Tools Directory | LargeMI",
-    "description": "Discover curated AI chatbots, image generators, coding copilots, and video tools.",
-    "ogImage": "https://www.largemi.com/og-image.png"
-  },
-  "jpg-to-excel-converter": {
-    "slug": "jpg-to-excel-converter",
-    "title": "JPG To Excel Converter  - Free Online AI Driven Tools",
-    "description": "A powerful AI-powered tool that extracts text and layout from images and converts them into Excel. Fast, free, and permanent."
   },
   "madespace": {
     "slug": "madespace",
