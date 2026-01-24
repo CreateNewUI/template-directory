@@ -105,7 +105,10 @@ export default function CardsContainer({
         }
 
         if (sort === 'random') {
-            return seededShuffle(base, randomSeed || Date.now());
+            // Use provided seed for deterministic shuffling, fallback to stable default
+            // If truly random ordering per session is needed, pass Date.now() as randomSeed from parent
+            const DEFAULT_SEED = 42;
+            return seededShuffle(base, randomSeed || DEFAULT_SEED);
         } else {
             const comparator = toolComparators[sort] || toolComparators.nameAsc;
             return [...base].sort(comparator);
