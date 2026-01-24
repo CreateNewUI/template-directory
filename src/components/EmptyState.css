@@ -1,0 +1,21 @@
+.empty-state {
+    text-align: center;
+    padding: var(--spacing-15) var(--spacing-06);
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.empty-state-icon {
+    color: var(--content-secondary);
+    margin-bottom: var(--spacing-05);
+}
+
+.empty-state-message {
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.empty-state-action {
+    margin-top: var(--spacing-06);
+    display: inline-block;
+}

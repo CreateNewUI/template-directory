@@ -1,10 +1,16 @@
 import { useState, useEffect, useRef } from 'react';
 import './SearchInput.css';
 
-export default function SearchInput({ placeholder = "Search by name, category, or feature..." }) {
+interface SearchInputProps {
+    placeholder?: string;
+}
+
+export default function SearchInput({
+    placeholder = "Search by name, category, or feature...",
+}: SearchInputProps) {
     const [query, setQuery] = useState('');
-    const inputRef = useRef(null);
-    const debounceRef = useRef(null);
+    const inputRef = useRef<HTMLInputElement>(null);
+    const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     useEffect(() => {
         return () => {
@@ -16,7 +22,7 @@ export default function SearchInput({ placeholder = "Search by name, category, o
     }, []);
 
     useEffect(() => {
-        const handleKeyDown = (e) => {
+        const handleKeyDown = (e: KeyboardEvent) => {
             if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
                 e.preventDefault();
                 inputRef.current?.focus();
@@ -34,13 +40,13 @@ export default function SearchInput({ placeholder = "Search by name, category, o
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [query]);
 
-    const dispatchSearch = (value) => {
+    const dispatchSearch = (value: string) => {
         window.dispatchEvent(new CustomEvent('tools:search', {
             detail: { query: value }
         }));
     };
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
         setQuery(value);
 
@@ -70,7 +76,7 @@ export default function SearchInput({ placeholder = "Search by name, category, o
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="1.5"
+                    strokeWidth={1.5}
                 >
                     <circle cx="11" cy="11" r="8" />
                     <path d="m21 21-4.35-4.35" />
@@ -91,7 +97,7 @@ export default function SearchInput({ placeholder = "Search by name, category, o
                         aria-label="Clear search"
                         type="button"
                     >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                             <path d="M18 6L6 18M6 6l12 12" />
                         </svg>
                     </button>

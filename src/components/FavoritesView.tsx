@@ -1,15 +1,20 @@
 import { useState, useEffect } from 'react';
-import { getBookmarkedTools } from '../utils/bookmarks';
+import { getBookmarkedTools, type BookmarkedTool } from '../utils/bookmarks';
+import { toolComparators, type SortKey } from '../utils/sorting';
 import Card from './Card';
+import EmptyState, { BookmarkIcon } from './EmptyState';
 import './CardsContainer.css';
 import data from '../data/tools.json';
+import type { Category } from '../types';
+
+type FavoritesSortKey = Exclude<SortKey, 'random'>;
 
 export default function FavoritesView() {
-    const [bookmarkedTools, setBookmarkedTools] = useState([]);
-    const [sortBy, setSortBy] = useState('nameAsc');
+    const [bookmarkedTools, setBookmarkedTools] = useState<BookmarkedTool[]>([]);
+    const [sortBy, setSortBy] = useState<FavoritesSortKey>('nameAsc');
 
     const loadBookmarks = () => {
-        const tools = getBookmarkedTools(data.tools);
+        const tools = getBookmarkedTools(data.tools as Category[]);
         setBookmarkedTools(tools);
     };
 
@@ -28,46 +33,17 @@ export default function FavoritesView() {
         };
     }, []);
 
-    const sortedTools = [...bookmarkedTools].sort((a, b) => {
-        switch (sortBy) {
-            case 'nameAsc':
-                return a.title.localeCompare(b.title);
-            case 'nameDesc':
-                return b.title.localeCompare(a.title);
-            case 'dateNewest':
-                return new Date(b['date-added'] || 0) - new Date(a['date-added'] || 0);
-            case 'dateOldest':
-                return new Date(a['date-added'] || 0) - new Date(b['date-added'] || 0);
-            default:
-                return 0;
-        }
-    });
+    const sortedTools = [...bookmarkedTools].sort(toolComparators[sortBy]);
 
     if (bookmarkedTools.length === 0) {
         return (
             <section>
-                <div className="empty-state">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="48"
-                        height="48"
-                        viewBox="0 0 48 48"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        style={{ color: 'var(--content-secondary)', marginBottom: 'var(--spacing-05)' }}
-                    >
-                        <path d="m37 47-13.5-5L11 47V1h26v46z" clipRule="evenodd" />
-                    </svg>
-                    <p className="nu-c-fs-small nu-u-text--secondary" style={{ maxWidth: '32rem', margin: '0 auto' }}>
-                        Start saving AI tools by clicking the bookmark icon on any tool card. Your saved tools will appear here for quick access.
-                    </p>
-                    <a href="/" className="submit-btn" style={{ marginTop: 'var(--spacing-06)', display: 'inline-block' }}>
-                        Browse AI Tools
-                    </a>
-                </div>
+                <EmptyState
+                    icon={<BookmarkIcon />}
+                    message="Start saving AI tools by clicking the bookmark icon on any tool card. Your saved tools will appear here for quick access."
+                    actionText="Browse AI Tools"
+                    actionHref="/"
+                />
             </section>
         );
     }
@@ -84,7 +60,7 @@ export default function FavoritesView() {
                 <div className="favorites-controls">
                     <select
                         value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value)}
+                        onChange={(e) => setSortBy(e.target.value as FavoritesSortKey)}
                         className="sort-select"
                     >
                         <option value="nameAsc">Name (A-Z)</option>

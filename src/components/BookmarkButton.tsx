@@ -2,13 +2,21 @@ import { useState, useEffect } from 'react';
 import { isBookmarked, toggleBookmark } from '../utils/bookmarks';
 import './BookmarkButton.css';
 
+interface BookmarkButtonProps {
+    slug: string;
+    title: string;
+    variant?: 'default' | 'small';
+    className?: string;
+    showLabel?: boolean;
+}
+
 export default function BookmarkButton({
     slug,
     title,
     variant = 'default',
     className = '',
-    showLabel = false
-}) {
+    showLabel = false,
+}: BookmarkButtonProps) {
     const [bookmarked, setBookmarked] = useState(false);
 
     useEffect(() => {
@@ -28,7 +36,7 @@ export default function BookmarkButton({
         return () => window.removeEventListener('bookmarks:changed', handleBookmarkChange);
     }, [slug]);
 
-    const handleClick = (e) => {
+    const handleClick = (e: React.MouseEvent) => {
         e.preventDefault();
         e.stopPropagation();
 
@@ -54,7 +62,7 @@ export default function BookmarkButton({
                 <path
                     d="M15 19L9.80769 17.0435L5 19V1H15V19Z"
                     stroke="currentColor"
-                    strokeMiterlimit="10"
+                    strokeMiterlimit={10}
                     fill={bookmarked ? 'currentColor' : 'none'}
                 />
             </svg>
