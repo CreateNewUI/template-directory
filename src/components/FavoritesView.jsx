@@ -22,18 +22,9 @@ export default function FavoritesView() {
             loadBookmarks();
         };
 
-        const handleSortChange = (e) => {
-            const detail = e?.detail || {};
-            if (detail.sort && detail.sort !== 'random') {
-                setSortBy(detail.sort);
-            }
-        };
-
         window.addEventListener('bookmarks:changed', handleBookmarkChange);
-        window.addEventListener('tools:sort-change', handleSortChange);
         return () => {
             window.removeEventListener('bookmarks:changed', handleBookmarkChange);
-            window.removeEventListener('tools:sort-change', handleSortChange);
         };
     }, []);
 

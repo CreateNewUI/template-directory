@@ -1,6 +1,5 @@
 ---
 import { ViewTransitions } from "astro:transitions";
-import SortButtons from "../components/SortButtons";
 import WebSiteSchema from "../components/schema/WebSiteSchema.astro";
 import Hero from "../components/Hero.astro";
 import "@new-ui/foundations";
@@ -51,7 +50,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="en" data-new-ui-theme="light--warm">
+<html lang="en" data-new-ui-theme="dark">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
@@ -128,6 +127,8 @@ const {
                         /></a
                     >
                 </div>
+            </div>
+            <div class="btn-group">
                 <button
                     class="new-filter-toggle"
                     id="new-filter-toggle"
@@ -137,62 +138,6 @@ const {
                 >
                     <span class="fire-emoji">🔥</span>
                 </button>
-            </div>
-            <div class="btn-group">
-                <button
-                    class="theme-toggle"
-                    id="theme-toggle"
-                    title="Toggles light & dark"
-                    aria-label="auto"
-                    aria-live="polite"
-                >
-                    <!-- Light icon -->
-                    <svg
-                        class="icon-light"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        ><g clip-path="url(#a)"
-                            ><path
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-miterlimit="10"
-                                stroke-width="1"
-                                d="M5 12H1m22 0h-4M7.05 7.05 4.222 4.222m15.556 15.556L16.95 16.95m-9.9 0-2.828 2.828M19.778 4.222 16.95 7.05M12 19v4m0-22v4m4 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0"
-                            ></path></g
-                        ><defs
-                            ><clipPath id="a"
-                                ><path fill="#fff" d="M0 0h24v24H0z"
-                                ></path></clipPath
-                            ></defs
-                        ></svg
-                    >
-
-                    <!-- Dark icon -->
-                    <svg
-                        class="icon-dark"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        ><path
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1"
-                            d="M10.41 13.28C7.332 10.205 6.716 5.693 8.357 2c-1.23.41-2.256 1.23-3.281 2.256a10.4 10.4 0 0 0 0 14.768c4.102 4.102 10.46 3.897 14.562-.205 1.026-1.026 1.846-2.051 2.256-3.282-3.896 1.436-8.409.82-11.486-2.256"
-                        ></path></svg
-                    >
-                </button>
-                <SortButtons
-                    client:load
-                    onSortChange={() => {}}
-                    onRandomSeed={() => {}}
-                />
                 <a
                     href="/saved"
                     class="favorites-link"
@@ -292,15 +237,10 @@ const {
         --link-visited: DarkOrange;
         --border-focus: DarkOrange;
     }
-    html[data-new-ui-theme*="light"] {
-        --link: Blue;
-        --link-hover: Blue;
-        --link-visited: Blue;
-        --border-focus: Blue;
-    }
+
     html {
         font-family: var(--body-copy);
-        background-color: var(--background-secondary);
+        background-color: var(--background-high-contrast);
         cursor: var(--c-arrow);
     }
     body {
@@ -405,72 +345,10 @@ const {
             color: var(--content-secondary);
         }
     }
-    .theme-toggle {
-        z-index: 999;
-        --icon-fill: var(--content-secondary);
-        --icon-fill-hover: var(--content-secondary);
-        width: var(--spacing-08);
-        height: var(--spacing-08);
-        background: none;
-        border: none;
-        padding: var(--spacing-00);
-        color: var(--content-secondary);
-        cursor: var(--c-pointer);
-        touch-action: manipulation;
-        -webkit-tap-highlight-color: transparent;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: var(--spacing-00);
-        transition: transform 0.1s ease;
-        position: relative;
-        margin-left: var(--spacing-02);
-
-        @nest [data-theme="dark--warm"] & {
-            --icon-fill: var(--content-secondary);
-            --icon-fill-hover: var(--content-secondary);
-        }
-
-        svg {
-            position: absolute;
-            transition:
-                opacity 0.3s ease,
-                transform 0.3s ease;
-        }
-
-        &:hover svg {
-            transform: rotate(15deg) scale(1.05);
-            color: var(--content-primary);
-        }
-    }
-
     .left-group {
         display: flex;
         align-items: center;
         gap: var(--spacing-03);
-    }
-
-    .theme-toggle .icon-light {
-        opacity: 0;
-        transform: rotate(-15deg) scale(0.8);
-        pointer-events: none;
-    }
-
-    .theme-toggle .icon-dark {
-        opacity: 1;
-        transform: rotate(0deg) scale(1);
-    }
-
-    [data-new-ui-theme="dark--warm"] .theme-toggle .icon-light {
-        opacity: 1;
-        transform: rotate(0deg) scale(1);
-        pointer-events: auto;
-    }
-
-    [data-new-ui-theme="dark--warm"] .theme-toggle .icon-dark {
-        opacity: 0;
-        transform: rotate(15deg) scale(0.8);
-        pointer-events: none;
     }
 
     .new-filter-toggle {
@@ -489,7 +367,7 @@ const {
         border-radius: var(--spacing-00);
         transition: transform 0.1s ease;
         position: relative;
-        margin-left: var(--spacing-02);
+        margin-right: var(--spacing-03);
     }
 
     .new-filter-toggle .fire-emoji {
@@ -696,35 +574,6 @@ const {
 
 <script is:inline>
     (function () {
-        // Theme Management
-        const getPreferredTheme = () => {
-            try {
-                return (
-                    localStorage.getItem("theme-preference") || "light--warm"
-                );
-            } catch (e) {
-                return "light--warm";
-            }
-        };
-
-        const setTheme = (theme) => {
-            document.documentElement.setAttribute("data-new-ui-theme", theme);
-            try {
-                localStorage.setItem("theme-preference", theme);
-            } catch (e) {}
-        };
-
-        const toggleTheme = () => {
-            const currentTheme =
-                document.documentElement.getAttribute("data-new-ui-theme");
-            const newTheme =
-                currentTheme === "light--warm" ? "dark--warm" : "light--warm";
-            setTheme(newTheme);
-        };
-
-        // Initialize Theme ASAP to prevent flash
-        setTheme(getPreferredTheme());
-
         // Navigation & UI Management
         let previousScrollPosition = 0;
         let pageCTAPosition = 0;
@@ -792,9 +641,6 @@ const {
 
         // Core Initialization (Runs on every page load including initial)
         const init = () => {
-            // Re-apply theme (ensures HTML element sync)
-            setTheme(getPreferredTheme());
-
             // Handle Nav & CTA positions
             const nav = document.querySelector(".floating-nav");
             const pageCTA = document.querySelector(".floating-nav .submit-btn");
@@ -802,15 +648,6 @@ const {
                 pageCTAPosition = pageCTA.getBoundingClientRect().bottom;
             }
 
-            // Theme Toggle - Idempotent listener
-            const themeToggle = document.querySelector("#theme-toggle");
-            if (themeToggle) {
-                // Use a property to ensure we only attach once
-                if (!themeToggle._hasThemeListener) {
-                    themeToggle.addEventListener("click", toggleTheme);
-                    themeToggle._hasThemeListener = true;
-                }
-            }
 
             // New Tools Filter Toggle - Idempotent listener
             const newFilterToggle =
