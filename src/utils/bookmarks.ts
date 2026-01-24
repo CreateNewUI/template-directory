@@ -1,14 +1,12 @@
-/**
- * Bookmark management utilities using localStorage
- */
+import type { Category, Tool } from '../types';
 
 const STORAGE_KEY = 'rom_bookmarks';
 
 /**
  * Get all bookmarked tool slugs from localStorage
- * @returns {string[]} Array of bookmarked tool slugs
+ * @returns Array of bookmarked tool slugs
  */
-export function getBookmarks() {
+export function getBookmarks(): string[] {
     try {
         const stored = localStorage.getItem(STORAGE_KEY);
         return stored ? JSON.parse(stored) : [];
@@ -20,9 +18,9 @@ export function getBookmarks() {
 
 /**
  * Save bookmarks to localStorage
- * @param {string[]} bookmarks - Array of tool slugs
+ * @param bookmarks - Array of tool slugs
  */
-function saveBookmarks(bookmarks) {
+function saveBookmarks(bookmarks: string[]): void {
     try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
         window.dispatchEvent(new CustomEvent('bookmarks:changed', {
@@ -35,20 +33,20 @@ function saveBookmarks(bookmarks) {
 
 /**
  * Check if a tool is bookmarked
- * @param {string} slug - Tool slug
- * @returns {boolean}
+ * @param slug - Tool slug
+ * @returns true if bookmarked
  */
-export function isBookmarked(slug) {
+export function isBookmarked(slug: string): boolean {
     const bookmarks = getBookmarks();
     return bookmarks.includes(slug);
 }
 
 /**
  * Add a tool to bookmarks
- * @param {string} slug - Tool slug
- * @returns {boolean} Success status
+ * @param slug - Tool slug
+ * @returns true if successfully added
  */
-export function addBookmark(slug) {
+export function addBookmark(slug: string): boolean {
     if (!slug) return false;
 
     const bookmarks = getBookmarks();
@@ -62,10 +60,10 @@ export function addBookmark(slug) {
 
 /**
  * Remove a tool from bookmarks
- * @param {string} slug - Tool slug
- * @returns {boolean} Success status
+ * @param slug - Tool slug
+ * @returns true if successfully removed
  */
-export function removeBookmark(slug) {
+export function removeBookmark(slug: string): boolean {
     if (!slug) return false;
 
     const bookmarks = getBookmarks();
@@ -80,10 +78,10 @@ export function removeBookmark(slug) {
 
 /**
  * Toggle bookmark state for a tool
- * @param {string} slug - Tool slug
- * @returns {boolean} New bookmark state (true = bookmarked, false = not bookmarked)
+ * @param slug - Tool slug
+ * @returns New bookmark state (true = bookmarked, false = not bookmarked)
  */
-export function toggleBookmark(slug) {
+export function toggleBookmark(slug: string): boolean {
     if (isBookmarked(slug)) {
         removeBookmark(slug);
         return false;
@@ -94,17 +92,24 @@ export function toggleBookmark(slug) {
 }
 
 /**
- * Get full tool objects for all bookmarked tools
- * @param {Array} allTools - Array of all tools from tools.json
- * @returns {Array} Array of bookmarked tool objects
+ * Tool with category information
  */
-export function getBookmarkedTools(allTools) {
-    const bookmarks = getBookmarks();
-    const bookmarkedTools = [];
+export interface BookmarkedTool extends Tool {
+    category: string;
+}
 
-    allTools.forEach(category => {
+/**
+ * Get full tool objects for all bookmarked tools
+ * @param allCategories - Array of all categories from tools.json
+ * @returns Array of bookmarked tool objects with category
+ */
+export function getBookmarkedTools(allCategories: Category[]): BookmarkedTool[] {
+    const bookmarks = getBookmarks();
+    const bookmarkedTools: BookmarkedTool[] = [];
+
+    allCategories.forEach(category => {
         category.content.forEach(tool => {
-            if (bookmarks.includes(tool.slug)) {
+            if (tool.slug && bookmarks.includes(tool.slug)) {
                 bookmarkedTools.push({
                     ...tool,
                     category: category.category
@@ -118,8 +123,8 @@ export function getBookmarkedTools(allTools) {
 
 /**
  * Get bookmark count
- * @returns {number} Number of bookmarked tools
+ * @returns Number of bookmarked tools
  */
-export function getBookmarkCount() {
+export function getBookmarkCount(): number {
     return getBookmarks().length;
 }

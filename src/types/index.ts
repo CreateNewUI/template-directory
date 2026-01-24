@@ -9,6 +9,7 @@ export interface Tool {
 
 export interface Category {
     category: string;
+    title: string;
     content: Tool[];
 }
 

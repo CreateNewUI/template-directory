@@ -114,6 +114,7 @@ const {
     </head>
 
     <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
         <div class="floating-nav" aria-label="main navigation">
             <div class="left-group">
                 <div class="logo">
@@ -248,6 +249,28 @@ const {
         padding: 0;
         width: 100%;
         overflow-x: hidden;
+    }
+    
+    /* Skip link for accessibility */
+    .skip-link {
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: var(--spacing-01) var(--spacing-02);
+        background-color: var(--background-high-contrast);
+        color: var(--content-secondary-alt);
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: var(--spacing-00);
+        z-index: 9999999;
+        transition: top 0.2s ease;
+        font-size: var(--desktop-caption);
+        line-height: var(--lh-desktop-caption);
+    }
+    
+    .skip-link:focus {
+        top: var(--spacing-03);
     }
     p,
     h1,

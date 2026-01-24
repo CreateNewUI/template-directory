@@ -6,31 +6,10 @@ import BreadcrumbSchema from "../components/schema/BreadcrumbSchema.astro";
 import data from "../data/tools.json";
 
 export function getStaticPaths() {
-  return [
-    { params: { category: "art" } },
-    { params: { category: "audio" } },
-    { params: { category: "code" } },
-    { params: { category: "copywriting" } },
-    { params: { category: "design" } },
-    { params: { category: "developer" } },
-    { params: { category: "education" } },
-    { params: { category: "enterprise" } },
-    { params: { category: "fashion" } },
-    { params: { category: "gaming" } },
-    { params: { category: "health" } },
-    { params: { category: "legal" } },
-    { params: { category: "llm" } },
-    { params: { category: "music" } },
-    { params: { category: "nocode" } },
-    { params: { category: "photos" } },
-    { params: { category: "productivity" } },
-    { params: { category: "prompts" } },
-    { params: { category: "research" } },
-    { params: { category: "seo" } },
-    { params: { category: "social" } },
-    { params: { category: "video" } },
-    { params: { category: "xtras" } },
-  ];
+  // Derive paths from data instead of hardcoding
+  return data.tools.map((cat: any) => ({
+    params: { category: cat.category }
+  }));
 }
 
 const { category } = Astro.params;
@@ -56,7 +35,7 @@ const breadcrumbs = [
 >
   <ItemListSchema items={categoryTools} listName={`${categoryTitle} Tools`} />
   <BreadcrumbSchema items={breadcrumbs} />
-  <main>
+  <main id="main-content">
     <Dashboard client:load category={category} transition:persist />
   </main>
 </Layout>
