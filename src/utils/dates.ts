@@ -16,6 +16,10 @@ export function isRecentlyAdded(dateAdded: string | Date | undefined, days: numb
     const addedDate = typeof dateAdded === 'string' ? new Date(dateAdded) : dateAdded;
     const today = new Date();
     const differenceInTime = today.getTime() - addedDate.getTime();
+    
+    // Return false for future dates (negative difference means date is in the future)
+    if (differenceInTime < 0) return false;
+    
     const differenceInDays = differenceInTime / MS_PER_DAY;
 
     return differenceInDays <= days;
