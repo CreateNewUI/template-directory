@@ -1,5 +1,6 @@
 ---
 import SearchInput from "./SearchInput";
+import ParticleBackground from "./ParticleBackground";
 
 interface Props {
     title: string;
@@ -17,6 +18,7 @@ const {
 ---
 
 <div class="hero">
+    <ParticleBackground client:load />
     <div class="container">
         <h1 class="nu-c-h5 nu-u-text--primary nu-u-mt-0 nu-u-mb-s title">
             {title}
@@ -37,6 +39,13 @@ const {
         margin-bottom: var(--spacing-10);
         margin-top: var(--spacing-10);
         text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
     }
 
     .hero :global(.search-container) {
