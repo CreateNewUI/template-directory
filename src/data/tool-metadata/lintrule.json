@@ -9,11 +9,11 @@
   "related": [
     "fitten-code",
     "vellum",
-    "i18n-code-gen",
     "screenshot-to-code",
     "amazon-codewhisperer",
     "blaze-sql",
     "open-interpreter",
-    "flappy"
+    "makehub",
+    "yylo"
   ]
 }

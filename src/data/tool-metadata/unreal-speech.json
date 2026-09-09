@@ -9,11 +9,11 @@
   "related": [
     "voicetype",
     "wellsaid-labs",
-    "playht",
     "mp3-to-text",
     "lami",
     "lyricstosong",
     "elevenlabs",
-    "whisper"
+    "whisper",
+    "trint"
   ]
 }

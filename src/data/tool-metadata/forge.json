@@ -8,12 +8,12 @@
   "slug": "forge",
   "related": [
     "builderio",
-    "grok-video",
     "blackbox-ai",
     "cody-by-sourcegraph",
     "developer-pal",
-    "lovable",
-    "replit-ghostwriter",
-    "qodo"
+    "qodo",
+    "cursor",
+    "cursor-directory",
+    "bito"
   ]
 }

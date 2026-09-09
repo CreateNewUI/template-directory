@@ -8,12 +8,12 @@
   "slug": "rolechar",
   "related": [
     "chub",
-    "path-weaver",
     "soga-ai",
     "game-generator",
     "meshy",
     "roleplayr",
     "saga",
-    "combos-ai"
+    "combos-ai",
+    "silentsalt"
   ]
 }

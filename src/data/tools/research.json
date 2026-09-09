@@ -8,14 +8,6 @@
     "slug": "alphaxiv"
   },
   {
-    "title": "Bagel",
-    "body": "AI and cryptography research lab.",
-    "tag": "Not applicable",
-    "url": "https://www.bagel.net/?ref=riseofmachine.com",
-    "date-added": "2024-12-14",
-    "slug": "bagel"
-  },
-  {
     "title": "BizNest",
     "body": "Discover the top product opportunities.",
     "tag": "Freemium",
@@ -168,28 +160,12 @@
     "slug": "rivalout"
   },
   {
-    "title": "Sagehood",
-    "body": "U.S. stock portfolio supercharged by AI.",
-    "tag": "Not available",
-    "url": "https://sagehood.ai/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "sagehood"
-  },
-  {
     "title": "Scite",
     "body": "Smart citations and deep research insights.",
     "tag": "Freemium",
     "url": "https://www.scite.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "scite"
-  },
-  {
-    "title": "Silatus",
-    "body": "Research automation engine.",
-    "tag": "From $14/mo",
-    "url": "https://silatus.com/?ref=riseofmachine.com",
-    "date-added": "2023-12-27",
-    "slug": "silatus"
   },
   {
     "title": "SoBrief",

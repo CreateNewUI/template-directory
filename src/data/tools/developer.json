@@ -16,14 +16,6 @@
     "slug": "amazon-sagemaker"
   },
   {
-    "title": "Archie",
-    "body": "Product development.",
-    "tag": "Freemium",
-    "url": "https://archie.8base.com/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "archie"
-  },
-  {
     "title": "Atla",
     "body": "Automatically detect errors in your AI agents.",
     "url": "https://www.atla.com/?ref=riseofmachine.com",
@@ -46,14 +38,6 @@
     "url": "https://axflow.dev/?ref=riseofmachine.com",
     "date-added": "2023-12-29",
     "slug": "axflow"
-  },
-  {
-    "title": "BingChain",
-    "body": "AI-powered chatbot framework, Langchain alternative.",
-    "tag": "Free",
-    "url": "https://github.com/postman-open-technologies/bingchain?ref=riseofmachine.com",
-    "date-added": "2025-06-03",
-    "slug": "bingchain"
   },
   {
     "title": "Blaze SQL",
@@ -102,14 +86,6 @@
     "url": "https://cekura.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-24",
     "slug": "cekura"
-  },
-  {
-    "title": "ChatGPT Apps SDK",
-    "body": "Build and monetize apps for the ChatGPT marketplace.",
-    "tag": "Free",
-    "url": "https://chatgpt-app.net?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "chatgpt-apps-sdk"
   },
   {
     "title": "Chef",
@@ -184,14 +160,6 @@
     "slug": "fitten-code"
   },
   {
-    "title": "Flappy",
-    "body": "Production-Ready LLM Agent SDK for Every Developer",
-    "tag": "Free",
-    "url": "https://github.com/pleisto/flappy?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "flappy"
-  },
-  {
     "title": "Frontend",
     "body": "UI generated from prompts or images by AI.",
     "tag": "Not available",
@@ -206,14 +174,6 @@
     "url": "https://tryhelix.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-26",
     "slug": "helix"
-  },
-  {
-    "title": "I18n Code Gen",
-    "body": "AI-powered code translation and localization tool.",
-    "tag": "Free",
-    "url": "https://github.com/linexjlin/I18nCodeGenServer?ref=riseofmachine.com",
-    "date-added": "2025-06-03",
-    "slug": "i18n-code-gen"
   },
   {
     "title": "KitOps",
@@ -304,14 +264,6 @@
     "slug": "nat-checker"
   },
   {
-    "title": "Neum",
-    "body": "RAG framework for large-scale and real-time data.",
-    "tag": "Open-source",
-    "url": "https://www.neum.ai/?ref=riseofmachine.com",
-    "date-added": "2023-12-29",
-    "slug": "neum"
-  },
-  {
     "title": "New UI",
     "body": "Modern, semantic UI framework for building beautiful sites and apps.",
     "tag": "Open-source",
@@ -398,22 +350,6 @@
     "url": "https://www.portialabs.ai/?ref=riseofmachine.com",
     "date-added": "2025-07-03",
     "slug": "portia-ai"
-  },
-  {
-    "title": "Postbot",
-    "body": "AI assistant for API workflows.",
-    "tag": "Freemium",
-    "url": "https://learning.postman.com/docs/getting-started/basics/about-postbot/?ref=riseofmachine.com",
-    "date-added": "2023-12-15",
-    "slug": "postbot"
-  },
-  {
-    "title": "Proofs.Io",
-    "body": "Proof of concept.",
-    "tag": "Freemium",
-    "url": "https://www.proofs.io/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "proofsio"
   },
   {
     "title": "Pythagora 2.0",
@@ -694,6 +630,14 @@
     "url": "https://communitynotes.x.com/guide/en/api/overview?ref=riseofmachine.com",
     "date-added": "2025-07-03",
     "slug": "x-note-writer-api"
+  },
+  {
+    "title": "YYLO",
+    "body": "Command-line orchestrator for coding agents.",
+    "tag": "Open-source",
+    "url": "https://www.yylo.dev?ref=riseofmachine.com",
+    "date-added": "2026-09-09",
+    "slug": "yylo"
   },
   {
     "title": "Zen Agents",

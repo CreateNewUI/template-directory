@@ -7,13 +7,13 @@
   "date-added": "2025-11-03",
   "slug": "banana-ai-art",
   "related": [
-    "banana-ai-2",
     "z-image",
-    "banana-ai",
     "anyimg",
     "banana-pro",
     "image-to-prompt",
     "nano-banana-pro",
-    "fastimage"
+    "fastimage",
+    "gempix2",
+    "image-to-3d-ai"
   ]
 }

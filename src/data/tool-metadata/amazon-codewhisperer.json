@@ -11,9 +11,9 @@
     "marscode",
     "chef",
     "lintrule",
-    "postbot",
     "tabnine",
-    "i18n-code-gen",
-    "screenshot-to-code"
+    "screenshot-to-code",
+    "blaze-sql",
+    "open-interpreter"
   ]
 }

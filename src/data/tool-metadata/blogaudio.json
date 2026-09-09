@@ -10,10 +10,10 @@
     "voicetype",
     "f5-tts",
     "audio-transcriber-ai",
-    "playht",
     "trint",
     "unreal-speech",
     "wellsaid-labs",
-    "mp3-to-text"
+    "mp3-to-text",
+    "kyutai-tts"
   ]
 }

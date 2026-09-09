@@ -10,10 +10,10 @@
     "audio-muse",
     "lami",
     "cleanaudio-ai",
-    "adtwin",
-    "reelscribe",
     "trint",
     "sync",
-    "wellsaid-labs"
+    "wellsaid-labs",
+    "mp3-to-text",
+    "goose-pod"
   ]
 }

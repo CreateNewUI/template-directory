@@ -7,13 +7,13 @@
   "date-added": "2025-06-04",
   "slug": "lobe-chat",
   "related": [
-    "bingchain",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "chatgpt-apps-sdk",
     "cursor-mcp",
-    "buildrs"
+    "buildrs",
+    "tensorblock-forge",
+    "create-apidev"
   ]
 }

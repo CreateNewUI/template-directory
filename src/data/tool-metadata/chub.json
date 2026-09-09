@@ -7,13 +7,13 @@
   "date-added": "2025-10-22",
   "slug": "chub",
   "related": [
-    "path-weaver",
     "rolechar",
     "game-generator",
     "meshy",
     "roleplayr",
     "soga-ai",
     "saga",
-    "combos-ai"
+    "combos-ai",
+    "silentsalt"
   ]
 }

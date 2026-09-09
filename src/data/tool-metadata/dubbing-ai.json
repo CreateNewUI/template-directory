@@ -9,11 +9,11 @@
   "related": [
     "sonicker",
     "nicevoice",
-    "so-vits-svc",
     "eleven-ai",
     "audio-transcriber-ai",
     "voqusa",
     "kyutai-tts",
-    "seamless"
+    "f5-tts",
+    "voicemod"
   ]
 }

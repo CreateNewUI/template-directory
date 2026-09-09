@@ -7,13 +7,13 @@
   "date-added": "2026-01-07",
   "slug": "sickleaveemail",
   "related": [
-    "headcanon-generator-fun",
     "news-article-gen",
-    "textcraft",
     "newsletter-name-generator",
     "headcanon-generator",
     "bexiai",
     "detector-writer",
-    "humanize"
+    "humanize",
+    "wordstudio",
+    "cowriter"
   ]
 }

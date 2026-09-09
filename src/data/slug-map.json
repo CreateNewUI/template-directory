@@ -8,13 +8,7 @@
   "astria": [
     "art"
   ],
-  "banana-ai": [
-    "art"
-  ],
   "banana-ai-1": [
-    "art"
-  ],
-  "banana-ai-2": [
     "art"
   ],
   "banana-ai-art": [
@@ -35,13 +29,7 @@
   "bylo-ai": [
     "art"
   ],
-  "chronopets": [
-    "art"
-  ],
   "coloring-page": [
-    "art"
-  ],
-  "colormon": [
     "art"
   ],
   "colorpageai": [
@@ -68,13 +56,7 @@
   "drawww": [
     "art"
   ],
-  "dsnr": [
-    "art"
-  ],
   "editaimg": [
-    "art"
-  ],
-  "elf-on-the-shelf-generator": [
     "art"
   ],
   "emergent": [
@@ -99,12 +81,6 @@
     "art"
   ],
   "flux-context-ai": [
-    "art"
-  ],
-  "flux-kontext": [
-    "art"
-  ],
-  "freepik-pikaso": [
     "art"
   ],
   "furryai": [
@@ -132,9 +108,6 @@
     "art"
   ],
   "gpt-image-2-1": [
-    "art"
-  ],
-  "grok-ghibli": [
     "art"
   ],
   "hotpot": [
@@ -194,22 +167,13 @@
   "magictryon": [
     "art"
   ],
-  "makebw": [
-    "art"
-  ],
   "mediaai-art": [
     "art"
   ],
   "melies": [
     "art"
   ],
-  "midjourney": [
-    "art"
-  ],
   "mirrorize": [
-    "art"
-  ],
-  "muze-art": [
     "art"
   ],
   "nano-banana-pro": [
@@ -284,19 +248,10 @@
   "tattoocoverupai": [
     "art"
   ],
-  "tattooer-info": [
-    "art"
-  ],
   "thumbnail-maker": [
     "art"
   ],
   "unicorn-coloring-pages": [
-    "art"
-  ],
-  "vieutopia": [
-    "art"
-  ],
-  "visual-chatgpt": [
     "art"
   ],
   "vizcom": [
@@ -322,9 +277,6 @@
   ],
   "zzo-ai": [
     "art"
-  ],
-  "adtwin": [
-    "audio"
   ],
   "aimakesong": [
     "audio"
@@ -410,25 +362,13 @@
   "phone-app": [
     "audio"
   ],
-  "playht": [
-    "audio"
-  ],
   "podcastle": [
-    "audio"
-  ],
-  "reelscribe": [
     "audio"
   ],
   "respeecher": [
     "audio"
   ],
   "ringfoods": [
-    "audio"
-  ],
-  "seamless": [
-    "audio"
-  ],
-  "so-vits-svc": [
     "audio"
   ],
   "song-maker": [
@@ -456,9 +396,6 @@
     "audio"
   ],
   "voicemod": [
-    "audio"
-  ],
-  "voicemyai": [
     "audio"
   ],
   "voicetype": [
@@ -515,15 +452,6 @@
   "forge": [
     "code"
   ],
-  "github-copilot": [
-    "code"
-  ],
-  "grok-video": [
-    "code"
-  ],
-  "lovable": [
-    "code"
-  ],
   "melty": [
     "code"
   ],
@@ -531,9 +459,6 @@
     "code"
   ],
   "qodo": [
-    "code"
-  ],
-  "replit-ghostwriter": [
     "code"
   ],
   "anyword": [
@@ -546,9 +471,6 @@
     "copywriting"
   ],
   "bexiai": [
-    "copywriting"
-  ],
-  "blogwald": [
     "copywriting"
   ],
   "booai": [
@@ -602,13 +524,7 @@
   "grammarly": [
     "copywriting"
   ],
-  "hard-usernames": [
-    "copywriting"
-  ],
   "headcanon-generator": [
-    "copywriting"
-  ],
-  "headcanon-generator-fun": [
     "copywriting"
   ],
   "heynds": [
@@ -705,9 +621,6 @@
     "copywriting"
   ],
   "successai": [
-    "copywriting"
-  ],
-  "textcraft": [
     "copywriting"
   ],
   "textgen": [
@@ -887,9 +800,6 @@
   "slea": [
     "design"
   ],
-  "sports-logo-generator": [
-    "design"
-  ],
   "subframe": [
     "design"
   ],
@@ -941,9 +851,6 @@
   "amazon-sagemaker": [
     "developer"
   ],
-  "archie": [
-    "developer"
-  ],
   "atla": [
     "developer"
   ],
@@ -951,9 +858,6 @@
     "developer"
   ],
   "axflow": [
-    "developer"
-  ],
-  "bingchain": [
     "developer"
   ],
   "blaze-sql": [
@@ -972,9 +876,6 @@
     "developer"
   ],
   "cekura": [
-    "developer"
-  ],
-  "chatgpt-apps-sdk": [
     "developer"
   ],
   "chef": [
@@ -1004,16 +905,10 @@
   "fitten-code": [
     "developer"
   ],
-  "flappy": [
-    "developer"
-  ],
   "frontend": [
     "developer"
   ],
   "helix": [
-    "developer"
-  ],
-  "i18n-code-gen": [
     "developer"
   ],
   "kitops": [
@@ -1049,9 +944,6 @@
   "nat-checker": [
     "developer"
   ],
-  "neum": [
-    "developer"
-  ],
   "new-ui": [
     "developer"
   ],
@@ -1083,12 +975,6 @@
     "developer"
   ],
   "portia-ai": [
-    "developer"
-  ],
-  "postbot": [
-    "developer"
-  ],
-  "proofsio": [
     "developer"
   ],
   "pythagora-20": [
@@ -1196,6 +1082,9 @@
   "x-note-writer-api": [
     "developer"
   ],
+  "yylo": [
+    "developer"
+  ],
   "zen-agents": [
     "developer"
   ],
@@ -1267,9 +1156,6 @@
   ],
   "thesisai": [
     "education"
-  ],
-  "adcopy": [
-    "enterprise"
   ],
   "albus": [
     "enterprise"
@@ -1403,9 +1289,6 @@
   "prometai": [
     "enterprise"
   ],
-  "rainex-agents": [
-    "enterprise"
-  ],
   "raykolabs": [
     "enterprise"
   ],
@@ -1511,9 +1394,6 @@
   "meshy": [
     "gaming"
   ],
-  "path-weaver": [
-    "gaming"
-  ],
   "pinpoint-answer": [
     "gaming"
   ],
@@ -1537,9 +1417,6 @@
   ],
   "soga-ai": [
     "gaming"
-  ],
-  "deepen": [
-    "health"
   ],
   "hypnotheraai": [
     "health"
@@ -1574,13 +1451,7 @@
   "ai-agents-list": [
     "llm"
   ],
-  "appagent": [
-    "llm"
-  ],
   "archetype": [
-    "llm"
-  ],
-  "auto-gpt": [
     "llm"
   ],
   "character": [
@@ -1599,9 +1470,6 @@
     "llm"
   ],
   "deepseek": [
-    "llm"
-  ],
-  "deepseek-r1": [
     "llm"
   ],
   "deepseekv4dev": [
@@ -1631,9 +1499,6 @@
   "grok": [
     "llm"
   ],
-  "grok-1": [
-    "llm"
-  ],
   "helicone": [
     "llm"
   ],
@@ -1647,9 +1512,6 @@
     "llm"
   ],
   "llamaindex": [
-    "llm"
-  ],
-  "mastraai": [
     "llm"
   ],
   "microsoft-copilot": [
@@ -1724,9 +1586,6 @@
   "westaway-ace": [
     "legal"
   ],
-  "audiocraft": [
-    "music"
-  ],
   "audiostrip": [
     "music"
   ],
@@ -1749,6 +1608,9 @@
     "music"
   ],
   "lyrics-to-song": [
+    "music"
+  ],
+  "lyricsgift": [
     "music"
   ],
   "mubert": [
@@ -2168,9 +2030,6 @@
   "ada": [
     "productivity"
   ],
-  "agentsea": [
-    "productivity"
-  ],
   "autoppt": [
     "productivity"
   ],
@@ -2255,9 +2114,6 @@
   "focusflowai": [
     "productivity"
   ],
-  "forage-mail": [
-    "productivity"
-  ],
   "genppt": [
     "productivity"
   ],
@@ -2283,9 +2139,6 @@
     "productivity"
   ],
   "hyperfeed": [
-    "productivity"
-  ],
-  "hyperpresent": [
     "productivity"
   ],
   "intellibar": [
@@ -2343,12 +2196,6 @@
     "productivity"
   ],
   "multion": [
-    "productivity"
-  ],
-  "mydeviceai-v2": [
-    "productivity"
-  ],
-  "nimo": [
     "productivity"
   ],
   "noiz": [
@@ -2471,9 +2318,6 @@
   "tldv": [
     "productivity"
   ],
-  "ultra": [
-    "productivity"
-  ],
   "uniquenamesnet": [
     "productivity"
   ],
@@ -2555,9 +2399,6 @@
   "promptbox": [
     "prompts"
   ],
-  "promptforge": [
-    "prompts"
-  ],
   "prompthero": [
     "prompts"
   ],
@@ -2577,9 +2418,6 @@
     "prompts"
   ],
   "alphaxiv": [
-    "research"
-  ],
-  "bagel": [
     "research"
   ],
   "biznest": [
@@ -2639,13 +2477,7 @@
   "rivalout": [
     "research"
   ],
-  "sagehood": [
-    "research"
-  ],
   "scite": [
-    "research"
-  ],
-  "silatus": [
     "research"
   ],
   "sobrief": [
@@ -2735,9 +2567,6 @@
   "cloutsim-influencer-simulator": [
     "social"
   ],
-  "currents": [
-    "social"
-  ],
   "docsfold": [
     "social"
   ],
@@ -2789,9 +2618,6 @@
   "sivi": [
     "social"
   ],
-  "skyblaze": [
-    "social"
-  ],
   "social-hub": [
     "social"
   ],
@@ -2802,9 +2628,6 @@
     "social"
   ],
   "timetotok": [
-    "social"
-  ],
-  "tweet-fast": [
     "social"
   ],
   "uplodio": [
@@ -2835,9 +2658,6 @@
     "video"
   ],
   "cqtai": [
-    "video"
-  ],
-  "create-video": [
     "video"
   ],
   "createnew": [
@@ -2987,9 +2807,6 @@
   "noeffort": [
     "video"
   ],
-  "omagic-ai": [
-    "video"
-  ],
   "omni-ai-video-generator": [
     "video"
   ],
@@ -3050,13 +2867,7 @@
   "seedance-2-video": [
     "video"
   ],
-  "seedances": [
-    "video"
-  ],
   "shorts-generator": [
-    "video"
-  ],
-  "shortsfarm": [
     "video"
   ],
   "soda-video-ai": [
@@ -3096,9 +2907,6 @@
     "video"
   ],
   "veo-video": [
-    "video"
-  ],
-  "veo3-video-generator": [
     "video"
   ],
   "veo3bot": [
@@ -3257,9 +3065,6 @@
   "jpg-to-excel-converter": [
     "xtras"
   ],
-  "keys-and-caches": [
-    "xtras"
-  ],
   "kraterai": [
     "xtras"
   ],
@@ -3287,13 +3092,7 @@
   "nano-bananaai": [
     "xtras"
   ],
-  "navitool": [
-    "xtras"
-  ],
   "nectar-ai": [
-    "xtras"
-  ],
-  "oc-maker-2": [
     "xtras"
   ],
   "omnara": [
@@ -3369,12 +3168,6 @@
     "xtras"
   ],
   "track-3iatlas": [
-    "xtras"
-  ],
-  "tradinglens": [
-    "xtras"
-  ],
-  "tripnotes": [
     "xtras"
   ],
   "vacnavi": [

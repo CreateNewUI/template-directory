@@ -7,12 +7,12 @@
   "date-added": "2025-06-06",
   "slug": "frontend",
   "related": [
+    "yylo",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
     "screenshot-to-code",
-    "chatgpt-apps-sdk",
     "evolink",
     "new-ui"
   ]

@@ -7,13 +7,13 @@
   "date-added": "2025-06-06",
   "slug": "voicetype",
   "related": [
-    "playht",
     "unreal-speech",
     "mp3-to-text",
     "lami",
     "lyricstosong",
     "whisper",
     "trint",
-    "wellsaid-labs"
+    "wellsaid-labs",
+    "f5-tts"
   ]
 }

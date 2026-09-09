@@ -104,30 +104,6 @@
     "slug": "forge"
   },
   {
-    "title": "GitHub Copilot",
-    "body": "AI pair programmer.",
-    "tag": "From $10/mo",
-    "url": "https://github.com/features/copilot/?ref=riseofmachine.com",
-    "date-added": "2023-12-15",
-    "slug": "github-copilot"
-  },
-  {
-    "title": "Grok Video",
-    "body": "AI video generation.",
-    "tag": "Freemium",
-    "url": "https://grokvideo.net?ref=riseofmachine.com",
-    "date-added": "2025-11-12",
-    "slug": "grok-video"
-  },
-  {
-    "title": "Lovable",
-    "body": "The AI-native product platform.",
-    "url": "https://lovable.ai/?ref=riseofmachine.com",
-    "tag": "Freemium",
-    "date-added": "2025-10-22",
-    "slug": "lovable"
-  },
-  {
     "title": "Melty",
     "body": "AI code editor.",
     "tag": "Early access",
@@ -150,13 +126,5 @@
     "url": "https://www.qodo.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "qodo"
-  },
-  {
-    "title": "Replit Ghostwriter",
-    "body": "The AI-powered pair programmer.",
-    "url": "https://replit.com/site/ghostwriter?ref=riseofmachine.com",
-    "tag": "Freemium",
-    "date-added": "2025-10-22",
-    "slug": "replit-ghostwriter"
   }
 ]

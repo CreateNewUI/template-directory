@@ -8,12 +8,12 @@
   "slug": "prisma",
   "related": [
     "ghibli-app",
-    "makebw",
     "ghibli-art-ai",
     "anyimg",
     "mediaai-art",
-    "vieutopia",
     "banana-ai-art",
-    "nightcafe-creator"
+    "nightcafe-creator",
+    "furryai",
+    "imgnai"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "ghibli-app",
   "related": [
     "ghibli-art-ai",
-    "makebw",
     "comicsai",
     "image-to-3d-ai",
     "image-to-image-maker",
     "picture-generator",
     "wanai",
-    "gempix2"
+    "gempix2",
+    "comfy"
   ]
 }

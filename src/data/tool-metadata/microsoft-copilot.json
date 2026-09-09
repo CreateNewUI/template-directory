@@ -11,9 +11,9 @@
     "qwen",
     "muse-spark-ai",
     "deepseekv4dev",
-    "appagent",
-    "deepseek-r1",
     "gemini",
-    "grok-1"
+    "ai-agents-live",
+    "ai-agents-list",
+    "chat100"
   ]
 }

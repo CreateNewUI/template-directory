@@ -64,14 +64,6 @@
     "slug": "cqtai"
   },
   {
-    "title": "Create Video",
-    "body": "All-in-one AI video & image generator.",
-    "tag": "From $7.99/mo",
-    "url": "https://aicreate.video/?ref=riseofmachine.com",
-    "date-added": "2025-09-05",
-    "slug": "create-video"
-  },
-  {
     "title": "CreateNew",
     "body": "Platform for video & image creation.",
     "tag": "Freemium",
@@ -464,14 +456,6 @@
     "slug": "noeffort"
   },
   {
-    "title": "Omagic AI",
-    "body": "Create 3D/CGI videos & images with AI effects.",
-    "tag": "Freemium",
-    "url": "https://omagicai.com/?ref=riseofmachine.com",
-    "date-added": "2025-06-01",
-    "slug": "omagic-ai"
-  },
-  {
     "title": "Omni AI Video Generator",
     "body": "Quickly visualize creative video ideas",
     "tag": "Not available",
@@ -632,28 +616,12 @@
     "slug": "seedance-2-video"
   },
   {
-    "title": "Seedances",
-    "body": "AI video generation from text and images.",
-    "tag": "Freemium",
-    "url": "https://www.seedances.app/?ref=riseofmachine.com",
-    "date-added": "2025-10-03",
-    "slug": "seedances"
-  },
-  {
     "title": "Shorts Generator",
     "body": "Instant TikTok, Instagram, YouTube videos from ideas.",
     "tag": "Freemium",
     "url": "https://shortsgenerator.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-17",
     "slug": "shorts-generator"
-  },
-  {
-    "title": "Shortsfarm",
-    "body": "UGC videos.",
-    "tag": "From $29/mo",
-    "url": "https://shortsfarm.ai/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "shortsfarm"
   },
   {
     "title": "Soda Video ai",
@@ -758,14 +726,6 @@
     "tag": "Freemium",
     "date-added": "2025-07-31",
     "slug": "veo-video"
-  },
-  {
-    "title": "Veo3 Video Generator",
-    "body": "Create stunning videos from text or images.",
-    "tag": "Freemium",
-    "url": "https://zacose.com/veo3_ai_video_generator?ref=riseofmachine.com",
-    "date-added": "2025-06-11",
-    "slug": "veo3-video-generator"
   },
   {
     "title": "Veo3.bot",

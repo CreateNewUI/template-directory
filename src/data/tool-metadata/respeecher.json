@@ -8,12 +8,12 @@
   "slug": "respeecher",
   "related": [
     "calldock",
-    "voicemyai",
     "voice-cloning-free",
     "altered",
     "kits-ai",
-    "playht",
     "elevenlabs",
-    "voicemod"
+    "voicemod",
+    "openwispr",
+    "monologue"
   ]
 }

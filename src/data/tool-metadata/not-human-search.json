@@ -10,10 +10,10 @@
     "cursor-mcp",
     "cosine",
     "teachable-machine",
-    "flappy",
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "chatgpt-apps-sdk"
+    "buildrs",
+    "tensorblock-forge"
   ]
 }

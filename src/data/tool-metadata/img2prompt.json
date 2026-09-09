@@ -11,9 +11,9 @@
     "gpt-prompts",
     "dallelist",
     "eye-for-ai",
-    "promptforge",
     "prompt-library",
     "gemini-photo-prompt",
-    "xprompts"
+    "xprompts",
+    "banana-prompts"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "elevenlabs",
   "related": [
     "calldock",
-    "voicemyai",
     "voice-cloning-free",
     "altered",
     "kits-ai",
-    "playht",
     "respeecher",
-    "voicemod"
+    "voicemod",
+    "openwispr",
+    "unreal-speech"
   ]
 }

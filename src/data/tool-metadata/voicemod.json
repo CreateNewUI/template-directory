@@ -8,12 +8,12 @@
   "slug": "voicemod",
   "related": [
     "calldock",
-    "voicemyai",
     "voice-cloning-free",
     "altered",
     "kits-ai",
-    "playht",
     "elevenlabs",
-    "respeecher"
+    "respeecher",
+    "openwispr",
+    "monologue"
   ]
 }

@@ -24,28 +24,12 @@
     "slug": "ai-agents-list"
   },
   {
-    "title": "Appagent",
-    "body": "Multimodal agents as smartphone users.",
-    "tag": "Free",
-    "url": "https://github.com/mnotgod96/AppAgent?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "appagent"
-  },
-  {
     "title": "Archetype",
     "body": "AI foundation model.",
     "tag": "Early Access",
     "url": "https://www.archetypeai.io/?ref=riseofmachine.com",
     "date-added": "2023-12-26",
     "slug": "archetype"
-  },
-  {
-    "title": "Auto-gpt",
-    "body": "Create, deploy, and manage continuous AI agents.",
-    "tag": "Not available",
-    "url": "https://github.com/Torantulino/Auto-GPT?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "auto-gpt"
   },
   {
     "title": "Character",
@@ -94,14 +78,6 @@
     "url": "https://chat.deepseek.com?ref=riseofmachine.com",
     "date-added": "2025-06-14",
     "slug": "deepseek"
-  },
-  {
-    "title": "Deepseek-r1",
-    "body": "DeepSeek's first-generation reasoning models.",
-    "tag": "Free",
-    "url": "https://github.com/deepseek-ai/DeepSeek-R1?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "deepseek-r1"
   },
   {
     "title": "DeepSeekV4.dev",
@@ -176,14 +152,6 @@
     "slug": "grok"
   },
   {
-    "title": "Grok-1",
-    "body": "A large language model open sourced by xAI",
-    "tag": "Free",
-    "url": "https://github.com/xai-org/grok-1?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "grok-1"
-  },
-  {
     "title": "Helicone",
     "body": "Monitor LLM-applications.",
     "tag": "Freemium",
@@ -222,14 +190,6 @@
     "url": "https://www.llamaindex.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-26",
     "slug": "llamaindex"
-  },
-  {
-    "title": "Mastraai",
-    "body": "Mastra is an opinionated TypeScript framework.",
-    "tag": "Free",
-    "url": "https://github.com/mastra-ai/mastra?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "mastraai"
   },
   {
     "title": "Microsoft Copilot",

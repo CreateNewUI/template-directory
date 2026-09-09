@@ -7,13 +7,13 @@
   "date-added": "2026-01-12",
   "slug": "banana-pro",
   "related": [
-    "banana-ai-2",
     "banana-ai-1",
     "z-image",
-    "banana-ai",
     "sdxl-turbo",
     "fastimage",
     "picrafts",
-    "ptool"
+    "ptool",
+    "imgnai",
+    "exactly"
   ]
 }

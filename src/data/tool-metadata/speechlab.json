@@ -11,9 +11,9 @@
     "cleanaudio-ai",
     "mp3-to-text",
     "goose-pod",
-    "reelscribe",
     "monologue",
-    "playht",
-    "whisper"
+    "whisper",
+    "openwispr",
+    "aimakesong"
   ]
 }

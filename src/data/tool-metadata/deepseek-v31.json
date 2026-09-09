@@ -10,10 +10,10 @@
     "elements-by-vercel",
     "onlook-for-web",
     "traceroot",
-    "keys-and-caches",
     "omnara",
     "agent-hub",
     "reachllm",
-    "trace"
+    "trace",
+    "madespace"
   ]
 }

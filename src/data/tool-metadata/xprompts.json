@@ -12,8 +12,8 @@
     "midlearning",
     "prompt-generator",
     "diligence-check",
-    "promptforge",
     "srefhunter",
-    "dallelist"
+    "dallelist",
+    "prompt-library"
   ]
 }

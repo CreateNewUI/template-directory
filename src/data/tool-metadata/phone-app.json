@@ -7,13 +7,13 @@
   "date-added": "2025-06-06",
   "slug": "phone-app",
   "related": [
-    "seamless",
     "audio-transcriber-ai",
     "voqusa",
     "ringfoods",
     "cleanaudio-ai",
     "sonicker",
     "mp3-to-text",
-    "goose-pod"
+    "goose-pod",
+    "nicevoice"
   ]
 }

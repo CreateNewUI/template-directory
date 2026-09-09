@@ -1,13 +1,5 @@
 [
   {
-    "title": "Adcopy",
-    "body": "Generate ad copy.",
-    "tag": "Freemium",
-    "url": "https://adcopy.ai/?ref=riseofmachine.com",
-    "date-added": "2025-07-19",
-    "slug": "adcopy"
-  },
-  {
     "title": "Albus",
     "body": "Knowledge bot for Slack.",
     "tag": "From $4.99/mo",
@@ -358,14 +350,6 @@
     "url": "https://prometai.app/business-plan-templates/?ref=riseofmachine.com",
     "date-added": "2025-06-06",
     "slug": "prometai"
-  },
-  {
-    "title": "Rainex Agents",
-    "body": "Business automation.",
-    "tag": "Freemium",
-    "url": "https://rainex.io/ai-agents/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "rainex-agents"
   },
   {
     "title": "RaykoLabs",

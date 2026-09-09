@@ -11,9 +11,9 @@
     "music-generator",
     "shazam",
     "sprunki",
-    "audiocraft",
     "vocal-remover",
     "wondera",
-    "elevenlabssound-effects"
+    "elevenlabssound-effects",
+    "song-generator"
   ]
 }

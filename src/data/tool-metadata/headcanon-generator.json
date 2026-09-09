@@ -7,13 +7,13 @@
   "date-added": "2025-06-01",
   "slug": "headcanon-generator",
   "related": [
-    "headcanon-generator-fun",
     "sickleaveemail",
     "news-article-gen",
-    "textcraft",
     "newsletter-name-generator",
     "bexiai",
     "detector-writer",
-    "humanize"
+    "humanize",
+    "wordstudio",
+    "cowriter"
   ]
 }

@@ -1,13 +1,5 @@
 [
   {
-    "title": "Audiocraft",
-    "body": "Open source library for audio/music generation.",
-    "tag": "Free",
-    "url": "https://github.com/facebookresearch/audiocraft?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "audiocraft"
-  },
-  {
     "title": "AudioStrip",
     "body": "Split vocals from backing music.",
     "tag": "Freemium",
@@ -70,6 +62,14 @@
     "url": "https://lyricstosong.io/?ref=riseofmachine.com",
     "date-added": "2025-10-11",
     "slug": "lyrics-to-song"
+  },
+  {
+    "title": "LyricsGift",
+    "body": "Personalized gift songs from your story.",
+    "tag": "A$39 One-time",
+    "url": "https://lyricsgift.com/?ref=riseofmachine.com",
+    "date-added": "2026-09-05",
+    "slug": "lyricsgift"
   },
   {
     "title": "Mubert",

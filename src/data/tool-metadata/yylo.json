@@ -1,0 +1,19 @@
+{
+  "title": "YYLO — the system of work for agentic engineering",
+  "description": "Coordinate coding agents from intent through validated code while preserving durable task, session, review, and evaluation evidence.",
+  "category": "developer",
+  "url": "https://www.yylo.dev?ref=riseofmachine.com",
+  "tag": "Open-source",
+  "date-added": "2026-09-09",
+  "slug": "yylo",
+  "related": [
+    "n8n-workflow-builder",
+    "new-ui",
+    "rybbit",
+    "ai-sdk-5-by-vercel",
+    "ollama-desktop-app",
+    "axflow",
+    "rysana",
+    "tinygrad"
+  ]
+}

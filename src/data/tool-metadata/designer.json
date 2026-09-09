@@ -8,12 +8,12 @@
   "slug": "designer",
   "related": [
     "image-to-3d-ai",
-    "visual-chatgpt",
     "picture-generator",
     "ghibli-art-ai",
     "image-generator-nsfw",
     "image-to-image-maker",
-    "makebw",
-    "comicsai"
+    "comicsai",
+    "wanai",
+    "gempix2"
   ]
 }

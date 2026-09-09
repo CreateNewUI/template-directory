@@ -9,11 +9,11 @@
   "related": [
     "z-image",
     "fastimage",
-    "banana-ai-2",
     "banana-ai-1",
     "ptool",
-    "dsnr",
     "gpt-image-2-1",
-    "zilivo-ai"
+    "zilivo-ai",
+    "gpt-image-2",
+    "editaimg"
   ]
 }
