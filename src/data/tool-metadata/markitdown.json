@@ -7,13 +7,13 @@
   "date-added": "2026-04-21",
   "slug": "markitdown",
   "related": [
+    "agent-qa",
     "sqlmate",
     "not-human-search",
     "nat-checker",
     "cursor-mcp",
     "buildrs",
     "tensorblock-forge",
-    "create-apidev",
-    "x-note-writer-api"
+    "create-apidev"
   ]
 }

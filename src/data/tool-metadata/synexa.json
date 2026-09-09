@@ -8,12 +8,12 @@
   "slug": "synexa",
   "related": [
     "yylo",
+    "agent-qa",
+    "cactal",
+    "chartcraft",
     "sqlmate",
     "markitdown",
     "not-human-search",
-    "nat-checker",
-    "screenshot-to-code",
-    "evolink",
-    "new-ui"
+    "nat-checker"
   ]
 }

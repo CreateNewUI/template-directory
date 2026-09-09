@@ -8,12 +8,12 @@
   "slug": "svg-generator",
   "related": [
     "imgnai",
+    "imgstyler",
     "ideogramai",
     "genxi",
     "hotpot",
     "sdxl-turbo",
     "skybox-ai",
-    "banana-pro",
-    "image-to-prompt"
+    "banana-pro"
   ]
 }

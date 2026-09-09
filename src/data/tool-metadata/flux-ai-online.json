@@ -12,8 +12,8 @@
     "gemini-flash-image",
     "preset-generator",
     "image-changer-app",
-    "animegenai",
-    "blur-background",
-    "image-describer"
+    "imagine2",
+    "fromimage-ai",
+    "ai-image-combiner"
   ]
 }

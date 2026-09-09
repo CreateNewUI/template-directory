@@ -1,5 +1,13 @@
 [
   {
+    "title": "Agent QA",
+    "body": "Self-improving agent for software quality.",
+    "tag": "Free",
+    "url": "https://github.com/vostride/agent-qa?ref=riseofmachine.com",
+    "date-added": "2026-08-21",
+    "slug": "agent-qa"
+  },
+  {
     "title": "Amazon Codewhisperer",
     "body": "A code writing assistant developed by Amazon",
     "tag": "Not available",
@@ -72,6 +80,14 @@
     "slug": "builduo"
   },
   {
+    "title": "Cactal",
+    "body": "Website platform for AI agents.",
+    "tag": "Freemium",
+    "url": "https://cactal.ai?ref=riseofmachine.com",
+    "date-added": "2026-08-07",
+    "slug": "cactal"
+  },
+  {
     "title": "CapMonster Cloud",
     "body": "AI CAPTCHA-solving service for automation pros.",
     "tag": "Paid",
@@ -86,6 +102,14 @@
     "url": "https://cekura.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-24",
     "slug": "cekura"
+  },
+  {
+    "title": "ChartCraft",
+    "body": "Turn plain-English into editable diagrams.",
+    "tag": "Freemium",
+    "url": "https://www.chartcraft.dev/?ref=riseofmachine.com",
+    "date-added": "2026-08-03",
+    "slug": "chartcraft"
   },
   {
     "title": "Chef",

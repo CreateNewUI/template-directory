@@ -7,13 +7,13 @@
   "date-added": "2025-06-19",
   "slug": "prompt-generator",
   "related": [
+    "shottoprompt",
     "goodprompts",
     "dallelist",
     "xprompts",
     "midlearning",
     "banana-prompts",
     "diligence-check",
-    "srefhunter",
-    "gpt-prompts"
+    "srefhunter"
   ]
 }

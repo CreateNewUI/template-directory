@@ -11,9 +11,9 @@
     "starter-best",
     "runpod",
     "yylo",
-    "sqlmate",
-    "markitdown",
-    "not-human-search",
-    "nat-checker"
+    "agent-qa",
+    "cactal",
+    "chartcraft",
+    "sqlmate"
   ]
 }

@@ -15,12 +15,13 @@ export async function GET(context: APIContext) {
         cat.content.map((tool) => ({ ...tool, category: cat.category }))
     );
 
-    const items = all
-        .map((tool) => {
-            const ts = tool['date-added'] ? new Date(tool['date-added']).getTime() : NaN;
-            return { tool, ts };
-        })
-        .filter(({ ts }) => Number.isFinite(ts))
+    const dated: { tool: ToolWithCategory; ts: number }[] = [];
+    for (const tool of all) {
+        const ts = tool['date-added'] ? new Date(tool['date-added']).getTime() : NaN;
+        if (Number.isFinite(ts)) dated.push({ tool, ts });
+    }
+
+    const items = dated
         .sort((a, b) => b.ts - a.ts)
         .slice(0, MAX_ITEMS)
         .map(({ tool, ts }) => ({

@@ -8,12 +8,12 @@
   "slug": "dallelist",
   "related": [
     "prompt-generator",
+    "shottoprompt",
     "xprompts",
     "banana-prompts",
     "diligence-check",
     "midlearning",
     "srefhunter",
-    "goodprompts",
-    "gpt-prompts"
+    "goodprompts"
   ]
 }

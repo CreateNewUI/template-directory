@@ -8,12 +8,12 @@
   "slug": "marscode",
   "related": [
     "fitten-code",
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
     "cursor-mcp",
-    "buildrs",
-    "tensorblock-forge"
+    "buildrs"
   ]
 }

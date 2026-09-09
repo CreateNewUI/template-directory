@@ -354,7 +354,10 @@ import DetailVisitButton from './DetailVisitButton.tsx';
         if (descMap) return Promise.resolve(descMap);
         if (!descPromise) {
             descPromise = fetch('/tool-descriptions.json')
-                .then((r) => r.json())
+                .then((r) => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.json();
+                })
                 .then((m: Record<string, Panel>) => (descMap = m))
                 .catch(() => (descMap = {}));
         }
@@ -383,6 +386,15 @@ import DetailVisitButton from './DetailVisitButton.tsx';
         }
     };
 
+    // decodeURIComponent throws URIError on malformed escapes; fall back to the raw value.
+    const safeDecode = (value: string) => {
+        try {
+            return decodeURIComponent(value);
+        } catch {
+            return value;
+        }
+    };
+
     // Full dataset (for similarity scoring), loaded once and cached.
     let indexRecs: Rec[] | null = null;
     let indexPromise: Promise<Rec[]> | null = null;
@@ -390,7 +402,10 @@ import DetailVisitButton from './DetailVisitButton.tsx';
         if (indexRecs) return Promise.resolve(indexRecs);
         if (!indexPromise) {
             indexPromise = fetch('/search-index.json')
-                .then((r) => r.json())
+                .then((r) => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.json();
+                })
                 .then((d: Rec[]) => (indexRecs = d))
                 .catch(() => (indexRecs = []));
         }
@@ -649,7 +664,7 @@ import DetailVisitButton from './DetailVisitButton.tsx';
             pushed = false;
             const m = location.pathname.match(/^\/tools\/([^/]+)\/?$/);
             if (m && m[1]) {
-                const slug = decodeURIComponent(m[1]);
+                const slug = safeDecode(m[1]);
                 const card = document.querySelector<HTMLAnchorElement>(
                     `a[data-tool-link][data-slug="${CSS.escape(slug)}"]`,
                 );
@@ -668,7 +683,7 @@ import DetailVisitButton from './DetailVisitButton.tsx';
             pushed = false;
             const m = location.pathname.match(/^\/tools\/([^/]+)\/?$/);
             if (m && m[1]) {
-                const slug = decodeURIComponent(m[1]);
+                const slug = safeDecode(m[1]);
                 const card = document.querySelector<HTMLAnchorElement>(
                     `a[data-tool-link][data-slug="${CSS.escape(slug)}"]`,
                 );

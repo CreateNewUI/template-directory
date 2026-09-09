@@ -11,9 +11,9 @@
     "marscode",
     "fitten-code",
     "axflow",
+    "agent-qa",
     "amazon-codewhisperer",
     "yylo",
-    "sqlmate",
-    "markitdown"
+    "cactal"
   ]
 }

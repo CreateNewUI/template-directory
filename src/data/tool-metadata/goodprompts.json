@@ -9,11 +9,11 @@
   "related": [
     "xprompts",
     "midlearning",
+    "shottoprompt",
     "banana-prompts",
     "prompt-generator",
     "diligence-check",
     "srefhunter",
-    "dallelist",
-    "prompt-library"
+    "dallelist"
   ]
 }

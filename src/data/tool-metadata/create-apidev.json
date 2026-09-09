@@ -9,11 +9,11 @@
   "related": [
     "tensorblock-forge",
     "x-note-writer-api",
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "cursor-mcp",
-    "buildrs"
+    "cursor-mcp"
   ]
 }

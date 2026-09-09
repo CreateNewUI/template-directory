@@ -13,7 +13,7 @@ describe('BookmarkButton', () => {
     });
 
     it('renders unbookmarked by default and reflects an existing bookmark', () => {
-        localStorage.setItem('rom_bookmarks', JSON.stringify(['already-saved']));
+        localStorage.setItem('rom_bookmarks:v1', JSON.stringify(['already-saved']));
 
         render(<BookmarkButton slug="not-saved" title="Tool A" />);
         const btnA = screen.getByRole('button');
@@ -36,14 +36,14 @@ describe('BookmarkButton', () => {
 
         fireEvent.click(btn);
         expect(btn.className).toMatch(/bookmarked/);
-        expect(JSON.parse(localStorage.getItem('rom_bookmarks') || '[]')).toEqual([
+        expect(JSON.parse(localStorage.getItem('rom_bookmarks:v1') || '[]')).toEqual([
             'my-tool',
         ]);
         expect(handler).toHaveBeenCalledTimes(1);
 
         fireEvent.click(btn);
         expect(btn.className).not.toMatch(/bookmarked/);
-        expect(JSON.parse(localStorage.getItem('rom_bookmarks') || '[]')).toEqual([]);
+        expect(JSON.parse(localStorage.getItem('rom_bookmarks:v1') || '[]')).toEqual([]);
         expect(handler).toHaveBeenCalledTimes(2);
 
         window.removeEventListener('bookmarks:changed', handler);
@@ -67,7 +67,7 @@ describe('BookmarkButton', () => {
 
         // Simulate another BookmarkButton instance saving this slug.
         act(() => {
-            localStorage.setItem('rom_bookmarks', JSON.stringify(['x']));
+            localStorage.setItem('rom_bookmarks:v1', JSON.stringify(['x']));
             window.dispatchEvent(new CustomEvent('bookmarks:changed'));
         });
 
@@ -81,7 +81,7 @@ describe('BookmarkButton', () => {
         render(<BookmarkButton slug="" title="No Slug" />);
         fireEvent.click(screen.getByRole('button'));
 
-        expect(localStorage.getItem('rom_bookmarks')).toBeNull();
+        expect(localStorage.getItem('rom_bookmarks:v1')).toBeNull();
         expect(handler).not.toHaveBeenCalled();
 
         window.removeEventListener('bookmarks:changed', handler);

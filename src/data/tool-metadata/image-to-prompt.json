@@ -7,13 +7,13 @@
   "date-added": "2025-12-21",
   "slug": "image-to-prompt",
   "related": [
+    "imgstyler",
     "z-image",
     "anyimg",
     "fastimage",
     "stockimg",
     "banana-ai-1",
     "picrafts",
-    "nightcafe-creator",
-    "furryai"
+    "nightcafe-creator"
   ]
 }

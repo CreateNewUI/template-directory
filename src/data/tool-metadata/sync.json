@@ -8,12 +8,12 @@
   "slug": "sync",
   "related": [
     "trint",
+    "audjust-ai",
     "cleanaudio-ai",
     "audio-muse",
     "mix-audio",
     "wellsaid-labs",
     "mp3-to-text",
-    "goose-pod",
-    "monologue"
+    "goose-pod"
   ]
 }

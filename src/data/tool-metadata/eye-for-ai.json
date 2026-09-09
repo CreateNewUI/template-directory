@@ -7,13 +7,13 @@
   "date-added": "2023-12-15",
   "slug": "eye-for-ai",
   "related": [
+    "webprompts-dev",
     "gemini-photo-prompt",
     "smartgpt",
     "openart",
     "prompthero",
     "gpt-prompts",
     "img2prompt",
-    "dallelist",
-    "prompt-library"
+    "dallelist"
   ]
 }

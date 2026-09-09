@@ -8,12 +8,12 @@
   "slug": "srefhunter",
   "related": [
     "midlearning",
+    "shottoprompt",
     "xprompts",
     "banana-prompts",
     "diligence-check",
     "prompt-generator",
     "goodprompts",
-    "dallelist",
-    "prompthero"
+    "dallelist"
   ]
 }

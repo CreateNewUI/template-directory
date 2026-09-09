@@ -13,7 +13,7 @@
     "eye-for-ai",
     "prompt-library",
     "gemini-photo-prompt",
-    "xprompts",
-    "banana-prompts"
+    "shottoprompt",
+    "webprompts-dev"
   ]
 }

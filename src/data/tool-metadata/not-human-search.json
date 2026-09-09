@@ -8,12 +8,12 @@
   "slug": "not-human-search",
   "related": [
     "cursor-mcp",
+    "agent-qa",
     "cosine",
     "teachable-machine",
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "buildrs",
-    "tensorblock-forge"
+    "buildrs"
   ]
 }

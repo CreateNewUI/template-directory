@@ -1,0 +1,19 @@
+{
+  "title": "Video to Prompt Generator for AI Video — ShotToPrompt",
+  "description": "Upload a short reference clip and convert its camera motion, lighting, timing, action, and audio into editable prompts for Veo, Kling, Seedance, and more.",
+  "category": "prompts",
+  "url": "https://shottoprompt.com/?ref=riseofmachine.com",
+  "tag": "Free",
+  "date-added": "2026-08-08",
+  "slug": "shottoprompt",
+  "related": [
+    "prompt-generator",
+    "goodprompts",
+    "xprompts",
+    "midlearning",
+    "banana-prompts",
+    "diligence-check",
+    "srefhunter",
+    "dallelist"
+  ]
+}

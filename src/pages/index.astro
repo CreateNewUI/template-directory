@@ -14,8 +14,8 @@ const allTools = data.tools.flatMap((category: any) =>
 );
 
 // Newest first for the "Latest" strip; a stable sample for "Featured".
-const latestTools = [...allTools]
-  .sort(
+const latestTools = allTools
+  .toSorted(
     (a: any, b: any) =>
       new Date(b["date-added"]).getTime() - new Date(a["date-added"]).getTime()
   )
@@ -23,9 +23,11 @@ const latestTools = [...allTools]
 
 // Editorial + rotated Featured picks, resolved from precomputed slugs.
 const bySlug = new Map(allTools.map((t: any) => [t.slug, t]));
-const featuredTools = (featured.slugs as string[])
-  .map((s) => bySlug.get(s))
-  .filter(Boolean);
+const featuredTools: any[] = [];
+for (const s of featured.slugs as string[]) {
+  const tool = bySlug.get(s);
+  if (tool) featuredTools.push(tool);
+}
 ---
 
 <Layout

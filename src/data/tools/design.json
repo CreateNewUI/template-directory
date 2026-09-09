@@ -88,6 +88,14 @@
     "slug": "floor-plan-maker"
   },
   {
+    "title": "FloorDrafter",
+    "body": "AI floor plan generator.",
+    "tag": "Freemium",
+    "url": "https://floordrafter.com?ref=riseofmachine.com",
+    "date-added": "2026-08-06",
+    "slug": "floordrafter"
+  },
+  {
     "title": "FLORA AI",
     "body": "Creative AI tools on one canvas.",
     "tag": "Freemium",
@@ -150,6 +158,14 @@
     "url": "https://illustroke.com/?ref=riseofmachine.com",
     "date-added": "2023-12-12",
     "slug": "illustroke"
+  },
+  {
+    "title": "IMGto3D",
+    "body": "Converts 2D images to 3D.",
+    "tag": "Freemium",
+    "url": "https://www.imgto3d.ai?ref=riseofmachine.com",
+    "date-added": "2026-08-31",
+    "slug": "imgto3d"
   },
   {
     "title": "Kaedim",

@@ -7,13 +7,13 @@
   "date-added": "2023-12-15",
   "slug": "openart",
   "related": [
+    "webprompts-dev",
     "prompthero",
     "smartgpt",
     "gemini-photo-prompt",
     "eye-for-ai",
     "promptvibe",
     "gpt-prompts",
-    "goodprompts",
-    "promptbox"
+    "goodprompts"
   ]
 }
