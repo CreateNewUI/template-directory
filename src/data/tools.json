@@ -2939,6 +2939,14 @@
           "slug": "x-note-writer-api"
         },
         {
+          "title": "YYLO",
+          "body": "Command-line orchestrator for coding agents.",
+          "tag": "Open-source",
+          "url": "https://www.yylo.dev?ref=riseofmachine.com",
+          "date-added": "2026-09-09",
+          "slug": "yylo"
+        },
+        {
           "title": "Zen Agents",
           "body": "Build & share custom AI agents for your codebase.",
           "tag": "Freemium",
