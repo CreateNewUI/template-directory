@@ -11,9 +11,9 @@
     "onenode",
     "zen-agents",
     "amazon-sagemaker",
+    "cactal",
     "builduo",
     "atla",
-    "helix",
-    "strata"
+    "helix"
   ]
 }

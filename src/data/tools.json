@@ -381,6 +381,14 @@
           "slug": "imgnai"
         },
         {
+          "title": "Imgstyler",
+          "body": "AI image generation and prompts.",
+          "tag": "Freemium",
+          "url": "https://imgstyler.com/?ref=riseofmachine.com",
+          "date-added": "2026-08-18",
+          "slug": "imgstyler"
+        },
+        {
           "title": "Infinite Craft Guide",
           "body": "Learn recipes and strategies for Infinite Craft.",
           "tag": "Free",
@@ -427,6 +435,14 @@
           "url": "https://lexica.art/?ref=riseofmachine.com",
           "date-added": "2023-12-24",
           "slug": "lexica"
+        },
+        {
+          "title": "Line Drawing Converter",
+          "body": "Converts photos into line drawings.",
+          "tag": "Not available",
+          "url": "https://linedrawingconverter.com/?ref=riseofmachine.com",
+          "date-added": "2026-08-04",
+          "slug": "line-drawing-converter"
         },
         {
           "title": "Lora",
@@ -785,6 +801,14 @@
           "url": "https://audiotranscriber.io?ref=riseofmachine.com",
           "date-added": "2026-07-22",
           "slug": "audio-transcriber-ai"
+        },
+        {
+          "title": "Audjust AI",
+          "body": "AI audio editor and generator.",
+          "tag": "Freemium",
+          "url": "https://audjust.ai/?ref=riseofmachine.com",
+          "date-added": "2026-08-05",
+          "slug": "audjust-ai"
         },
         {
           "title": "BlogAudio",
@@ -1885,6 +1909,14 @@
           "slug": "floor-plan-maker"
         },
         {
+          "title": "FloorDrafter",
+          "body": "AI floor plan generator.",
+          "tag": "Freemium",
+          "url": "https://floordrafter.com?ref=riseofmachine.com",
+          "date-added": "2026-08-06",
+          "slug": "floordrafter"
+        },
+        {
           "title": "FLORA AI",
           "body": "Creative AI tools on one canvas.",
           "tag": "Freemium",
@@ -1947,6 +1979,14 @@
           "url": "https://illustroke.com/?ref=riseofmachine.com",
           "date-added": "2023-12-12",
           "slug": "illustroke"
+        },
+        {
+          "title": "IMGto3D",
+          "body": "Converts 2D images to 3D.",
+          "tag": "Freemium",
+          "url": "https://www.imgto3d.ai?ref=riseofmachine.com",
+          "date-added": "2026-08-31",
+          "slug": "imgto3d"
         },
         {
           "title": "Kaedim",
@@ -2291,6 +2331,14 @@
       "category": "developer",
       "content": [
         {
+          "title": "Agent QA",
+          "body": "Self-improving agent for software quality.",
+          "tag": "Free",
+          "url": "https://github.com/vostride/agent-qa?ref=riseofmachine.com",
+          "date-added": "2026-08-21",
+          "slug": "agent-qa"
+        },
+        {
           "title": "Amazon Codewhisperer",
           "body": "A code writing assistant developed by Amazon",
           "tag": "Not available",
@@ -2363,6 +2411,14 @@
           "slug": "builduo"
         },
         {
+          "title": "Cactal",
+          "body": "Website platform for AI agents.",
+          "tag": "Freemium",
+          "url": "https://cactal.ai?ref=riseofmachine.com",
+          "date-added": "2026-08-07",
+          "slug": "cactal"
+        },
+        {
           "title": "CapMonster Cloud",
           "body": "AI CAPTCHA-solving service for automation pros.",
           "tag": "Paid",
@@ -2377,6 +2433,14 @@
           "url": "https://cekura.ai/?ref=riseofmachine.com",
           "date-added": "2025-06-24",
           "slug": "cekura"
+        },
+        {
+          "title": "ChartCraft",
+          "body": "Turn plain-English into editable diagrams.",
+          "tag": "Freemium",
+          "url": "https://www.chartcraft.dev/?ref=riseofmachine.com",
+          "date-added": "2026-08-03",
+          "slug": "chartcraft"
         },
         {
           "title": "Chef",
@@ -3039,6 +3103,14 @@
           "tag": "Freemium",
           "date-added": "2025-09-24",
           "slug": "manna"
+        },
+        {
+          "title": "Math AI",
+          "body": "Step-by-step AI math solver.",
+          "tag": "Freemium",
+          "url": "https://mathai.chat/?ref=riseofmachine.com",
+          "date-added": "2026-09-08",
+          "slug": "math-ai"
         },
         {
           "title": "Math.now",
@@ -4768,6 +4840,14 @@
           "slug": "add-person-to-photo"
         },
         {
+          "title": "AI Image Combiner",
+          "body": "Merge multiple photos with AI.",
+          "tag": "Freemium",
+          "url": "https://aiimagecombiner.app?ref=riseofmachine.com",
+          "date-added": "2026-08-02",
+          "slug": "ai-image-combiner"
+        },
+        {
           "title": "AnimeGen.ai",
           "body": "Turn selfies into anime-style art.",
           "tag": "Freemium",
@@ -5032,6 +5112,14 @@
           "slug": "fotol-image-generator"
         },
         {
+          "title": "FromImage AI",
+          "body": "Transforms reference photos with prompts.",
+          "tag": "Freemium",
+          "url": "https://fromimage.ai/?ref=riseofmachine.com",
+          "date-added": "2026-08-10",
+          "slug": "fromimage-ai"
+        },
+        {
           "title": "Gemini Flash Image",
           "body": "Create stunning images with AI.",
           "tag": "Freemium",
@@ -5150,6 +5238,14 @@
           "url": "https://imagetexteditor.org?ref=riseofmachine.com",
           "date-added": "2026-01-22",
           "slug": "image-text-editor"
+        },
+        {
+          "title": "Imagine2",
+          "body": "Browser-based AI image generation editor.",
+          "tag": "Freemium",
+          "url": "https://imagine2.net?ref=riseofmachine.com",
+          "date-added": "2026-08-20",
+          "slug": "imagine2"
         },
         {
           "title": "Imggen AI",
@@ -5532,6 +5628,14 @@
           "url": "https://www.autotab.com/?ref=riseofmachine.com",
           "date-added": "2024-10-23",
           "slug": "autotab"
+        },
+        {
+          "title": "BankingNewsAI",
+          "body": "AI-curated daily banking news.",
+          "tag": "Free",
+          "url": "https://www.bankingnewsai.com?ref=riseofmachine.com",
+          "date-added": "2026-08-30",
+          "slug": "bankingnewsai"
         },
         {
           "title": "BeforeSunset",
@@ -6532,6 +6636,14 @@
           "slug": "promptvibe"
         },
         {
+          "title": "ShotToPrompt",
+          "body": "Video analysis generating reusable prompts.",
+          "tag": "Free",
+          "url": "https://shottoprompt.com/?ref=riseofmachine.com",
+          "date-added": "2026-08-08",
+          "slug": "shottoprompt"
+        },
+        {
           "title": "SmartGPT",
           "body": "AI enhanced prompts for expert-level results.",
           "tag": "Freemium",
@@ -6546,6 +6658,14 @@
           "url": "https://srefhunter.top/?ref=riseofmachine.com",
           "date-added": "2024-06-17",
           "slug": "srefhunter"
+        },
+        {
+          "title": "WebPrompts.dev",
+          "body": "Visual prompts for AI coding.",
+          "tag": "Freemium",
+          "url": "https://webprompts.dev/?ref=riseofmachine.com",
+          "date-added": "2026-08-01",
+          "slug": "webprompts-dev"
         },
         {
           "title": "XPROMPTS",
@@ -7404,6 +7524,14 @@
           "slug": "hailuoai"
         },
         {
+          "title": "Haiper AI Video Generator",
+          "body": "AI text and image-to-video generator.",
+          "tag": "Freemium",
+          "url": "https://haiperai.org/?ref=riseofmachine.com",
+          "date-added": "2026-08-05",
+          "slug": "haiper-ai-video-generator"
+        },
+        {
           "title": "HappyHorse",
           "body": "Cinematic AI video generator online.",
           "tag": "From $9/mo",
@@ -7596,6 +7724,14 @@
           "slug": "morph-studio"
         },
         {
+          "title": "Motion",
+          "body": "AI-powered motion design tool.",
+          "tag": "From $5/mo",
+          "url": "https://motion.so/?ref=riseofmachine.com",
+          "date-added": "2026-08-03",
+          "slug": "motion"
+        },
+        {
           "title": "Motion Control",
           "body": "Precision AI motion transfer tool.",
           "tag": "Freemium",
@@ -7700,6 +7836,14 @@
           "slug": "pixverse"
         },
         {
+          "title": "PopUGC",
+          "body": "AI image and video studio.",
+          "tag": "From $29/mo",
+          "url": "https://popugc.com/?ref=riseofmachine.com",
+          "date-added": "2026-09-08",
+          "slug": "popugc"
+        },
+        {
           "title": "PowerDirector",
           "body": "AI video editing, cross-platform, many effects.",
           "tag": "Paid",
@@ -7780,6 +7924,14 @@
           "slug": "seedance-2-video"
         },
         {
+          "title": "SeedClip",
+          "body": "Seedance-based AI video generation.",
+          "tag": "Freemium",
+          "url": "https://seedclip.net/?ref=riseofmachine.com",
+          "date-added": "2026-09-03",
+          "slug": "seedclip"
+        },
+        {
           "title": "Shorts Generator",
           "body": "Instant TikTok, Instagram, YouTube videos from ideas.",
           "tag": "Freemium",
@@ -7828,6 +7980,14 @@
           "slug": "supermaker"
         },
         {
+          "title": "Tagshop",
+          "body": "AI-powered UGC video creation platform.",
+          "tag": "Freemium",
+          "url": "https://tagshop.ai/?ref=riseofmachine.com",
+          "date-added": "2026-09-04",
+          "slug": "tagshop"
+        },
+        {
           "title": "Tailored Labs",
           "body": "AI video editing using plain English prompts.",
           "tag": "Freemium",
@@ -7866,6 +8026,14 @@
           "url": "https://tryveo3.ai/?ref=riseofmachine.com",
           "date-added": "2025-06-17",
           "slug": "tryveo3"
+        },
+        {
+          "title": "UGCad AI",
+          "body": "AI-powered UGC video generation platform.",
+          "tag": "Freemium",
+          "url": "https://ugcad.ai/?ref=riseofmachine.com",
+          "date-added": "2026-09-04",
+          "slug": "ugcad-ai"
         },
         {
           "title": "Veo 3 by Kie",

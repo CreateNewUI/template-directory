@@ -8,12 +8,12 @@
   "slug": "framia-pro",
   "related": [
     "pictory",
+    "tagshop",
+    "ugcad-ai",
+    "seedclip",
+    "haiper-ai-video-generator",
     "gemini-omni-ai",
     "lehar-ai-video-generator",
-    "video-upscaler",
-    "recapoai",
-    "imagineclip",
-    "video-to-prompt",
-    "openseedance"
+    "video-upscaler"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "betterpic",
   "related": [
     "aragon-ai",
+    "imagine2",
+    "fromimage-ai",
+    "ai-image-combiner",
     "animegenai",
     "blur-background",
     "image-changer-app",
-    "image-describer",
-    "ai-magic-eraser",
-    "ezmaker-ai",
-    "ez-img-editor"
+    "image-describer"
   ]
 }

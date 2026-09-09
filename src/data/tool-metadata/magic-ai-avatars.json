@@ -9,11 +9,11 @@
   "related": [
     "magic-eraser",
     "ai-magic-eraser",
+    "imagine2",
+    "fromimage-ai",
+    "ai-image-combiner",
     "animegenai",
     "blur-background",
-    "image-changer-app",
-    "image-describer",
-    "add-person-to-photo",
-    "promptwall"
+    "image-changer-app"
   ]
 }

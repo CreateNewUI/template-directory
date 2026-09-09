@@ -1,6 +1,7 @@
 import type { Category, Tool } from '../types';
 
-export const STORAGE_KEY = 'rom_bookmarks';
+export const STORAGE_KEY = 'rom_bookmarks:v1';
+const LEGACY_STORAGE_KEY = 'rom_bookmarks';
 
 /**
  * Get all bookmarked tool slugs from localStorage
@@ -9,7 +10,20 @@ export const STORAGE_KEY = 'rom_bookmarks';
 export function getBookmarks(): string[] {
     try {
         const stored = localStorage.getItem(STORAGE_KEY);
-        return stored ? JSON.parse(stored) : [];
+        if (stored !== null) {
+            const parsed = JSON.parse(stored);
+            return Array.isArray(parsed) ? parsed : [];
+        }
+        // Migrate once from the unversioned key so existing saves survive.
+        const legacy = localStorage.getItem(LEGACY_STORAGE_KEY);
+        if (legacy !== null) {
+            const parsed = JSON.parse(legacy);
+            const bookmarks = Array.isArray(parsed) ? parsed : [];
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+            localStorage.removeItem(LEGACY_STORAGE_KEY);
+            return bookmarks;
+        }
+        return [];
     } catch (error) {
         console.warn('Failed to read bookmarks from localStorage:', error);
         return [];
@@ -104,12 +118,12 @@ export interface BookmarkedTool extends Tool {
  * @returns Array of bookmarked tool objects with category
  */
 export function getBookmarkedTools(allCategories: Category[]): BookmarkedTool[] {
-    const bookmarks = getBookmarks();
+    const bookmarks = new Set(getBookmarks());
     const bookmarkedTools: BookmarkedTool[] = [];
 
     allCategories.forEach(category => {
         category.content.forEach(tool => {
-            if (tool.slug && bookmarks.includes(tool.slug)) {
+            if (tool.slug && bookmarks.has(tool.slug)) {
                 bookmarkedTools.push({
                     ...tool,
                     category: category.category

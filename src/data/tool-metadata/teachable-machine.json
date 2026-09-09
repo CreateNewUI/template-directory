@@ -9,11 +9,11 @@
   "related": [
     "tensorblock-forge",
     "not-human-search",
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "nat-checker",
     "cursor-mcp",
-    "buildrs",
-    "create-apidev"
+    "buildrs"
   ]
 }

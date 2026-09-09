@@ -10,10 +10,10 @@
     "ghibli-app",
     "prisma",
     "ghibli-art-ai",
+    "line-drawing-converter",
     "anyimg",
     "mediaai-art",
-    "gpt-image-2-1",
-    "nanobanana-pro",
-    "comicsmakernet"
+    "imgstyler",
+    "gpt-image-2-1"
   ]
 }

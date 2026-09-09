@@ -10,10 +10,10 @@
     "unreal-speech",
     "trint",
     "mp3-to-text",
+    "audjust-ai",
     "lami",
     "voicetype",
     "cleanaudio-ai",
-    "audio-muse",
-    "mix-audio"
+    "audio-muse"
   ]
 }

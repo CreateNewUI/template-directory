@@ -10,10 +10,10 @@
     "xprompts",
     "goodprompts",
     "midlearning",
+    "shottoprompt",
     "prompt-generator",
     "diligence-check",
     "srefhunter",
-    "dallelist",
-    "promptvibe"
+    "dallelist"
   ]
 }

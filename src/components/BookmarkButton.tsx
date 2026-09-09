@@ -94,7 +94,7 @@ export default function BookmarkButton({
             <span className="t-like-icon">
                 <svg className="t-like-heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
-                        d="M15 19L9.80769 17.0435L5 19V1H15V19Z"
+                        d="M15 19L9.81 17.04L5 19V1H15V19Z"
                         stroke="currentColor"
                         strokeMiterlimit={10}
                     />

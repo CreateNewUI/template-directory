@@ -9,11 +9,11 @@
   "related": [
     "not-human-search",
     "buildrs",
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "nat-checker",
     "tensorblock-forge",
-    "create-apidev",
-    "x-note-writer-api"
+    "create-apidev"
   ]
 }

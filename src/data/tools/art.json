@@ -376,6 +376,14 @@
     "slug": "imgnai"
   },
   {
+    "title": "Imgstyler",
+    "body": "AI image generation and prompts.",
+    "tag": "Freemium",
+    "url": "https://imgstyler.com/?ref=riseofmachine.com",
+    "date-added": "2026-08-18",
+    "slug": "imgstyler"
+  },
+  {
     "title": "Infinite Craft Guide",
     "body": "Learn recipes and strategies for Infinite Craft.",
     "tag": "Free",
@@ -422,6 +430,14 @@
     "url": "https://lexica.art/?ref=riseofmachine.com",
     "date-added": "2023-12-24",
     "slug": "lexica"
+  },
+  {
+    "title": "Line Drawing Converter",
+    "body": "Converts photos into line drawings.",
+    "tag": "Not available",
+    "url": "https://linedrawingconverter.com/?ref=riseofmachine.com",
+    "date-added": "2026-08-04",
+    "slug": "line-drawing-converter"
   },
   {
     "title": "Lora",

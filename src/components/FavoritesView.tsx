@@ -13,6 +13,23 @@ import type { Tool } from '../types';
 type FavoritesSortKey = Exclude<SortKey, 'random'>;
 type SearchRecord = { s: string; t: string; g: string; c: string; b: string; u: string; d: string };
 
+// The search index is static, so cache one in-flight request across mounts and events.
+let searchIndexPromise: Promise<SearchRecord[]> | null = null;
+function fetchSearchIndex(): Promise<SearchRecord[]> {
+    if (!searchIndexPromise) {
+        searchIndexPromise = fetch('/search-index.json')
+            .then((res) => {
+                if (!res.ok) throw new Error(`search-index ${res.status}`);
+                return res.json() as Promise<SearchRecord[]>;
+            })
+            .catch(() => {
+                searchIndexPromise = null;
+                return [];
+            });
+    }
+    return searchIndexPromise;
+}
+
 export default function FavoritesView() {
     const [bookmarkedTools, setBookmarkedTools] = useState<Tool[]>([]);
     const [sortBy, setSortBy] = useState<FavoritesSortKey>('nameAsc');
@@ -20,48 +37,52 @@ export default function FavoritesView() {
 
     // Resolve bookmarked slugs against the lazily-fetched search index so this
     // page never bundles the full tools.json.
-    const loadBookmarks = async () => {
+    const loadBookmarks = async (isActive: () => boolean = () => true) => {
         const slugs = new Set(getBookmarks());
         if (slugs.size === 0) {
-            setBookmarkedTools([]);
+            if (isActive()) setBookmarkedTools([]);
             return;
         }
-        try {
-            const res = await fetch('/search-index.json');
-            const records: SearchRecord[] = await res.json();
-            setBookmarkedTools(
-                records
-                    .filter((r) => slugs.has(r.s))
-                    .map((r) => ({
-                        slug: r.s,
-                        title: r.t,
-                        body: r.b,
-                        tag: r.g,
-                        url: r.u,
-                        'date-added': r.d,
-                    })),
-            );
-        } catch {
-            setBookmarkedTools([]);
+        const records = await fetchSearchIndex();
+        if (!isActive()) return;
+        const tools: Tool[] = [];
+        for (const r of records) {
+            if (slugs.has(r.s)) {
+                tools.push({
+                    slug: r.s,
+                    title: r.t,
+                    body: r.b,
+                    tag: r.g,
+                    url: r.u,
+                    'date-added': r.d,
+                });
+            }
         }
+        setBookmarkedTools(tools);
     };
 
     useEffect(() => {
-        loadBookmarks();
+        let active = true;
+        loadBookmarks(() => active);
+        return () => {
+            active = false;
+        };
     }, []);
 
     useEffect(() => {
+        let active = true;
         const handleBookmarkChange = () => {
-            loadBookmarks();
+            loadBookmarks(() => active);
         };
 
         window.addEventListener('bookmarks:changed', handleBookmarkChange);
         return () => {
+            active = false;
             window.removeEventListener('bookmarks:changed', handleBookmarkChange);
         };
     }, []);
 
-    const sortedTools = [...bookmarkedTools].sort(toolComparators[sortBy]);
+    const sortedTools = bookmarkedTools.toSorted(toolComparators[sortBy]);
 
     if (bookmarkedTools.length === 0) {
         return (
@@ -99,6 +120,7 @@ export default function FavoritesView() {
                         value={sortBy}
                         onChange={(e) => setSortBy(e.target.value as FavoritesSortKey)}
                         className="sort-select"
+                        aria-label="Sort saved tools"
                     >
                         <option value="nameAsc">Name (A-Z)</option>
                         <option value="nameDesc">Name (Z-A)</option>
@@ -109,11 +131,11 @@ export default function FavoritesView() {
             </div>
 
             <ul role="list" className="link-card-grid">
-                {sortedTools.map(({ url, title, body, tag, 'date-added': dateAdded, slug }, i) => {
+                {sortedTools.map(({ url, title, body, tag, 'date-added': dateAdded, slug }) => {
                     const isNew = isRecentlyAdded(dateAdded, 30);
                     const linkUrl = slug ? `/tools/${slug}` : url;
                     return (
-                        <li className="link-card" key={`${slug}-${i}`}>
+                        <li className="link-card" key={slug ?? url}>
                             <a href={linkUrl}>
                                 <strong className="nu-c-fs-normal nu-u-mt-1 nu-u-mb-1">{title}</strong>
                                 <p className="nu-c-helper-text nu-u-mt-1 nu-u-mb-1">{body}</p>

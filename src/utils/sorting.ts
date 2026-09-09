@@ -22,7 +22,7 @@ export type SortKey = keyof typeof toolComparators | 'random';
  */
 export function sortTools(tools: Tool[], sortKey: keyof typeof toolComparators): Tool[] {
     const comparator = toolComparators[sortKey];
-    return [...tools].sort(comparator);
+    return tools.toSorted(comparator);
 }
 
 /**

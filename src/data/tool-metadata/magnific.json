@@ -10,10 +10,10 @@
     "graficai",
     "fotol-image-generator",
     "promptwall",
+    "imagine2",
+    "ai-image-combiner",
     "blur-background",
     "image-describer",
-    "image-text-editor",
-    "gemini-flash-image",
-    "dressx"
+    "image-text-editor"
   ]
 }

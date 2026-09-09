@@ -10,10 +10,10 @@
     "srefhunter",
     "goodprompts",
     "xprompts",
+    "shottoprompt",
     "banana-prompts",
     "prompt-generator",
     "diligence-check",
-    "dallelist",
-    "prompthero"
+    "dallelist"
   ]
 }

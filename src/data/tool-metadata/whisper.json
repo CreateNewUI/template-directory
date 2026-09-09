@@ -9,11 +9,11 @@
   "related": [
     "voicetype",
     "unreal-speech",
+    "audjust-ai",
     "cleanaudio-ai",
     "mp3-to-text",
     "goose-pod",
     "monologue",
-    "openwispr",
-    "aimakesong"
+    "openwispr"
   ]
 }

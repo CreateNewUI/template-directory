@@ -1,0 +1,19 @@
+{
+  "title": "ChartCraft — AI Diagram Generator (Flowcharts, ERD, BPMN & More)",
+  "description": "ChartCraft is an AI diagram generator that turns plain English into flowcharts, ERDs, BPMN, sequence, class, and state diagrams — auto-laid-out and ready to export as SVG or PNG. Free to try, no account needed.",
+  "category": "developer",
+  "url": "https://www.chartcraft.dev/?ref=riseofmachine.com",
+  "tag": "Freemium",
+  "date-added": "2026-08-03",
+  "slug": "chartcraft",
+  "related": [
+    "cactal",
+    "screenshot-to-code",
+    "director",
+    "nora",
+    "orchids",
+    "atla",
+    "strata",
+    "teable"
+  ]
+}

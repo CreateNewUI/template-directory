@@ -144,6 +144,14 @@
     "slug": "promptvibe"
   },
   {
+    "title": "ShotToPrompt",
+    "body": "Video analysis generating reusable prompts.",
+    "tag": "Free",
+    "url": "https://shottoprompt.com/?ref=riseofmachine.com",
+    "date-added": "2026-08-08",
+    "slug": "shottoprompt"
+  },
+  {
     "title": "SmartGPT",
     "body": "AI enhanced prompts for expert-level results.",
     "tag": "Freemium",
@@ -158,6 +166,14 @@
     "url": "https://srefhunter.top/?ref=riseofmachine.com",
     "date-added": "2024-06-17",
     "slug": "srefhunter"
+  },
+  {
+    "title": "WebPrompts.dev",
+    "body": "Visual prompts for AI coding.",
+    "tag": "Freemium",
+    "url": "https://webprompts.dev/?ref=riseofmachine.com",
+    "date-added": "2026-08-01",
+    "slug": "webprompts-dev"
   },
   {
     "title": "XPROMPTS",

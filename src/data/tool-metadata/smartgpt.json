@@ -8,12 +8,12 @@
   "slug": "smartgpt",
   "related": [
     "openart",
+    "webprompts-dev",
     "prompthero",
     "gemini-photo-prompt",
     "eye-for-ai",
     "promptvibe",
     "gpt-prompts",
-    "goodprompts",
-    "promptbox"
+    "goodprompts"
   ]
 }

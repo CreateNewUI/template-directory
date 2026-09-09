@@ -7,13 +7,13 @@
   "date-added": "2023-12-15",
   "slug": "autoregex",
   "related": [
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
     "cursor-mcp",
     "buildrs",
-    "tensorblock-forge",
-    "create-apidev"
+    "tensorblock-forge"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "title": "The agent-native website platform — Cactal",
+  "description": "Cactal gives Claude Code and Codex superpowers for building, publishing, and operating real websites. Scale from one site to thousands.",
+  "category": "developer",
+  "url": "https://cactal.ai?ref=riseofmachine.com",
+  "tag": "Freemium",
+  "date-added": "2026-08-07",
+  "slug": "cactal",
+  "related": [
+    "atla",
+    "strata",
+    "smythos",
+    "zen-agents",
+    "stringcom",
+    "cekura",
+    "chartcraft",
+    "screenshot-to-code"
+  ]
+}

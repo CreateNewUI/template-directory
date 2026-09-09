@@ -10,10 +10,10 @@
     "goodprompts",
     "banana-prompts",
     "midlearning",
+    "shottoprompt",
     "prompt-generator",
     "diligence-check",
     "srefhunter",
-    "dallelist",
-    "prompt-library"
+    "dallelist"
   ]
 }

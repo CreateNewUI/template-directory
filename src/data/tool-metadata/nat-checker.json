@@ -7,13 +7,13 @@
   "date-added": "2026-01-06",
   "slug": "nat-checker",
   "related": [
+    "agent-qa",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "cursor-mcp",
     "buildrs",
     "tensorblock-forge",
-    "create-apidev",
-    "x-note-writer-api"
+    "create-apidev"
   ]
 }

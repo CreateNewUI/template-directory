@@ -7,13 +7,13 @@
   "date-added": "2023-12-24",
   "slug": "harmonai",
   "related": [
+    "audjust-ai",
     "audio-transcriber-ai",
     "cleanaudio-ai",
     "audio-muse",
     "mix-audio",
     "blogaudio",
     "trint",
-    "sync",
-    "wellsaid-labs"
+    "sync"
   ]
 }

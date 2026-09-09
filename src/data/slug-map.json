@@ -140,6 +140,9 @@
   "imgnai": [
     "art"
   ],
+  "imgstyler": [
+    "art"
+  ],
   "infinite-craft-guide": [
     "art"
   ],
@@ -156,6 +159,9 @@
     "art"
   ],
   "lexica": [
+    "art"
+  ],
+  "line-drawing-converter": [
     "art"
   ],
   "lora": [
@@ -288,6 +294,9 @@
     "audio"
   ],
   "audio-transcriber-ai": [
+    "audio"
+  ],
+  "audjust-ai": [
     "audio"
   ],
   "blogaudio": [
@@ -695,6 +704,9 @@
   "floor-plan-maker": [
     "design"
   ],
+  "floordrafter": [
+    "design"
+  ],
   "flora-ai": [
     "design"
   ],
@@ -717,6 +729,9 @@
     "design"
   ],
   "illustroke": [
+    "design"
+  ],
+  "imgto3d": [
     "design"
   ],
   "kaedim": [
@@ -845,6 +860,9 @@
   "yenex": [
     "design"
   ],
+  "agent-qa": [
+    "developer"
+  ],
   "amazon-codewhisperer": [
     "developer"
   ],
@@ -872,10 +890,16 @@
   "builduo": [
     "developer"
   ],
+  "cactal": [
+    "developer"
+  ],
   "capmonster-cloud": [
     "developer"
   ],
   "cekura": [
+    "developer"
+  ],
+  "chartcraft": [
     "developer"
   ],
   "chef": [
@@ -1122,6 +1146,9 @@
     "education"
   ],
   "manna": [
+    "education"
+  ],
+  "math-ai": [
     "education"
   ],
   "mathnow": [
@@ -1751,6 +1778,9 @@
   "add-person-to-photo": [
     "photos"
   ],
+  "ai-image-combiner": [
+    "photos"
+  ],
   "animegenai": [
     "photos"
   ],
@@ -1850,6 +1880,9 @@
   "fotol-image-generator": [
     "photos"
   ],
+  "fromimage-ai": [
+    "photos"
+  ],
   "gemini-flash-image": [
     "photos"
   ],
@@ -1893,6 +1926,9 @@
     "photos"
   ],
   "image-text-editor": [
+    "photos"
+  ],
+  "imagine2": [
     "photos"
   ],
   "imggen-ai": [
@@ -2034,6 +2070,9 @@
     "productivity"
   ],
   "autotab": [
+    "productivity"
+  ],
+  "bankingnewsai": [
     "productivity"
   ],
   "beforesunset": [
@@ -2408,10 +2447,16 @@
   "promptvibe": [
     "prompts"
   ],
+  "shottoprompt": [
+    "prompts"
+  ],
   "smartgpt": [
     "prompts"
   ],
   "srefhunter": [
+    "prompts"
+  ],
+  "webprompts-dev": [
     "prompts"
   ],
   "xprompts": [
@@ -2726,6 +2771,9 @@
   "hailuoai": [
     "video"
   ],
+  "haiper-ai-video-generator": [
+    "video"
+  ],
   "happyhorse": [
     "video"
   ],
@@ -2798,6 +2846,9 @@
   "morph-studio": [
     "video"
   ],
+  "motion": [
+    "video"
+  ],
   "motion-control": [
     "video"
   ],
@@ -2837,6 +2888,9 @@
   "pixverse": [
     "video"
   ],
+  "popugc": [
+    "video"
+  ],
   "powerdirector": [
     "video"
   ],
@@ -2867,6 +2921,9 @@
   "seedance-2-video": [
     "video"
   ],
+  "seedclip": [
+    "video"
+  ],
   "shorts-generator": [
     "video"
   ],
@@ -2885,6 +2942,9 @@
   "supermaker": [
     "video"
   ],
+  "tagshop": [
+    "video"
+  ],
   "tailored-labs": [
     "video"
   ],
@@ -2898,6 +2958,9 @@
     "video"
   ],
   "tryveo3": [
+    "video"
+  ],
+  "ugcad-ai": [
     "video"
   ],
   "veo-3-by-kie": [

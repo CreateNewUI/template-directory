@@ -1,0 +1,19 @@
+{
+  "title": "GitHub - vostride/agent-qa at riseofmachine.com · GitHub",
+  "description": "Open-source self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship. - GitHub - vostride/agent-qa at riseofmachine.com",
+  "category": "developer",
+  "url": "https://github.com/vostride/agent-qa?ref=riseofmachine.com",
+  "tag": "Free",
+  "date-added": "2026-08-21",
+  "slug": "agent-qa",
+  "related": [
+    "not-human-search",
+    "sqlmate",
+    "markitdown",
+    "nat-checker",
+    "cursor-mcp",
+    "buildrs",
+    "tensorblock-forge",
+    "create-apidev"
+  ]
+}

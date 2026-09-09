@@ -172,7 +172,7 @@ const {
                             isCold ? "Switch to warm theme" : "Switch to cold theme",
                         );
                     }
-                    var raw = localStorage.getItem("rom_bookmarks");
+                    var raw = localStorage.getItem("rom_bookmarks:v1") || localStorage.getItem("rom_bookmarks");
                     var count = 0;
                     if (raw) {
                         try {
@@ -700,7 +700,7 @@ const {
                 const countEl = document.getElementById("favoritesCount");
                 if (!countEl) return;
 
-                const bookmarksString = localStorage.getItem("rom_bookmarks");
+                const bookmarksString = localStorage.getItem("rom_bookmarks:v1") || localStorage.getItem("rom_bookmarks");
                 const count = bookmarksString
                     ? JSON.parse(bookmarksString).length
                     : 0;

@@ -8,6 +8,14 @@
     "slug": "add-person-to-photo"
   },
   {
+    "title": "AI Image Combiner",
+    "body": "Merge multiple photos with AI.",
+    "tag": "Freemium",
+    "url": "https://aiimagecombiner.app?ref=riseofmachine.com",
+    "date-added": "2026-08-02",
+    "slug": "ai-image-combiner"
+  },
+  {
     "title": "AnimeGen.ai",
     "body": "Turn selfies into anime-style art.",
     "tag": "Freemium",
@@ -272,6 +280,14 @@
     "slug": "fotol-image-generator"
   },
   {
+    "title": "FromImage AI",
+    "body": "Transforms reference photos with prompts.",
+    "tag": "Freemium",
+    "url": "https://fromimage.ai/?ref=riseofmachine.com",
+    "date-added": "2026-08-10",
+    "slug": "fromimage-ai"
+  },
+  {
     "title": "Gemini Flash Image",
     "body": "Create stunning images with AI.",
     "tag": "Freemium",
@@ -390,6 +406,14 @@
     "url": "https://imagetexteditor.org?ref=riseofmachine.com",
     "date-added": "2026-01-22",
     "slug": "image-text-editor"
+  },
+  {
+    "title": "Imagine2",
+    "body": "Browser-based AI image generation editor.",
+    "tag": "Freemium",
+    "url": "https://imagine2.net?ref=riseofmachine.com",
+    "date-added": "2026-08-20",
+    "slug": "imagine2"
   },
   {
     "title": "Imggen AI",

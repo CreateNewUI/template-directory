@@ -7,13 +7,13 @@
   "date-added": "2024-10-30",
   "slug": "facerate",
   "related": [
+    "imagine2",
+    "fromimage-ai",
+    "ai-image-combiner",
     "animegenai",
     "blur-background",
     "image-changer-app",
     "image-describer",
-    "ai-magic-eraser",
-    "add-person-to-photo",
-    "promptwall",
-    "image-text-editor"
+    "ai-magic-eraser"
   ]
 }

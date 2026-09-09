@@ -8,12 +8,12 @@
   "slug": "oss-insight",
   "related": [
     "sqlmate",
+    "agent-qa",
     "markitdown",
     "not-human-search",
     "nat-checker",
     "cursor-mcp",
     "buildrs",
-    "tensorblock-forge",
-    "create-apidev"
+    "tensorblock-forge"
   ]
 }

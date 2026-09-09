@@ -8,12 +8,12 @@
   "slug": "gemini-photo-prompt",
   "related": [
     "eye-for-ai",
+    "webprompts-dev",
     "smartgpt",
     "openart",
     "prompthero",
     "gpt-prompts",
     "img2prompt",
-    "dallelist",
-    "xprompts"
+    "dallelist"
   ]
 }

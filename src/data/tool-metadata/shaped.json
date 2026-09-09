@@ -12,8 +12,8 @@
     "lightning",
     "amazon-sagemaker",
     "yylo",
-    "sqlmate",
-    "markitdown",
-    "not-human-search"
+    "agent-qa",
+    "cactal",
+    "chartcraft"
   ]
 }
