@@ -8,12 +8,12 @@
   "slug": "prometai",
   "related": [
     "myreport",
-    "rainex-agents",
     "chat-whisperer",
     "venturekit",
     "ellie",
     "superai",
     "conduit",
-    "salestarget"
+    "salestarget",
+    "receiptor"
   ]
 }

@@ -9,11 +9,11 @@
   "related": [
     "tabnine",
     "marscode",
-    "archie",
     "fitten-code",
     "axflow",
-    "postbot",
     "amazon-codewhisperer",
-    "sqlmate"
+    "yylo",
+    "sqlmate",
+    "markitdown"
   ]
 }

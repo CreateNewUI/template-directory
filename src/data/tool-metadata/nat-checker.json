@@ -10,10 +10,10 @@
     "sqlmate",
     "markitdown",
     "not-human-search",
-    "chatgpt-apps-sdk",
     "cursor-mcp",
     "buildrs",
     "tensorblock-forge",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "kits-ai",
   "related": [
     "calldock",
-    "voicemyai",
     "voice-cloning-free",
     "audio-muse",
     "altered",
-    "playht",
     "elevenlabs",
-    "respeecher"
+    "respeecher",
+    "voicemod",
+    "openwispr"
   ]
 }

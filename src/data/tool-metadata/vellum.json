@@ -7,13 +7,13 @@
   "date-added": "2023-12-29",
   "slug": "vellum",
   "related": [
-    "flappy",
     "pieces",
     "rork-app",
     "lintrule",
     "runpod",
     "teachable-machine",
-    "chatgpt-apps-sdk",
-    "lightning"
+    "lightning",
+    "new-ui",
+    "nora"
   ]
 }

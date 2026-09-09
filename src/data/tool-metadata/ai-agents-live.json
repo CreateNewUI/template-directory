@@ -8,12 +8,12 @@
   "slug": "ai-agents-live",
   "related": [
     "ai-agents-list",
-    "appagent",
     "muse-spark-ai",
     "deepseekv4dev",
-    "deepseek-r1",
     "gemini",
     "grok",
-    "grok-1"
+    "microsoft-copilot",
+    "qwen",
+    "chat100"
   ]
 }

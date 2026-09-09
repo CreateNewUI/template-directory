@@ -8,12 +8,12 @@
   "slug": "igly-ai",
   "related": [
     "z-image",
-    "banana-ai",
-    "flux-kontext",
     "fastimage",
     "gempix2",
     "mirrorize",
     "image-to-3d-ai",
-    "banana-ai-2"
+    "banana-ai-1",
+    "picrafts",
+    "image-to-image-maker"
   ]
 }

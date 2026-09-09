@@ -7,13 +7,13 @@
   "date-added": "2024-10-23",
   "slug": "ai-agents-list",
   "related": [
-    "appagent",
     "ai-agents-live",
     "muse-spark-ai",
     "deepseekv4dev",
-    "deepseek-r1",
     "gemini",
     "grok",
-    "grok-1"
+    "microsoft-copilot",
+    "qwen",
+    "chat100"
   ]
 }

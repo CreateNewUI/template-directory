@@ -12,8 +12,8 @@
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "chatgpt-apps-sdk",
     "cursor-mcp",
-    "buildrs"
+    "buildrs",
+    "tensorblock-forge"
   ]
 }

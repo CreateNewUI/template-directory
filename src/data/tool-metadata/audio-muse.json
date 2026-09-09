@@ -10,10 +10,10 @@
     "mix-audio",
     "lami",
     "cleanaudio-ai",
-    "adtwin",
     "kits-ai",
-    "reelscribe",
     "trint",
-    "sync"
+    "sync",
+    "wellsaid-labs",
+    "mp3-to-text"
   ]
 }

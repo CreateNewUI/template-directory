@@ -8,12 +8,12 @@
   "slug": "fitten-code",
   "related": [
     "marscode",
-    "i18n-code-gen",
     "sqlmate",
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "chatgpt-apps-sdk",
-    "cursor-mcp"
+    "cursor-mcp",
+    "buildrs",
+    "tensorblock-forge"
   ]
 }

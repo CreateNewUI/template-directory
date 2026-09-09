@@ -8,12 +8,12 @@
   "slug": "continue",
   "related": [
     "forge",
-    "grok-video",
     "blackbox-ai",
     "builderio",
     "cody-by-sourcegraph",
     "developer-pal",
-    "lovable",
-    "replit-ghostwriter"
+    "codestream",
+    "qodo",
+    "melty"
   ]
 }

@@ -7,13 +7,13 @@
   "date-added": "2025-06-06",
   "slug": "qodo",
   "related": [
-    "grok-video",
     "cody-by-sourcegraph",
     "forge",
     "blackbox-ai",
     "builderio",
     "developer-pal",
-    "lovable",
-    "replit-ghostwriter"
+    "cursor",
+    "cursor-directory",
+    "bito"
   ]
 }

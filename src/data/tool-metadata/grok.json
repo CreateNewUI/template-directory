@@ -7,13 +7,13 @@
   "date-added": "2025-06-14",
   "slug": "grok",
   "related": [
-    "grok-1",
     "microsoft-copilot",
     "qwen",
     "muse-spark-ai",
     "deepseekv4dev",
-    "appagent",
-    "deepseek-r1",
-    "gemini"
+    "gemini",
+    "ai-agents-live",
+    "ai-agents-list",
+    "chat100"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "ghibli-art-ai",
   "related": [
     "ghibli-app",
-    "makebw",
     "image-to-3d-ai",
-    "visual-chatgpt",
     "designer",
     "picture-generator",
     "image-generator-nsfw",
-    "grok-ghibli"
+    "image-to-image-maker",
+    "comicsai",
+    "wanai"
   ]
 }

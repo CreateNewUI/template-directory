@@ -32,14 +32,6 @@
     "slug": "bexiai"
   },
   {
-    "title": "Blogwald",
-    "body": "Structure content for LLMs and search engines.",
-    "tag": "Freemium",
-    "url": "https://blogwald.com/?ref=riseofmachine.com",
-    "date-added": "2025-07-07",
-    "slug": "blogwald"
-  },
-  {
     "title": "Boo.ai",
     "body": "Text editor to generate copy.",
     "tag": "Freemium",
@@ -176,28 +168,12 @@
     "slug": "grammarly"
   },
   {
-    "title": "Hard Usernames",
-    "body": "AI username generator.",
-    "tag": "Freemium",
-    "url": "https://hardusernames.com/?ref=riseofmachine.com",
-    "date-added": "2025-07-15",
-    "slug": "hard-usernames"
-  },
-  {
     "title": "Headcanon Generator",
     "body": "AI tool for unique character ideas & backstories.",
     "tag": "Free",
     "url": "https://headcanongenerator.co/?ref=riseofmachine.com",
     "date-added": "2025-06-01",
     "slug": "headcanon-generator"
-  },
-  {
-    "title": "Headcanon Generator Fun",
-    "body": "AI-powered headcanon generator.",
-    "tag": "Free",
-    "url": "https://headcanongenerator.fun/?ref=riseofmachine.com",
-    "date-added": "2025-07-11",
-    "slug": "headcanon-generator-fun"
   },
   {
     "title": "Heynds",
@@ -454,14 +430,6 @@
     "url": "https://www.success.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-15",
     "slug": "successai"
-  },
-  {
-    "title": "Textcraft",
-    "body": "Add-in for Microsoft Word.",
-    "tag": "Free",
-    "url": "https://github.com/suncloudsmoon/TextCraft?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "textcraft"
   },
   {
     "title": "TextGen",

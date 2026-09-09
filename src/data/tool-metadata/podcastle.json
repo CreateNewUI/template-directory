@@ -10,10 +10,10 @@
     "cleanaudio-ai",
     "mp3-to-text",
     "goose-pod",
-    "reelscribe",
     "monologue",
-    "playht",
     "whisper",
-    "adtwin"
+    "openwispr",
+    "aimakesong",
+    "voicebun"
   ]
 }

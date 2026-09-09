@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "docs-style-guide": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/docs-style-guide/SKILL.md",
+      "computedHash": "db14fad6b98e3214ea6411ed3c6406da4e625e97ab0ea3ee34ea2d580ea9dd0c"
+    },
+    "keyboard-accessibility": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/keyboard-accessibility/SKILL.md",
+      "computedHash": "c452dc360e3693a70297bc731f83c064aed11c0cce321ad65728a4c4db6470ee"
+    },
+    "motion-design": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/motion-design/SKILL.md",
+      "computedHash": "381ea34f48aa66f14c6dc48aebed7cd02af63477fb85b29f9c278fe2280e714f"
+    },
+    "responsive-design": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/responsive-design/SKILL.md",
+      "computedHash": "5f029db3466069b07e55696fd3831ac22175a49de25b864f596a35146264a275"
+    },
+    "ship-ui": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/ship-ui/SKILL.md",
+      "computedHash": "9c728e347a76e11916e01a33eb1da729ef9ef52747e082d3a5304c875569b18b"
+    },
+    "writing-checklist": {
+      "source": "planetabhi/skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-checklist/SKILL.md",
+      "computedHash": "e55aaf52a70ba4cfbc9aa98084f3b90c06b6f0a480c42dcf23863a622f00a691"
+    }
+  }
+}

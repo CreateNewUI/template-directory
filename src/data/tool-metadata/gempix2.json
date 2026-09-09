@@ -12,8 +12,8 @@
     "image-generator-nsfw",
     "z-image",
     "picture-generator",
-    "makebw",
     "comicsai",
-    "fastimage"
+    "fastimage",
+    "wanai"
   ]
 }

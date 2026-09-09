@@ -7,13 +7,13 @@
   "date-added": "2023-12-31",
   "slug": "neural-frames",
   "related": [
-    "seedances",
     "veo-video",
-    "veo3-video-generator",
     "elaiio",
     "vidu-studio",
     "viralrot",
     "image-to-video",
-    "vivago"
+    "vivago",
+    "decohere",
+    "dance2ai"
   ]
 }

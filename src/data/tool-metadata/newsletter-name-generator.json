@@ -8,12 +8,12 @@
   "slug": "newsletter-name-generator",
   "related": [
     "sickleaveemail",
-    "headcanon-generator-fun",
     "news-article-gen",
-    "textcraft",
     "headcanon-generator",
     "bexiai",
     "detector-writer",
-    "humanize"
+    "humanize",
+    "wordstudio",
+    "cowriter"
   ]
 }

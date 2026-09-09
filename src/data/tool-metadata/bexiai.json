@@ -9,11 +9,11 @@
   "related": [
     "humanize",
     "sickleaveemail",
-    "headcanon-generator-fun",
     "news-article-gen",
-    "textcraft",
     "newsletter-name-generator",
     "headcanon-generator",
-    "detector-writer"
+    "detector-writer",
+    "wordstudio",
+    "cowriter"
   ]
 }

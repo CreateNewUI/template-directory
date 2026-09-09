@@ -120,14 +120,6 @@
     "slug": "promptbox"
   },
   {
-    "title": "PromptForge",
-    "body": "Ultimate prompt engineering workbench.",
-    "tag": "Free",
-    "url": "https://github.com/insaanimanav/prompt-forge?ref=riseofmachine.com",
-    "date-added": "2025-07-07",
-    "slug": "promptforge"
-  },
-  {
     "title": "PromptHero",
     "body": "Prompts for Stable Diffusion & Midjourney.",
     "tag": "Freemium",

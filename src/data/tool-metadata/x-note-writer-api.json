@@ -13,7 +13,7 @@
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "chatgpt-apps-sdk",
-    "cursor-mcp"
+    "cursor-mcp",
+    "buildrs"
   ]
 }

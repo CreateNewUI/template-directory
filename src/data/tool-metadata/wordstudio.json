@@ -7,13 +7,13 @@
   "date-added": "2023-12-24",
   "slug": "wordstudio",
   "related": [
-    "textcraft",
     "sickleaveemail",
-    "headcanon-generator-fun",
     "news-article-gen",
     "newsletter-name-generator",
     "headcanon-generator",
     "bexiai",
-    "detector-writer"
+    "detector-writer",
+    "humanize",
+    "cowriter"
   ]
 }

@@ -13,7 +13,7 @@
     "markitdown",
     "not-human-search",
     "nat-checker",
-    "chatgpt-apps-sdk",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

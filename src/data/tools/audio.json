@@ -1,13 +1,5 @@
 [
   {
-    "title": "Adtwin",
-    "body": "AI platform for audio ad creation and tracking.",
-    "url": "https://adtwin.ai/?ref=riseofmachine.com",
-    "tag": "Freemium",
-    "date-added": "2025-07-31",
-    "slug": "adtwin"
-  },
-  {
     "title": "Aimakesong",
     "body": "AI song generator.",
     "tag": "Freemium",
@@ -232,28 +224,12 @@
     "slug": "phone-app"
   },
   {
-    "title": "Play.ht",
-    "body": "AI voice generator and realistic text to speech.",
-    "url": "https://play.ht/?ref=riseofmachine.com",
-    "tag": "Freemium",
-    "date-added": "2025-08-24",
-    "slug": "playht"
-  },
-  {
     "title": "Podcastle",
     "body": "Podcasting software.",
     "tag": "Freemium",
     "url": "https://podcastle.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-11",
     "slug": "podcastle"
-  },
-  {
-    "title": "ReelScribe",
-    "body": "Accurate AI audio and video transcription tool.",
-    "tag": "Freemium",
-    "url": "https://reelscribe.ai?ref=riseofmachine.com",
-    "date-added": "2025-12-21",
-    "slug": "reelscribe"
   },
   {
     "title": "Respeecher",
@@ -270,22 +246,6 @@
     "url": "https://www.ringfoods.com?ref=riseofmachine.com",
     "date-added": "2026-04-07",
     "slug": "ringfoods"
-  },
-  {
-    "title": "Seamless",
-    "body": "AI translation model",
-    "tag": "Free",
-    "url": "https://github.com/facebookresearch/seamless_communication?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "seamless"
-  },
-  {
-    "title": "So-vits-svc",
-    "body": "SoftVC VITS Singing Voice Conversion.",
-    "tag": "Free",
-    "url": "https://github.com/svc-develop-team/so-vits-svc?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "so-vits-svc"
   },
   {
     "title": "Song Maker",
@@ -358,14 +318,6 @@
     "url": "https://www.voicemod.net/?ref=riseofmachine.com",
     "date-added": "2023-12-11",
     "slug": "voicemod"
-  },
-  {
-    "title": "Voicemy.ai",
-    "body": "Create, share, and inspire with your AI voice.",
-    "tag": "Freemium",
-    "url": "https://voicemy.ai/?ref=riseofmachine.com",
-    "date-added": "2025-07-19",
-    "slug": "voicemyai"
   },
   {
     "title": "Voicetype",

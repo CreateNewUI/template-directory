@@ -8,12 +8,12 @@
   "slug": "fastimage",
   "related": [
     "z-image",
-    "banana-ai-2",
     "banana-ai-1",
     "picrafts",
     "ptool",
-    "dsnr",
     "gpt-image-2-1",
-    "zilivo-ai"
+    "zilivo-ai",
+    "gpt-image-2",
+    "editaimg"
   ]
 }

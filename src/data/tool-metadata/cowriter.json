@@ -8,12 +8,12 @@
   "slug": "cowriter",
   "related": [
     "sickleaveemail",
-    "headcanon-generator-fun",
     "news-article-gen",
-    "textcraft",
     "newsletter-name-generator",
     "headcanon-generator",
     "bexiai",
-    "detector-writer"
+    "detector-writer",
+    "humanize",
+    "wordstudio"
   ]
 }

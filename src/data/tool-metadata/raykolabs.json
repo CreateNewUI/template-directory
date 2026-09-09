@@ -8,12 +8,12 @@
   "slug": "raykolabs",
   "related": [
     "chat-agents",
-    "rainex-agents",
     "multimodal",
     "conduit",
     "ellie",
     "superai",
     "streaml",
-    "security-questionnaire"
+    "security-questionnaire",
+    "salestarget"
   ]
 }

@@ -10,10 +10,10 @@
     "sonicker",
     "nicevoice",
     "dubbing-ai",
-    "so-vits-svc",
     "audio-transcriber-ai",
     "voqusa",
     "kyutai-tts",
-    "seamless"
+    "f5-tts",
+    "calldock"
   ]
 }

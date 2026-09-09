@@ -9,11 +9,11 @@
   "related": [
     "xprompts",
     "banana-prompts",
-    "promptforge",
     "prompt-generator",
     "midlearning",
     "srefhunter",
     "goodprompts",
-    "dallelist"
+    "dallelist",
+    "gemini-photo-prompt"
   ]
 }

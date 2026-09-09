@@ -8,12 +8,12 @@
   "slug": "poe-api",
   "related": [
     "builduo",
-    "postbot",
     "strata",
     "pythagora-20",
     "amazon-sagemaker",
     "tensorblock-forge",
     "screenshot-to-code",
-    "director"
+    "director",
+    "nora"
   ]
 }

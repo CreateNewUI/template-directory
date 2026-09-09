@@ -10,10 +10,10 @@
     "gemini",
     "muse-spark-ai",
     "deepseekv4dev",
-    "appagent",
-    "deepseek-r1",
     "grok",
-    "grok-1",
-    "mastraai"
+    "microsoft-copilot",
+    "qwen",
+    "ai-agents-live",
+    "ai-agents-list"
   ]
 }

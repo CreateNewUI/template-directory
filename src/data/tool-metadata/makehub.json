@@ -11,9 +11,9 @@
     "builduo",
     "lintrule",
     "vellum",
-    "postbot",
     "tensorblock-forge",
     "tinq",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "genppt",
   "related": [
     "autoppt",
-    "hyperpresent",
     "pitch",
     "plus-docs",
     "onetwo-resume",
     "converge-ai",
     "remio",
-    "notebooklm-remover"
+    "notebooklm-remover",
+    "dev-jobs"
   ]
 }

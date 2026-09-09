@@ -8,14 +8,6 @@
     "slug": "ada"
   },
   {
-    "title": "AgentSea",
-    "body": "Unified, private chat for AI models.",
-    "tag": "Freemium",
-    "url": "https://agentsea.ai/?ref=riseofmachine.com",
-    "date-added": "2025-09-04",
-    "slug": "agentsea"
-  },
-  {
     "title": "Autoppt",
     "body": "AI generator for PowerPoint presentations.",
     "url": "https://autoppt.com/?ref=riseofmachine.com",
@@ -240,14 +232,6 @@
     "slug": "focusflowai"
   },
   {
-    "title": "Forage Mail",
-    "body": "AI manages your inbox, less email clutter.",
-    "tag": "Freemium",
-    "url": "https://foragemail.com/?ref=riseofmachine.com",
-    "date-added": "2025-06-17",
-    "slug": "forage-mail"
-  },
-  {
     "title": "Genppt",
     "body": "PowerPoint presentations.",
     "tag": "From $9/mo",
@@ -318,14 +302,6 @@
     "url": "https://hyperfeed.ai/?ref=riseofmachine.com",
     "date-added": "2025-06-24",
     "slug": "hyperfeed"
-  },
-  {
-    "title": "HyperPresent",
-    "body": "Presentations.",
-    "tag": "Freemium",
-    "url": "https://hyperpresent.ai/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "hyperpresent"
   },
   {
     "title": "Intellibar",
@@ -478,22 +454,6 @@
     "url": "https://www.multion.ai/?ref=riseofmachine.com",
     "date-added": "2024-07-16",
     "slug": "multion"
-  },
-  {
-    "title": "MyDeviceAI V2",
-    "body": "Private, local AI search and summarization mobile app.",
-    "tag": "Free",
-    "url": "https://github.com/navedmerchant/MyDeviceAI?ref=riseofmachine.com",
-    "date-added": "2025-07-03",
-    "slug": "mydeviceai-v2"
-  },
-  {
-    "title": "Nimo",
-    "body": "An intelligent canvas that goes far beyond your browser.",
-    "tag": "Freemium",
-    "url": "https://www.nimo.space?ref=riseofmachine.com",
-    "date-added": "2025-11-12",
-    "slug": "nimo"
   },
   {
     "title": "Noiz",
@@ -814,14 +774,6 @@
     "url": "https://tldv.io/?ref=riseofmachine.com",
     "date-added": "2023-12-23",
     "slug": "tldv"
-  },
-  {
-    "title": "Ultra",
-    "body": "Chat with your email.",
-    "tag": "Not available",
-    "url": "https://ultramail.ai/?ref=riseofmachine.com",
-    "date-added": "2023-12-29",
-    "slug": "ultra"
   },
   {
     "title": "uniquenames.net",

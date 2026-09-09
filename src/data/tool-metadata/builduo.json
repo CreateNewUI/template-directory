@@ -8,12 +8,12 @@
   "slug": "builduo",
   "related": [
     "poe-api",
-    "postbot",
     "helix",
     "smythos",
     "zen-agents",
     "buildship",
     "amazon-sagemaker",
-    "screenshot-to-code"
+    "screenshot-to-code",
+    "director"
   ]
 }

@@ -11,9 +11,9 @@
     "flowpoint",
     "replicate",
     "ai-agents-list",
-    "appagent",
     "ai-agents-live",
-    "auto-gpt",
-    "grok-1"
+    "gptgeminigrokai",
+    "coderplan",
+    "ferryapi"
   ]
 }

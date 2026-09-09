@@ -98,10 +98,10 @@
   top: -6px;
   right: -8px;
   pointer-events: none;
-  will-change: transform;
 }
 .t-badge[data-open="true"] {
   animation: t-badge-slide-in var(--badge-slide-dur) var(--badge-slide-ease);
+  will-change: transform;
 }
 
 .t-badge-dot {
@@ -114,7 +114,6 @@
     transform var(--badge-pop-dur)  var(--badge-pop-ease),
     opacity   var(--badge-fade-dur) var(--badge-pop-ease),
     filter    var(--badge-pop-dur)  var(--badge-pop-ease);
-  will-change: transform, opacity, filter;
 }
 .t-badge[data-open="false"] .t-badge-dot {
   transform: scale(0);
@@ -206,7 +205,6 @@
     opacity   var(--stagger-dur) var(--stagger-ease),
     transform var(--stagger-dur) var(--stagger-ease),
     filter    var(--stagger-dur) var(--stagger-ease);
-  will-change: transform, opacity, filter;
 }
 .t-stagger-line--2 { transition-delay: var(--stagger-stagger); }
 .t-stagger-line--3 { transition-delay: calc(var(--stagger-stagger) * 2); }
@@ -240,6 +238,9 @@
     rotateY(var(--tilt-ry, 0deg));
   transform-style: preserve-3d;
   transition: transform var(--tilt-return) var(--tilt-return-ease);
+}
+.t-tilt.is-hover .t-tilt-card,
+.t-tilt-card.is-tilting {
   will-change: transform;
 }
 .t-tilt-card.is-tilting {

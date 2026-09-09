@@ -9,11 +9,11 @@
   "related": [
     "lami",
     "voicetype",
-    "playht",
     "lyricstosong",
     "trint",
     "unreal-speech",
     "wellsaid-labs",
-    "cleanaudio-ai"
+    "cleanaudio-ai",
+    "goose-pod"
   ]
 }

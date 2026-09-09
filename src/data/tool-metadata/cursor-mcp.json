@@ -12,8 +12,8 @@
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "chatgpt-apps-sdk",
     "tensorblock-forge",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

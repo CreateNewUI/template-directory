@@ -7,13 +7,13 @@
   "date-added": "2026-04-12",
   "slug": "muse-spark-ai",
   "related": [
-    "appagent",
-    "deepseek-r1",
     "deepseekv4dev",
     "gemini",
     "grok",
-    "grok-1",
-    "mastraai",
-    "microsoft-copilot"
+    "microsoft-copilot",
+    "qwen",
+    "ai-agents-live",
+    "ai-agents-list",
+    "chat100"
   ]
 }

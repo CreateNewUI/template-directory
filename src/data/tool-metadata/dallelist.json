@@ -7,13 +7,13 @@
   "date-added": "2023-12-15",
   "slug": "dallelist",
   "related": [
-    "promptforge",
     "prompt-generator",
     "xprompts",
     "banana-prompts",
     "diligence-check",
     "midlearning",
     "srefhunter",
-    "goodprompts"
+    "goodprompts",
+    "gpt-prompts"
   ]
 }

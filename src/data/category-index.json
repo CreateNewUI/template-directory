@@ -1,27 +1,27 @@
 {
   "art": {
     "title": "Art",
-    "count": 108
+    "count": 93
   },
   "audio": {
     "title": "Audio",
-    "count": 51
+    "count": 45
   },
   "code": {
     "title": "Code",
-    "count": 20
+    "count": 16
   },
   "copywriting": {
     "title": "Copywriting",
-    "count": 71
+    "count": 67
   },
   "design": {
     "title": "Design",
-    "count": 62
+    "count": 61
   },
   "developer": {
     "title": "Developer",
-    "count": 89
+    "count": 82
   },
   "education": {
     "title": "Education",
@@ -29,7 +29,7 @@
   },
   "enterprise": {
     "title": "Enterprise",
-    "count": 67
+    "count": 65
   },
   "fashion": {
     "title": "Fashion",
@@ -37,15 +37,15 @@
   },
   "gaming": {
     "title": "Gaming",
-    "count": 13
+    "count": 12
   },
   "health": {
     "title": "Health",
-    "count": 9
+    "count": 8
   },
   "llm": {
     "title": "LLMs",
-    "count": 46
+    "count": 41
   },
   "legal": {
     "title": "Legal",
@@ -65,15 +65,15 @@
   },
   "productivity": {
     "title": "Productivity",
-    "count": 115
+    "count": 109
   },
   "prompts": {
     "title": "Prompts",
-    "count": 22
+    "count": 21
   },
   "research": {
     "title": "Research",
-    "count": 28
+    "count": 25
   },
   "seo": {
     "title": "SEO",
@@ -81,14 +81,14 @@
   },
   "social": {
     "title": "Social Media",
-    "count": 30
+    "count": 27
   },
   "video": {
     "title": "Video",
-    "count": 115
+    "count": 110
   },
   "xtras": {
     "title": "Xtras",
-    "count": 76
+    "count": 71
   }
 }

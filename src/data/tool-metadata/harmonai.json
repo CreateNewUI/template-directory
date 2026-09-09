@@ -9,11 +9,11 @@
   "related": [
     "audio-transcriber-ai",
     "cleanaudio-ai",
-    "adtwin",
     "audio-muse",
     "mix-audio",
-    "reelscribe",
     "blogaudio",
-    "trint"
+    "trint",
+    "sync",
+    "wellsaid-labs"
   ]
 }

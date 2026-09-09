@@ -8,12 +8,12 @@
   "slug": "sarvam",
   "related": [
     "modal",
-    "deepseek-r1",
     "replicate",
     "gptgeminigrokai",
     "coderplan",
     "ferryapi",
     "muse-spark-ai",
-    "deepseekv4dev"
+    "deepseekv4dev",
+    "chatgpt"
   ]
 }

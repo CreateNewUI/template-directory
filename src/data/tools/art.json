@@ -25,27 +25,11 @@
   },
   {
     "title": "Banana AI",
-    "body": "AI image generator with chat-based editing.",
-    "tag": "Freemium",
-    "url": "https://www.bananaai.app/?ref=riseofmachine.com",
-    "date-added": "2025-09-18",
-    "slug": "banana-ai"
-  },
-  {
-    "title": "Banana AI",
     "body": "AI image video platform.",
     "tag": "Freemium",
     "url": "https://banana-ai.art?ref=riseofmachine.com",
     "date-added": "2026-01-28",
     "slug": "banana-ai-1"
-  },
-  {
-    "title": "Banana AI",
-    "body": "Chat-based AI image generator.",
-    "tag": "Freemium",
-    "url": "https://bananai.net?ref=riseofmachine.com",
-    "date-added": "2026-04-21",
-    "slug": "banana-ai-2"
   },
   {
     "title": "Banana AI Art",
@@ -96,28 +80,12 @@
     "slug": "bylo-ai"
   },
   {
-    "title": "Chronopets",
-    "body": "Use AI to transform your pet through time.",
-    "tag": "Freemium",
-    "url": "https://www.chronopets.com/?ref=riseofmachine.com",
-    "date-added": "2025-06-01",
-    "slug": "chronopets"
-  },
-  {
     "title": "Coloring Page",
     "body": "Create and export coloring pages.",
     "tag": "Freemium",
     "url": "https://aicolor.page?ref=riseofmachine.com",
     "date-added": "2026-01-22",
     "slug": "coloring-page"
-  },
-  {
-    "title": "ColorMon",
-    "body": "AI coloring pages from text/photo, print-ready.",
-    "tag": "Freemium",
-    "url": "https://colormon.art?ref=riseofmachine.com",
-    "date-added": "2025-10-08",
-    "slug": "colormon"
   },
   {
     "title": "ColorPage.ai",
@@ -184,28 +152,12 @@
     "slug": "drawww"
   },
   {
-    "title": "Dsnr",
-    "body": "Idea to image.",
-    "tag": "Freemium",
-    "url": "https://dsnr.ai/?ref=riseofmachine.com",
-    "date-added": "2023-12-26",
-    "slug": "dsnr"
-  },
-  {
     "title": "Editaimg",
     "body": "AI-powered image editor and enhancer.",
     "tag": "Freemium",
     "url": "https://editaimg.com/?ref=riseofmachine.com",
     "date-added": "2026-04-07",
     "slug": "editaimg"
-  },
-  {
-    "title": "Elf On The Shelf Generator",
-    "body": "Create magical elf images and videos.",
-    "tag": "Freemium",
-    "url": "https://elfontheshelfgenerator.com/?ref=riseofmachine.com",
-    "date-added": "2025-12-14",
-    "slug": "elf-on-the-shelf-generator"
   },
   {
     "title": "Emergent",
@@ -270,22 +222,6 @@
     "url": "https://fluxcontextai.com?ref=riseofmachine.com",
     "date-added": "2025-07-10",
     "slug": "flux-context-ai"
-  },
-  {
-    "title": "FLUX Kontext",
-    "body": "AI image editing and generation suite.",
-    "tag": "From $9.99/mo",
-    "url": "https://flux-kontext.io?ref=riseofmachine.com",
-    "date-added": "2025-06-20",
-    "slug": "flux-kontext"
-  },
-  {
-    "title": "Freepik Pikaso",
-    "body": "Generative AI with Freepik.",
-    "tag": "Free",
-    "url": "https://www.freepik.com/pikaso/?ref=riseofmachine.com",
-    "date-added": "2023-12-22",
-    "slug": "freepik-pikaso"
   },
   {
     "title": "FurryAI",
@@ -358,14 +294,6 @@
     "url": "https://gptimage2.asia/?ref=riseofmachine.com",
     "date-added": "2026-07-31",
     "slug": "gpt-image-2-1"
-  },
-  {
-    "title": "Grok Ghibli",
-    "body": "Generates Studio Ghibli style images.",
-    "url": "https://grokghibli.pro/?ref=riseofmachine.com",
-    "tag": "Freemium",
-    "date-added": "2025-06-01",
-    "slug": "grok-ghibli"
   },
   {
     "title": "Hotpot",
@@ -520,14 +448,6 @@
     "slug": "magictryon"
   },
   {
-    "title": "MakeBW",
-    "body": "Convert photos to line art.",
-    "tag": "Free",
-    "url": "https://makebw.com?ref=riseofmachine.com",
-    "date-added": "2026-01-04",
-    "slug": "makebw"
-  },
-  {
     "title": "MediaAI Art",
     "body": "Transforms photos to art and short videos.",
     "tag": "Freemium",
@@ -544,28 +464,12 @@
     "slug": "melies"
   },
   {
-    "title": "Midjourney",
-    "body": "Enter text or pictures to create pictures",
-    "tag": "Not available",
-    "url": "https://www.midjourney.com?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "midjourney"
-  },
-  {
     "title": "Mirrorize",
     "body": "Generative AI.",
     "tag": "From $0/mo",
     "url": "https://mirrorize.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-24",
     "slug": "mirrorize"
-  },
-  {
-    "title": "Muze Art",
-    "body": "Spotify Canvases.",
-    "tag": "From $12/mo",
-    "url": "https://www.muzeart.ai/?ref=riseofmachine.com",
-    "date-added": "2025-06-06",
-    "slug": "muze-art"
   },
   {
     "title": "Nano Banana Pro",
@@ -760,14 +664,6 @@
     "slug": "tattoocoverupai"
   },
   {
-    "title": "Tattooer Info",
-    "body": "AI tattoo generator.",
-    "tag": "Freemium",
-    "url": "https://tattooer.info/?ref=riseofmachine.com",
-    "date-added": "2025-06-02",
-    "slug": "tattooer-info"
-  },
-  {
     "title": "Thumbnail Maker",
     "body": "AI-powered attention-grabbing thumbnail creator.",
     "tag": "Freemium",
@@ -782,22 +678,6 @@
     "url": "https://unicorn-coloring-pages.com?ref=riseofmachine.com",
     "date-added": "2025-06-26",
     "slug": "unicorn-coloring-pages"
-  },
-  {
-    "title": "Vieutopia",
-    "body": "Generate art.",
-    "tag": "Freemium",
-    "url": "https://vieutopia.com/?ref=riseofmachine.com",
-    "date-added": "2023-12-26",
-    "slug": "vieutopia"
-  },
-  {
-    "title": "Visual-chatgpt",
-    "body": "Create images with ChatGPT",
-    "tag": "Free",
-    "url": "https://github.com/microsoft/visual-chatgpt?ref=riseofmachine.com",
-    "date-added": "2025-06-14",
-    "slug": "visual-chatgpt"
   },
   {
     "title": "Vizcom",

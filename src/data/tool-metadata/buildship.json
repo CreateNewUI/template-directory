@@ -8,12 +8,12 @@
   "slug": "buildship",
   "related": [
     "builduo",
-    "postbot",
     "helix",
     "smythos",
     "zen-agents",
     "amazon-sagemaker",
     "screenshot-to-code",
-    "director"
+    "director",
+    "nora"
   ]
 }
